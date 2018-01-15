@@ -76,8 +76,7 @@ commits[['id', 'message']].head()
 ```
 
 
-<div>
-<table border="1" class="dataframe">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th>id</th>
@@ -107,7 +106,6 @@ commits[['id', 'message']].head()
     </tr>
   </tbody>
 </table>
-</div>
 
 
 ### Reading JSON.gz file
@@ -125,8 +123,7 @@ commits[['id', 'message']].head()
 ```
 
 
-<div>
-<table border="1" class="dataframe">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th>id</th>
@@ -156,4 +153,3 @@ commits[['id', 'message']].head()
     </tr>
   </tbody>
 </table>
-</div>
