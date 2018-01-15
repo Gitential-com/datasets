@@ -2,13 +2,13 @@
 
 
 
-## Install Dependencies
+### Install Dependencies
 
 Reading Parquet files requires PyArrow
 
 
-```python
-!conda install -y pandas pyarrow
+```bash
+conda install -y pandas pyarrow
 ```
 
     Fetching package metadata ...............
@@ -23,14 +23,14 @@ Reading Parquet files requires PyArrow
     pandas-0.22.0- 100% |################################| Time: 0:00:04   2.30 MB/s
 
 
-## Download Files
+### Download Files
 
 Currently there two formats available: Parquet and JSON
 
 
-```python
-!wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.parquet
-!wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.json.gz
+```bash
+wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.parquet
+wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.json.gz
 ```
 
     --2018-01-15 11:09:00--  https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.parquet
@@ -57,7 +57,7 @@ Currently there two formats available: Parquet and JSON
 
 
 
-## Reading Parquet file
+### Reading Parquet file
 
 
 ```python
@@ -72,22 +72,7 @@ commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']]
 ```
 
 
-
-
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -151,7 +136,7 @@ commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']]
 </div>
 
 
-## Reading JSON.gz file
+### Reading JSON.gz file
 
 
 ```python
@@ -169,19 +154,6 @@ commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']]
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
