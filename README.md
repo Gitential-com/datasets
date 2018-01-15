@@ -1,9 +1,10 @@
 # Gitential Datasets for Open Source Projects
 
-Raw git data extracted via [libgit2](https://libgit2.github.com/).
+`TLDR`: Raw GIT data extracted via [libgit2](https://libgit2.github.com/) for a couple of open source projects.
 
-Our intention to publish further data (a lot actually), until that here are datasets for a couple popular projects.
-Each directory contains a sample `CSV` files and a `README` with the download links.
+Each directory contains sample `CSV` files and a `README` with the download links.
+
+Our intention to publish further data (a lot actually) with additional metrics and dimensions.
 
 Please feel free to request datasets for other repositories and/or projects in the issues!
 
