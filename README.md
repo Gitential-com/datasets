@@ -2,7 +2,7 @@
 
 `TLDR`: Raw GIT data extracted via [libgit2](https://libgit2.github.com/) for a couple of open source projects.
 
-Each directory contains sample `CSV` files and a `README` with the download links.
+Each directory contains sample `CSV` files and a `README` with the download links (`Parquet` and `JSON` formats).
 
 Our intention to publish further data (a lot actually) with additional metrics and dimensions.
 
