@@ -12,7 +12,7 @@ Please feel free to request datasets for other repositories in the issues!
 
 <table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th>Column</th>
       <th>Type</th>
       <th>Description</th>
@@ -21,7 +21,7 @@ Please feel free to request datasets for other repositories in the issues!
   <tbody>
     <tr>
       <th>id</th>
-      <td>string[40]</td>
+      <td>string</td>
       <td>The commit's SHA</td>
     </tr>
     <tr>
@@ -57,10 +57,12 @@ Please feel free to request datasets for other repositories in the issues!
     </tr>
     <tr>
       <th>committer_name</th>
+      <td>string</td>
       <td>The committer's name</td>
     </tr>
     <tr>
       <th>committer_email</th>
+      <td>string</td>
       <td>The committer's email address</td>
     </tr>
     <tr>
@@ -130,7 +132,6 @@ Please feel free to request datasets for other repositories in the issues!
     </tr>
   </tbody>
 </table>
-</div>
 
 
 ### Patches
@@ -140,7 +141,7 @@ diffing two revisions.
 
 <table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th>Column</th>
       <th>Type</th>
       <th>Description</th>
@@ -270,7 +271,6 @@ diffing two revisions.
     </tr>
   </tbody>
 </table>
-</div>
 
 
 ### Blames
@@ -279,7 +279,7 @@ Contains blame segments for patches, an [example](https://github.com/libgit2/lib
 
 <table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th>Column</th>
       <th>Type</th>
       <th>Description</th>
@@ -358,7 +358,6 @@ Contains blame segments for patches, an [example](https://github.com/libgit2/lib
     </tr>
   </tbody>
 </table>
-</div>
 
 
 ### Tags
@@ -367,7 +366,7 @@ Both lightweight and annotated tags.
 
 <table>
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th>Column</th>
       <th>Type</th>
       <th>Description</th>
@@ -401,7 +400,6 @@ Both lightweight and annotated tags.
     </tr>
   </tbody>
 </table>
-</div>
 
 
 A more detailed documentation is on the way.
