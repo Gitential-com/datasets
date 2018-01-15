@@ -2,9 +2,13 @@
 
 
 
+## Python example
+
+
+
 ### Install Dependencies
 
-Reading Parquet files requires PyArrow
+Reading Parquet files requires [PyArrow](https://arrow.apache.org/docs/python/install.html)
 
 
 ```bash
@@ -68,7 +72,7 @@ commits = pd.read_parquet('./commits.parquet')
 
 
 ```python
-commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']].head()
+commits[['id', 'message']].head()
 ```
 
 
@@ -76,59 +80,29 @@ commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']]
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>id</th>
-      <th>ismerge</th>
-      <th>ndiffs</th>
-      <th>author_time</th>
-      <th>committer_time</th>
       <th>message</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>c15648cbd059b92c177586ab1701a167222c7681</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 09:57:29</td>
-      <td>2008-10-31 09:57:29</td>
       <td>Initial draft of libgit2\n\nSigned-off-by: Sha...</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>44181c23ea6c39d51a4b481dc59ecf2cc3967e76</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:42:32</td>
-      <td>2008-10-31 10:42:32</td>
       <td>Mark git_oid parameters const when they should...</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>46d8b885bd65158e8cb53266ba4b627b5991bce8</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:43:20</td>
-      <td>2008-10-31 11:05:02</td>
       <td>Rename git_odb_sread to just git_odb_read\n\nM...</td>
     </tr>
     <tr>
-      <th>3</th>
       <td>171aaf21d9f7582270c390962f61d3d2613c4d59</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:55:12</td>
-      <td>2008-10-31 11:05:05</td>
       <td>Hide GIT_{BEGIN,END}_DECL from doxygen as its ...</td>
     </tr>
     <tr>
-      <th>4</th>
       <td>b51eb250ed0cbda59d3108d04569fab9413909fd</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:55:58</td>
-      <td>2008-10-31 11:05:05</td>
       <td>Cleanup git_odb documentation formatting\n\nSi...</td>
     </tr>
   </tbody>
@@ -147,69 +121,37 @@ commits = pd.read_json('./commits.json.gz', compression='infer')
 
 
 ```python
-commits[['id', 'ismerge', 'ndiffs', 'author_time', 'committer_time', 'message']].head()
+commits[['id', 'message']].head()
 ```
-
-
 
 
 <div>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
-      <th></th>
       <th>id</th>
-      <th>ismerge</th>
-      <th>ndiffs</th>
-      <th>author_time</th>
-      <th>committer_time</th>
       <th>message</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>0</th>
       <td>c15648cbd059b92c177586ab1701a167222c7681</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 09:57:29</td>
-      <td>2008-10-31 09:57:29</td>
       <td>Initial draft of libgit2\n\nSigned-off-by: Sha...</td>
     </tr>
     <tr>
-      <th>1</th>
       <td>44181c23ea6c39d51a4b481dc59ecf2cc3967e76</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:42:32</td>
-      <td>2008-10-31 10:42:32</td>
       <td>Mark git_oid parameters const when they should...</td>
     </tr>
     <tr>
-      <th>2</th>
       <td>46d8b885bd65158e8cb53266ba4b627b5991bce8</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:43:20</td>
-      <td>2008-10-31 11:05:02</td>
       <td>Rename git_odb_sread to just git_odb_read\n\nM...</td>
     </tr>
     <tr>
-      <th>3</th>
       <td>171aaf21d9f7582270c390962f61d3d2613c4d59</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:55:12</td>
-      <td>2008-10-31 11:05:05</td>
       <td>Hide GIT_{BEGIN,END}_DECL from doxygen as its ...</td>
     </tr>
     <tr>
-      <th>4</th>
       <td>b51eb250ed0cbda59d3108d04569fab9413909fd</td>
-      <td>False</td>
-      <td>1</td>
-      <td>2008-10-31 10:55:58</td>
-      <td>2008-10-31 11:05:05</td>
       <td>Cleanup git_odb documentation formatting\n\nSi...</td>
     </tr>
   </tbody>
