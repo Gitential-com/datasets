@@ -1,0 +1,360 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,c15648cbd059b92c177586ab1701a167222c7681,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 09:57:29,2008-10-31 09:57:29,0,446,0,282,9,"Initial draft of libgit2
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+1,44181c23ea6c39d51a4b481dc59ecf2cc3967e76,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:42:32,2008-10-31 10:42:32,4,4,0,0,2,"Mark git_oid parameters const when they shouldn't be modified
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+2,46d8b885bd65158e8cb53266ba4b627b5991bce8,-1302,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:43:20,2008-10-31 11:05:02,6,6,2,2,2,"Rename git_odb_sread to just git_odb_read
+
+Most read calls will use the small object format, as the
+majority of the content within the database is very small
+objects (under 20 KB when inflated).
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+3,171aaf21d9f7582270c390962f61d3d2613c4d59,-593,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:55:12,2008-10-31 11:05:05,0,0,0,0,1,"Hide GIT_{BEGIN,END}_DECL from doxygen as its not part of our API
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+4,b51eb250ed0cbda59d3108d04569fab9413909fd,-547,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:55:58,2008-10-31 11:05:05,6,18,6,18,1,"Cleanup git_odb documentation formatting
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+5,111d5ccf0bb010c4e8d7af3eedfa12ef4c5e265b,-527,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:56:18,2008-10-31 11:05:05,0,11,0,8,1,"Add a git_sobj_close to release the git_sobj data
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+6,1cd20d3af067093c571be764bef038be1a39b502,-481,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 10:57:04,2008-10-31 11:05:05,10,12,6,6,2,"Hide git_odb's internal structure from applcation code
+
+This way only structures we ask the caller to allocate on their
+call stack or which we want to allow them to use members from
+are shown in the API docs.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+7,bce499af70d434e89c9a110374f1b7c6dd3621df,-217,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 11:01:28,2008-10-31 11:05:05,9,9,9,9,1,"Add a GIT_ prefix to OBJ_ constants to scope them better
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+8,29f0e90ff41bd7079d3e620e15370e3a8385884f,-996,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 11:04:48,2008-10-31 11:21:24,22,25,5,8,5,"Add _t suffix to all data types
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+9,7335ffc31f110ce77ba291719841231921dcb17b,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 11:37:58,2008-10-31 11:37:58,0,1,0,1,2,"Begin a description of our naming and coding conventions
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+10,b39843f3e42c8e062a29b2a64e3c3ce6a16eb72f,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 11:44:00,2008-10-31 11:44:00,9,2,4,0,1,"Use wildcard to avoid listing out all source files by hand
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+11,8edc2805f1f11b63e44bf81f4557f8b473612b69,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 11:46:51,2008-10-31 11:46:51,1,1,1,1,1,"Correct group name of the git_odb module
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+12,13ce9f1b96279187249d56cc641252ff617fa35a,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 12:28:49,2008-10-31 12:28:49,1,1,0,0,1,"Fix Makefile targets to correctly depend on *.h files
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+13,0e7fa1fe6837a46fad03e7fa9a3df0815364982d,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 12:30:04,2008-10-31 12:30:04,0,0,0,0,1,"Note that comments should be doxygen javadoc style
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+14,061605020c8f212d696a2a3d28e20c7091c09443,-1003,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 12:30:28,2008-10-31 12:47:11,1,363,0,258,6,"Take the first stab at defining revision traversal
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+15,4f9339df943c53117a5fc8e86e2f38716ff3a668,0,-1,False,-1,Pierre Habouzit,ma******@debian.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 15:10:51,2008-10-31 15:10:51,1,6,0,0,2,"Hide non-exported symbols when linking the library
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,ma******@debian.org,Pierre Habouzit,sp*****@spearce.org,Shawn O. Pearce
+16,de2220a48fcf7901432f8093d3223e65f4072ff7,-854,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 18:16:26,2008-10-31 18:30:40,12,9,2,2,8,"Replace git_result_t with int
+
+This seems to be preferred on the mailing list.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+17,6533aadc21270052d8d05835b1e30d8b13a2f164,-462,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 18:23:01,2008-10-31 18:30:43,54,54,19,19,10,"Drop the _t suffix as it is a POSIX reserved namespace
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+18,6dafd0566786a417cfe1131ab804b162fcc79d15,-21,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 18:30:22,2008-10-31 18:30:43,0,0,0,0,1,"Document the return NULL style of calling convention
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+19,3e89665eb6d5ab75051dc59fc8b63316908b19d1,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-10-31 18:34:02,2008-10-31 18:34:02,79,2,58,0,3,"Scratch the git_revp_attr configuration of a git_revp
+
+This isn't the best idea I've head.  Pierre Habouzit was suggesting
+a technique of assigning a unique integer to each commit and then
+allocating storage out of auxiliary pools, using the commit's unique
+integer to index into any auxiliary pool in constant time.  This way
+both applications and the library can efficiently attach arbitrary
+data onto a commit, such as rewritten parents, or flags, and have
+them disconnected from the main object hash table.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+20,d1ea30c399629de48ac3fe68869a21171ad131eb,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-01 15:42:23,2008-11-01 15:42:23,19,19,5,5,12,"Move include files to include/git/, drop git_ prefix from file names
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+21,50298f44a45eda3a29dae82dbe911b5aa176ac07,-46,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-01 15:55:01,2008-11-01 15:55:47,261,171,261,171,12,"Switch the license from BSD to GPL+libgcc exception
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+22,16a67770b7d8d72317c4b775213c23a8bd74f5e0,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-01 16:53:06,2008-11-01 16:53:06,10,210,0,146,8,"Create a micro abstraction around the POSIX file APIs
+
+This way we can start to write IO code to read and write files in the
+Git object database, but provide a hook to inject native Win32 APIs
+instead so libgit2 can be ported to run natively on that platform.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+23,15bffce9f7ce45f3b17d9357931667485a890455,-617,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-01 18:14:22,2008-11-01 18:24:39,5,316,3,217,7,"Create a basic test suite for the library and test oid functions
+
+This is a horribly simple test suite that makes it fairly easy to
+put together some basic function level unit tests on the library.
+Its patterned somewhat after the test suite in git.git, but also
+after the ""Check"" test library.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+24,8722a77ec384aa0bc87b8f8f6c1c7ab6aeffae83,-2827,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 17:52:59,2008-11-03 18:40:06,2,2,2,2,1,"Correct indentation in git/odb.h
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+25,b3a2f90e54bcb32a88d13539e5672993c5037638,-2525,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:00:49,2008-11-03 18:42:54,2,3,2,6,2,"Enable warnings by default and fix warning in oid.c
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+26,fbbfdf9f13e92da2dc31b56081302f09fdb62e49,-7978,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 16:29:56,2008-11-03 18:42:54,8,8,1,1,2,"Move GIT_NORETURN into test_lib.h only
+
+We should never have a noreturn style function in the library
+itself, as such a function would prevent the calling application
+from handling error conditions the way it wants.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+27,3b8ab0b93539049b0f7c4a09f5dad48a1d89cd49,-8031,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 16:29:03,2008-11-03 18:42:54,2,4,0,14,1,"Fix GIT_EXTERN to actually mark the prototype as extern
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+28,b923f2f97dc26e981c18da93b98bd5e7b44c3b79,-6120,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 17:00:54,2008-11-03 18:42:54,16,30,6,17,3,"Fix Makefile to correctly handle 'make -j4 test'
+
+If we have more than one test build running we cannot use the same
+file for each test case; instead we need to use a per-test path so
+there aren't any collisions.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+29,b81dd80e8cb77046b6196a1dec3f8f356307fcfb,-282,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:38:12,2008-11-03 18:42:54,4,29,1,41,1,"Change test_main to run a single test case out of the suite
+
+By passing the name of the test function on the command line
+we execute exactly that one test, and then exit successfully
+if the test did not fail.  This permits multiple functions in
+the same .c file, so they could be called from a shell script
+or debugged independently externally.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+30,367ab010d69ec4fff533c770eba5b1882f79cb41,-1442,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:19:02,2008-11-03 18:43:04,0,37,0,58,1,"Add an extra oid test to verify control characters aren't read
+
+We only want hex digits to be read, any other character in the 8-bit
+character set is invalid within an id string.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+31,b7c891c629d298f2d82310d8ced2ee2e48084213,-4308,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 17:31:16,2008-11-03 18:43:04,6,106,1,94,7,"Add git_oid_cpy, git_oid_cmp as inline functions
+
+These are easily built off the standard C library functions memcpy
+and memcmp.  By marking these inline we stand a good chance of
+the C compiler replacing the entire thing with tight machine code,
+because many compilers will actually inline a memcmp or memcpy when
+the 3rd argument (the size) is a constant value.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+32,3e9e69098af2014a0c3fe9e46cddcb5365dd538b,-5319,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 17:14:25,2008-11-03 18:43:04,41,67,39,92,2,"Redefine git_fread, git_fwrite to transfer the whole unit
+
+We never want to accept a short read or a short write when
+transferring data to or from a local file.
+
+Either the entire read (or write) completes or the operation
+failed and we will not recover gracefully from it.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+33,2dbdb824f0cfbf5f583e6b94aec753f276ed3368,-811,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:38:57,2008-11-03 18:52:28,1,22,0,11,2,"Add git_fsize to the os file API
+
+This permits us to get the size of an opened file.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+34,1699efc4217d925c50abee60d196d9f6e738a72e,-775,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:39:37,2008-11-03 18:52:32,8,61,5,48,2,"Implement some of the basic git_odb open and close API
+
+Far from being complete, but its a good start.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+35,8b6f008edad28fec6e3732fce75c20b0608e4c46,0,-1,False,-1,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,2008-11-03 18:53:09,2008-11-03 18:53:09,0,60,0,39,1,"Add a zlib support shell
+
+Some versions of zlib don't have a deflateBound defined, so
+we define it ourselves after including zlib.h.
+
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,sp*****@spearce.org,Shawn O. Pearce,sp*****@spearce.org,Shawn O. Pearce
+36,eb160e949ef7a76c384dbbfa0d61d580a11d095b,-40643,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-17 23:15:30,2008-11-18 10:32:53,0,0,0,0,1,"List git.git authors consenting to relicense their code
+
+Since re-using code from git.git proper is the quick way
+forward, we need to list those who have given their consent
+to do just that. The relicense permission is only valid for
+use with libgit2, and only for GPLv2 + gcc-exception (as
+specified by 'COPYING'.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+37,257bd746cf4b3f1e048a640202493c3e3bcdc1ae,-34491,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 00:58:02,2008-11-18 10:32:53,9,9,0,0,5,"Use same-directory include for public headers
+
+It doesn't make sense to use ""git/somefile.h"" in the
+public git headers, as it's quite likely that projects
+using them will have a git directory themselves. This
+alters it, making the public headers look for headers
+in the same directory they themselves are in.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+38,dff79e27d3d2cdc09790ded80fe2ea8ff5d61034,-34397,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 00:59:36,2008-11-18 10:32:53,6,6,1,1,2,"Rename ""git_sobj"" ""git_obj""
+
+The 's' never really made sense, since it's not a ""small""
+object at all, but rather a plain object. As such, it should
+have a ""plain"" object name.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+39,1b9e92c73bd223661fe63dffa0c9138da4e1ea80,-34226,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 01:02:27,2008-11-18 10:32:53,12,12,1,1,4,"s/git_revp/git_revpool/
+
+git_revp is something I personally can't stop pronouncing
+""rev pointer"". I'm sure others would suffer the same
+problem.
+
+Also, rename the git_revp_ sub-api ""gitrp_"". This is the
+first of many such renames, primarily done to prevent
+extreme inflation in the ""git_"" namespace, which we'd like
+to reserve for a higher-level API.
+
+While we're at it, we remove the noise-char ""c"" from a lot
+of functions. Since revision walking is all about commits,
+the common case should be that we're dealing with commits.
+Exceptions can get a more mnemonic description as needed.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+40,d4043ee9d97031e94f205110996d2381dd26c540,-33241,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 01:18:52,2008-11-18 10:32:53,9,11,4,4,10,"Move public headers to src/git
+
+It's arguably smoother to keep them close to the source,
+as that's where one's working when modifying them. More
+importantly, though, is the ability to use private headers
+in the src/ dir that simply include ""git/$samename.h"" to
+get to the public API at the same time.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+41,a57e9a8cc15b61ae1ab908b362fd829b3e36e513,-32724,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 01:27:29,2008-11-18 10:32:53,0,5,0,2,1,"Add a fake and phony install-headers target
+
+It actually does what it's supposed to (more or less),
+but not very portably and not to the correct directory.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+42,36f0f61fc8578478a9dc9b33a1a0d07cdb98a5e5,30812,63536,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 19:06:25,2008-11-18 10:32:53,0,81,0,23,3,"Add compiler/platform agnostic thread-local storage
+
+It doesn't cover all cases, but we can work on those as
+we go along. For now, gcc, MSVC++, Intel C/C++, IBM XL C/C++,
+Sun Studio C/C++ and Borland C++ Builder are the supported
+compilers (although we boldly assume that they all are of
+a recent enough version to support thread-local storage).
+
+This is intended to be used in upcoming patches that implement
+graceful (but TLS-dependant) error-handling in the library.
+
+As an added bonus, we also bring the online_cpus() function
+from git.git to detect the number of usable cpu's.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+43,4f0adcd0e61eabe06fe32be66b16559537124b7a,-311945,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 21:28:55,2008-11-22 12:08:00,10,15,7,7,4,"Get rid of GIT__PRIVATE macro
+
+Using it in the first place means something's wrong.
+This patch replaces it with an internal header which
+carries the previously ""protected"" code instead.
+
+Internal source-files simply include ""commit.h"" and
+they're done. The internal header includes the public
+one to make sure we always use the proper prototype.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+44,ff7c7576aad8b6d87100eb1a62c0bfcdd6e24e01,3452,315397,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-22 13:05:32,2008-11-22 12:08:00,1,1,1,1,1,"s/COPYING/.HEADER/ for install-headers target
+
+We don't want to prepend the entire license; Only the
+file header part of it.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+45,3e1d42b7d980e29595572e550d5ce58c0a34f15f,-309020,-1,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-18 22:17:40,2008-11-22 12:08:00,1,6,0,1,1,"Add a 'sparse' make target
+
+Given the confusion on git@vger, we'd better not name
+this target ""check"" or (worse) ""test"", but it's still
+useful to have. As ""sparse"", noone should have problems
+understanding what it does.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+46,c215be4120385fc5f358e8a0609c94f6998184e7,10180,319200,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-22 14:57:40,2008-11-22 12:08:00,8,15,1,1,2,"Rename git_revpool_* functions gitrp_*
+
+Otherwise their prototypes don't match their declarations.
+
+Detected by 'sparse', which is obviously good to run
+before each commit.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+47,f501265f976a745e5c0d21104635d695227171cd,9171,-1009,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-22 14:40:51,2008-11-22 12:08:00,0,33,0,4,1,"Add cc-compat.h - C compiler compat macros for internal use
+
+Holds things such as FLEX_ARRAY and whatnot.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+48,76a8c44727406a76d251102bdee607871887a119,9252,81,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-22 14:42:12,2008-11-22 12:08:00,0,11,0,0,1,"Add internal common.h file
+
+This one pulls in compiler compatibility macros, some
+common header files, and also the public common.h header.
+
+C source files are modified to use the private common.h
+in favour of the public one.
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce
+49,3a2aabdce127a367aa27a4c27025199230e26c15,9407,155,False,-1,Andreas Ericsson,**@op5.se,Shawn O. Pearce,sp*****@spearce.org,2008-11-22 14:44:47,2008-11-22 12:08:00,0,26,0,29,2,"Add util.h - utility macros
+
+ARRAY_SIZE() et al go in util.h, included from common.h
+
+Signed-off-by: Andreas Ericsson <ae@op5.se>
+Signed-off-by: Shawn O. Pearce <spearce@spearce.org>
+",1,**@op5.se,Andreas Ericsson,sp*****@spearce.org,Shawn O. Pearce

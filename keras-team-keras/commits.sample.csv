@@ -1,0 +1,99 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,1f0bd8cac393d7da2e5845b5ffce5f4a8568006f,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-27 17:35:42,2015-03-27 17:35:42,0,0,0,0,1,"Initial commit
+",1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+1,37a1db225420851cc668600c49697d9a2057f098,0,-1,False,-1,Francois,franc***********@wysp.ws,Francois,franc***********@wysp.ws,2015-03-27 17:59:42,2015-03-27 17:59:42,0,1777,0,2605,30,Add initial public version of Keras,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+2,9b17b682922a762531a7673238b3485323c07a48,0,-1,False,-1,Francois,franc***********@wysp.ws,Francois,franc***********@wysp.ws,2015-03-27 18:10:11,2015-03-27 18:10:11,0,0,0,0,1,Fix data download in examples,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+3,238d16974fe0856b2e7e5ae13da09f129f6baf0b,0,-1,False,-1,Francois,franc***********@wysp.ws,Francois,franc***********@wysp.ws,2015-03-27 18:37:38,2015-03-27 18:37:38,0,0,0,0,1,Small documentation fixes,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+4,ea69c1a3bb214d23f96eb77443366dd20554e7a0,0,-1,False,-1,Francois,franc***********@wysp.ws,Francois,franc***********@wysp.ws,2015-03-28 01:46:10,2015-03-28 01:46:10,0,0,0,0,1,Update README.md,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+5,0e0545a1221891bbc684cad94514b30fd0c35ff7,0,-1,False,-1,vasili-zolotov,vasi**********@gmail.com,vasili-zolotov,vasi**********@gmail.com,2015-03-27 19:02:18,2015-03-27 19:02:18,0,0,0,0,1,"Update README.md
+
+Typo fix.",1,vasi**********@gmail.com,vasili-zolotov,vasi**********@gmail.com,vasili-zolotov
+6,300aaff62ea1d3fc1fce01d5a77fbb376860ff8c,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-27 19:05:16,2015-03-27 19:05:16,0,0,0,0,1,"Merge pull request #1 from vasili-zolotov/master
+
+Update README.md",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+7,021d11e6cc00a794a6e6f75d22b5704117c9af48,0,-1,True,-1,Francois,franc***********@wysp.ws,Francois,franc***********@wysp.ws,2015-03-28 01:46:30,2015-03-28 01:46:30,0,0,0,0,2,"Merge branch 'master' of https://github.com/fchollet/keras
+",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+8,b365fe450d9fb86e8c6b8799c1b706312d7b9900,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-28 19:25:17,2015-03-28 19:25:17,6,12,16,32,1,Fix preprocessing.text.Tokenizer,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+9,45daf4b165dfc936476650231ab3bdeddf4da972,0,-1,False,-1,Corentin Smith,core**********@gmail.com,Corentin Smith,core**********@gmail.com,2015-03-28 12:48:15,2015-03-28 12:48:15,0,0,0,0,1,Typo fixes,1,core**********@gmail.com,Corentin Smith,core**********@gmail.com,Corentin Smith
+10,9193cc87549833822ebe9236d8b2dd44c8c07048,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-28 10:04:56,2015-03-28 10:04:56,0,0,0,0,1,"Merge pull request #2 from cosmith/patch-1
+
+Typo fixes",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+11,0ca14146ab678b2e26206d0bee920c7d5c43f3e5,0,-1,False,-1,nagadomi,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,2015-03-29 07:50:45,2015-03-29 07:50:45,1,1,2,2,1,"Fix untar
+",1,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,nagadomi
+12,9da5a0c6c9cc05cced5bf4d6e9af53fce182c5ff,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-28 17:37:02,2015-03-28 17:37:02,1,1,2,2,1,"Merge pull request #5 from nagadomi/fix_untar
+
+Fix untar",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+13,2379f276817019564a48bf4a1b13dab304209e50,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-28 19:25:56,2015-03-28 19:25:56,7,13,18,34,3,"Merge branch 'master' of https://github.com/fchollet/keras
+",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+14,e5844deadccf77aef650b6af263453a2e2d83e09,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 16:06:43,2015-03-29 16:06:43,30,38,6,29,31,Package code & add setup.py,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+15,824ceb93354b8d6968173b1f6e15db30930f5707,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 16:07:07,2015-03-29 16:07:07,0,0,0,0,1,Update gitignore,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+16,e2359453d355c988e2301fe9bd6891c1efb5c0d1,0,-1,False,-1,Vinh Khuc,kn****@gmail.com,Vinh Khuc,kn****@gmail.com,2015-03-28 22:14:28,2015-03-28 22:14:28,5,3,12,7,3,"Various typo fixes
+",1,kn****@gmail.com,Vinh Khuc,kn****@gmail.com,Vinh Khuc
+17,f885417466f43c5c7f4bf3355949874818f7ceb0,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-28 19:27:29,2015-03-28 19:27:29,11,15,28,39,4,"Merge pull request #6 from vinhkhuc/master
+
+Various typo fixes",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+18,6b8dce4779e3acdaac56c045d8cf9bc062fdd200,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 16:07:49,2015-03-29 16:07:49,35,41,18,36,35,"Merge branch 'master' of https://github.com/fchollet/keras
+",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+19,c589c524d73acb4f2b46a7dabd0e4529d4696048,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 16:15:18,2015-03-29 16:15:18,0,2,0,3,1,Fix missing data folder case in data_utils ,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+20,f0deb9093d7edba8ca57b0b4d6bb3241fe9f8b8a,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 16:17:38,2015-03-29 16:17:38,0,0,0,0,1,Update install instructions in README.md,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+21,28f354657d811fb193b2079e111318e35a8fb81e,-241,-1,False,-1,nagadomi,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,2015-03-30 09:42:15,2015-03-30 09:46:16,1,5,1,3,1,"Fix categorical_crossentropy/binary_crossentropy with NaN value
+",1,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,nagadomi
+22,610cebd2f159502378ccd458093ee7c2fe62bdb3,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 20:46:35,2015-03-29 20:46:35,1,5,1,3,1,"Merge pull request #9 from nagadomi/fix_inf
+
+Fix categorical_crossentropy/binary_crossentropy with NaN value",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+23,2219704aaa0662dd9a276d6b21e0352999be54df,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-29 20:59:19,2015-03-29 20:59:19,2,2,4,4,2,Fix typos.,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+24,abd01d116b3570aa06999d6bc19cf5fcdfbd33bc,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 14:33:34,2015-03-30 14:33:34,0,2,0,2,1,Fix categorical xentropy when preds are not probas,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+25,33d82a418ab7cf0f650481cd8a9347dbc5d96191,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 21:31:59,2015-03-30 21:31:59,4,4,8,8,1,Fix input shape of recurrent layers,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+26,33530ce7de699fefadeaebd531603cd36e357ce5,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:23:43,2015-03-30 22:23:43,2,2,4,4,3,Minor commenting,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+27,23050e0a423f3cd664b40aa0f524852d09b85b90,0,-1,False,-1,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,2015-03-30 09:22:47,2015-03-30 09:22:47,2,2,2,2,1,"improved setup.py
+",1,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov
+28,d84c8dbcec7024ffa82b87a2326fc80d705a1d0b,0,-1,False,-1,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,2015-03-30 09:27:09,2015-03-30 09:27:09,1,4,0,2,1,"oops
+",1,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov
+29,040863f6e6986a8d4d3ebaff7fb0671db7f7aadf,0,-1,False,-1,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,2015-03-30 09:34:31,2015-03-30 09:34:31,6,10,12,27,1,"added optional requirements
+",1,mba********@gmail.com,Miroslav Batchkarov,mba********@gmail.com,Miroslav Batchkarov
+30,2c4d23a67c79ebe6710103fca6d5cf029a386e33,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:21:42,2015-03-30 22:21:42,11,20,20,39,3,"Merge pull request #13 from mbatchkarov/master
+
+Improved setup.py",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+31,31c39350e442b0f8298fca8855bfbd40918bfee8,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:24:05,2015-03-30 22:24:05,9,16,16,33,4,"Merge branch 'master' of https://github.com/fchollet/keras
+",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+32,42007f55c4bca179f341ca416d3436b4fa68dd67,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:31:17,2015-03-30 22:31:17,14,7,29,12,1,"Revert ""Improved setup.py""
+",1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+33,3a986bfd79c0dd83c6b0f55ce940821d78cc6363,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:32:26,2015-03-30 22:32:26,14,7,29,12,1,"Merge pull request #19 from fchollet/revert-13-master
+
+Revert ""Improved setup.py""",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+34,629c34376ddf5e57f8c1113cbf3cacbe406b6ace,-861,-1,False,-1,nagadomi,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,2015-03-31 14:21:40,2015-03-31 14:36:01,4,8,13,27,1,"Add the shuffle option to Sequential.fit
+",1,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,nagadomi
+35,5f7fbc85ead063d36e4ac28ec9806d300124cd17,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-03-30 22:56:19,2015-03-30 22:56:19,10,16,25,41,6,"Merge pull request #20 from nagadomi/shuffle
+
+Add the shuffle option to Sequential.fit",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+36,6abf916fac83cc0615cfd655bb00fde811b79a73,0,-1,False,-1,nagadomi,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,2015-04-01 22:12:37,2015-04-01 22:12:37,1,1,2,2,2,"Change the learning rate annealing schedule in SGD
+",1,na******@nurs.or.jp,nagadomi,na******@nurs.or.jp,nagadomi
+37,a0152cc8e314bb8e1757acbf962e5d669acff20e,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-01 06:35:31,2015-04-01 06:35:31,1,1,2,2,2,"Merge pull request #27 from nagadomi/learning_rate_decay
+
+Change the learning rate annealing schedule in SGD",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+38,c57d5cce7903511edd4048f8bfed2ad0dc6f6b6b,0,-1,False,-1,aleju,ko*****@ajung.name,fchollet,franc***********@gmail.com,2015-04-01 15:13:37,2015-04-01 15:13:37,8,29,31,90,1,"Integrate aleju's validation_split
+",1,ko*****@ajung.name,aleju,franc***********@gmail.com,Francois Chollet
+39,bf43f611a04448d15a9174cbd79804cd5605e4f0,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-02 20:25:38,2015-04-02 20:25:38,3,10,3,7,1,Update Reuters dataset,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+40,6819d38e2980e55d05d6f8cdae76fdd799fe7834,0,-1,False,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-03 14:02:34,2015-04-03 14:02:34,2,1,2,1,1,Better path for datasets,1,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+41,82cd5612451733554638bdaac05e8415c4285659,0,-1,False,-1,collion,char**********@gmail.com,collion,char**********@gmail.com,2015-04-03 21:35:02,2015-04-03 21:35:02,4,7,12,20,1,"generalization to ndim for predict_proba and predict_classes
+",1,c****@cmyr.net,Colin Rofls,c****@cmyr.net,Colin Rofls
+42,a37eacbf527e72faa27857c2e1705372381cad77,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-03 13:37:46,2015-04-03 13:37:46,4,7,12,20,1,"Merge pull request #32 from charlesollion/ndim_generalization
+
+generalization to ndim for predict_proba and predict_classes",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+43,4ef999ff2654ff2b981bd7ae78d1a1673a5a6d89,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-03 14:02:49,2015-04-03 14:02:49,6,8,14,21,2,"Merge branch 'master' of https://github.com/fchollet/keras
+",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+44,465d8d14bc7d0b9e6c109cf2ff41e0aab1e627e7,0,-1,False,-1,Pat York,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,2015-04-04 11:39:24,2015-04-04 11:39:24,0,5,0,3,1,"Added Time Distributed Softmax to allow softmax activation over 3D inputs
+",1,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,Pat York
+45,466f67375b1bfff77e6c19bf4d4750ec25b828f5,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-04 12:08:57,2015-04-04 12:08:57,0,5,0,3,1,"Merge pull request #33 from patyork/time_distributed_softmax
+
+Add time_distributed_softmax to allow softmax activation over 3D inputs",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+46,3f3896518e33609862e9b8fab554ecca40e581ce,0,-1,False,-1,Pat York,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,2015-04-05 00:14:12,2015-04-05 00:14:12,1,1,3,3,1,"Fixed logic to determine the number of batches per epoch
+",1,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,Pat York
+47,0449da29818a75cbd1608e7d82d20708777f1b3a,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-05 10:51:46,2015-04-05 10:51:46,1,1,3,3,1,"Merge pull request #34 from patyork/batch_fix
+
+Fixed logic to determine the number of batches per epoch",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet
+48,cb36a5ea695d16d751b53482d9c934c163c06b83,0,-1,False,-1,Pat York,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,2015-04-05 11:22:43,2015-04-05 11:22:43,1,1,3,3,1,"Fixed incorrect datatype in range function from the last commit
+",1,gui*******@yahoo.com,Pat York,gui*******@yahoo.com,Pat York
+49,df3f11c6c3afad23ace192e99d019f4649a63601,0,-1,True,-1,fchollet,franc***********@gmail.com,fchollet,franc***********@gmail.com,2015-04-05 11:30:45,2015-04-05 11:30:45,1,1,3,3,1,"Merge pull request #35 from patyork/batch_fix2
+
+Fixed incorrect datatype in range function from the last commit",2,franc***********@gmail.com,Francois Chollet,franc***********@gmail.com,Francois Chollet

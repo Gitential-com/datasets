@@ -1,0 +1,213 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,54a6a53e5fc378aa13e75f6686202b3d427684da,0,-1,False,-1,Matei Alexandru Zaharia,m****@apache.org,Matei Alexandru Zaharia,m****@apache.org,2011-04-27 06:59:39,2011-04-27 06:59:39,0,0,0,0,0,"Set up repository structure
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1097015 13f79535-47bb-0310-9956-ffa450edef68
+",1,m****@apache.org,Matei Alexandru Zaharia,m****@apache.org,Matei Alexandru Zaharia
+1,9bc36de05a9542a319d348505a1838f9190a6c21,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:04:24,2011-06-05 03:04:24,0,403293,0,553124,6291,"Initial commit.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131516 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+2,fec06d980120ce546a60a1be4aa314eac9b4ea83,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:14:00,2011-06-05 03:14:00,4,214,1,114,1026,"Zookeeper added to third party. configure.ac and configure will run the zookeeper configure. Added code for leader election in C++. Makefile.in updated to compile with the Zookeeper libraries.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131517 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+3,35ce39d66e3b89accbc527e98cd04af642522876,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:14:44,2011-06-05 03:14:44,43,182,65,198,11,"Master now registers with ZooKeeper. Slaves find master in Zookeeper. If new master elected, slaves switch over to it
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131518 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+4,01e71d39b482c73a2f1631425e4c08d559b2b94c,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:14:52,2011-06-05 03:14:52,0,6,0,5,1,"Leader election message added
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131519 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+5,5ebf319721115885352c708fcf52e4570823bd16,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:14:59,2011-06-05 03:14:59,4,3,4,2,2,"slave_id in the C API also uses strings (char *)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131520 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+6,6ba9459c184e0aa8a7e2bac3074b1ed93424ea86,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:15:06,2011-06-05 03:15:06,1,1,0,0,1,"C API Slave ID changed to C string
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131521 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+7,cd3024d037e7ef83a248a0300984721c125ffe39,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:15:14,2011-06-05 03:15:14,15,10,28,28,4,"SlaveID and slave_id should now always be strings
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131522 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+8,8525ebb3f05ee7064a6fab86e318afe8c2d7a511,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:15:22,2011-06-05 03:15:22,8,14,13,16,5,"Offer ID changed to strings (preparation for prefixing with master id)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131523 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+9,3a97891d474a641ab9f099b3f7587a4edb222f0e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:16:23,2011-06-05 03:16:23,35,49,55,68,10,"Task ID and Framework ID also converted to strings
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131524 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+10,b17c004a119bff6255d91ed4a8503aed437daf44,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:16:40,2011-06-05 03:16:40,0,83,0,7,29,"Updates to get Nexus running on Mac OS X.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131525 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+11,787641ba3d2ecce0f2ae81f03bd8ed365ac89685,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:17:16,2011-06-05 03:17:16,0,0,0,0,1,"Added a configure for Mac OS X.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131526 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+12,973b06d3e15ca767226dc69c9c7287c5b9398c07,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:17:27,2011-06-05 03:17:27,0,0,0,0,1,"Removing libev-3.8/config.h that by accident got committed.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131527 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+13,ce1dc973091b498c08922935eaaeef183bf82d83,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:17:39,2011-06-05 03:17:39,58,4,2,4,19,"Instead of updating lots of files, we can just pass -DXOPEN_SOURCE to each building command line.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131528 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+14,31b99b6a330f38860e7362e3d1dd2752c5862977,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:17:52,2011-06-05 03:17:52,20,0,0,0,6,"Oops, missed removing a few _XOPEN_SOURCE defines from earlier.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131529 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+15,1b566b36755f204337020ebc78b6d0c17477e13e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:18:42,2011-06-05 03:18:42,53,72,53,69,4,"a) introduced master id as a node's zk sequence (0 if not in FT mode) b) prefixed offer-id, framework-id, slave-id with masterId- c) changed some counters to longs
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131530 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+16,cbe6d950083050c02e48197e160c7f480f48cd6c,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:18:52,2011-06-05 03:18:52,1,2,1,2,1,"Temporary fix for infinite loop caused by the error callback calling stop, calling the error callback (nexusproject/nexus#14).
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131531 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+17,0b38eed89c0503ce93ec3b9d5af6403b13fe25f8,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:18:59,2011-06-05 03:18:59,0,0,0,0,1,"On Mac OS X the implementation of inet_ntoa is not thread-safe (POSIX doesn't require it to be thread safe) and this can cause a bug (you'll get a string representation of a PID with '[inet_ntoa error]').
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131532 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+18,fc93cde6394d86ed7245b7f31e7f580504f4f505,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:06,2011-06-05 03:19:06,0,3,0,1,1,"make etags; Now creates src/TAGS for all C/CPP code
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131533 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+19,8bd916621ae3bb7fc865eb92810bde653831196b,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:12,2011-06-05 03:19:12,11,7,16,9,1,"Changed code to use BOOST
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131534 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+20,bbc09e11a01db9242eed58acb45ec55516810d74,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:20,2011-06-05 03:19:20,0,0,0,0,1,"Remove Impact as an alternative for web UI title font. Closes #12.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131535 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+21,2025850ef370f06e42c81affff2bf3f2f5757be1,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:31,2011-06-05 03:19:31,29,23,48,42,9,"All tests now work. TaskIds are ints again.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131536 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+22,59ff6e7cebc446f9648a46a0faa15adf1f1fa53e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:39,2011-06-05 03:19:39,1,40,1,56,3,"Special message to restore state. Now updates resourcesInUse state which was previously lost
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131537 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+23,cd2e28509b8aaafd912123c52431525350d34873,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:47,2011-06-05 03:19:47,37,53,17,19,3,"Fixed build issue for Mac OS X so that we can actually run Java.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131538 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+24,354ae1f262c6f6149df5048f42e25d65187f5e25,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:19:53,2011-06-05 03:19:53,0,0,0,0,1,"Generated a new configure with autoconf
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131539 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+25,a022d5bdf21ab6d1717a2220a3b90621e5784d0b,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:01,2011-06-05 03:20:01,2,2,0,0,2,"Fixup bottle TEMPLATE_PATH and get ui working again.
+Tested by running ./src/nexus-master and ./src/nexus-slave and successfully browsing :8080 and :8081.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131540 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+26,dec73119c209e6aca191c56a2876b5a7873a7ba7,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:11,2011-06-05 03:20:11,141,188,263,230,10,"Merged two repeated data structures called Task inside master.hpp and slave.hpp into one TaskInfo now residing in internalinfo.hpp. The tasks datastructure inside the slaves variable inside the master.cpp is now restored when a new master takes over.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131541 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+27,a55649f2694e7aa25be7d430a5c0fcfaca5a4540,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:19,2011-06-05 03:20:19,0,0,0,0,1,"Ignore .dSYM files created on OS X
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131542 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+28,a6df1b143c17aab2d67dcc045853b6f79ea2b62a,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:26,2011-06-05 03:20:26,0,0,0,0,1,"Add *.dylib to .gitignore (for OS X)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131543 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+29,f8d5e6f83bcf79e64005024e9ec82fc58f995d85,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:33,2011-06-05 03:20:33,45,74,54,74,3,"Slave now parses URLs of the form zoo:// or nexus:// to tell if fault-tolerant mode or not
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131544 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+30,875eba50786a6d65c47d9a9d6305ae083c295745,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:40,2011-06-05 03:20:40,6,0,5,0,1,"bug: extra code that wasn't deleted
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131545 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+31,6ee6676e43dc8f14d343002f857a244e0b97fe9e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:47,2011-06-05 03:20:47,12,39,17,39,2,"Added a URL processor that currently understands nexus://<master> zoo://<zoosvr1>,<zoosvr2>... and zoofile://<filename>, where filename contains one ip:port to zooservers per line
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131546 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+32,6a8faf79fb88bec772a3f92eb33c400511df451b,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:20:57,2011-06-05 03:20:57,3,10,4,15,3,"Fixed a bug introduced in API refactoring whereby framework messages
+were no longer automatically having their slaveID set by the slave. This
+was causing a crash in Hadoop (GH-16).
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131547 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+33,042956a0808a2dc360cadbc6a348899fab667b63,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:04,2011-06-05 03:21:04,0,2,0,2,2,"Set Google log directory to /tmp in order to have it work even on
+platforms where glog does not know the name of the temp directory.
+Closes #15, though log location should eventually be configurable.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131548 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+34,5387fedd2c77b62e5f63c1a46bd50d8369a169d5,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:12,2011-06-05 03:21:12,0,37,0,7,2,"Created RAII Lock class to replace duplicate ones in nexus_sched and
+nexus_exec.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131549 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+35,d13b78209baf3bab9a01078baade4affe2d48caf,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:24,2011-06-05 03:21:24,69,51,51,46,3,"Some code cleanup in nexus_sched implementation:
+- Renamed some variables and functions that had different names back
+  when SchedulerDriver was called Scheduler.
+- Use newly added Lock class.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131550 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+36,fa0e70c0a6e3c9e2cd8dd8a6435491088410c5e9,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:31,2011-06-05 03:21:31,3,5,3,7,2,"Fix a bug in C API that didn't report executor correctly (due to driver
+parameter being added to getExecutorInfo and getFrameworkName). Also
+improved the reporting of this condition by making it call error().
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131551 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+37,bf78e763a1ff043a92a5c5ae277980a30141279e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:39,2011-06-05 03:21:39,0,8,0,6,1,"Fix unit tests after commit c1827f9e9cef5275b99b96705a23ad1869c90774
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131552 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+38,549b4bf6638b4cc8b660842b320cecf419739dc9,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:21:46,2011-06-05 03:21:46,101,141,141,207,2,"Initial work on adding drivers to API (#6); frameworks not yet updated
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131553 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+39,f6f3a54ea65ef892fa31c79f338b3142487bc7f9,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:00,2011-06-05 03:22:00,61,87,103,136,13,"Updated frameworks to use driver API. Also implemented proper
+referencing of executor in Java and Python.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131554 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+40,b7544a3fe1ebbd2835835c4b51f49f525dc1e429,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:15,2011-06-05 03:22:15,19,31,18,38,10,"Rename Executor::startTask to launchTask (ticket #23).
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131555 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+41,518f231559344375473422a256bff37d116a4785,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:24,2011-06-05 03:22:24,0,0,0,0,2,"Make EC2 scripts check out code from GitHub. Closes #8.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131556 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+42,50871ec79b5c3ca686ff453dd38eb85c93b546e1,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:34,2011-06-05 03:22:34,2,2,0,0,4,"Make HDFS use all disk drives on EC2 nodes. Closes #7.
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131557 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+43,328b1a7768a46251ce7028a433ff0bd88c47ed44,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:46,2011-06-05 03:22:46,114,257,111,236,14,"1) URL processor refactored 2) schedulers now use leader detection and reconnect to master 3) files renamed according to our conventions
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131558 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+44,671301c17fae7d42a3b7bba7595c78c18dc38428,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:22:54,2011-06-05 03:22:54,1,1,0,0,1,"typo fixed to make it compile
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131559 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+45,2ab19a7ceee138cffd7c211b308790fe6106794e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:23:00,2011-06-05 03:23:00,2,2,0,0,2,"Typos fixed
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131560 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+46,03f8e317d52a22ee73336ca6614c1f91c5bfab3e,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:23:07,2011-06-05 03:23:07,1,1,0,0,1,"typo
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131561 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+47,5e5c4dc2bf8eb82a0e50c946b464697b9df3cbdc,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:23:15,2011-06-05 03:23:15,9,34,12,75,5,"Slaves and schedulers now re-register with their old id with the new master
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131562 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+48,08c1b4c2c1300141f3e14e7f5cd4a97de8df1fa0,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:23:22,2011-06-05 03:23:22,1,32,1,27,2,"tasks for frameworks now updated whenever a slave or framework reconnects
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131563 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman
+49,13683c683de144758387bf1b447220ae5daaee49,0,-1,False,-1,Benjamin Hindman,b***@apache.org,Benjamin Hindman,b***@apache.org,2011-06-05 03:23:30,2011-06-05 03:23:30,22,11,58,15,3,"Fixed a bug that would create a new isolation module upon master reconnect
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/mesos/trunk@1131564 13f79535-47bb-0310-9956-ffa450edef68
+",1,b***@apache.org,Benjamin Hindman,b***@apache.org,Benjamin Hindman

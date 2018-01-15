@@ -1,0 +1,952 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,f41959ccb2d9d4c722fe8fc3351401d53bcf4900,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-06 16:27:58,2015-11-06 16:27:58,0,201052,0,249975,1900,"TensorFlow: Initial commit of TensorFlow library.
+TensorFlow is an open source software library for numerical computation
+using data flow graphs.
+
+Base CL: 107276108
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+1,cd9e60c1cd8afef6e39b4b73525d64aee33b656b,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-06 18:37:11,2015-11-06 18:37:11,242,405,344,420,72,"TensorFlow: Upstream latest changes to Git.
+
+Changes:
+- Updates to installation instructions.
+- Updates to documentation.
+- Minor modifications and tests for word2vec.
+
+Base CL: 107284192
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+2,8bd3b38e662a1298bebcada676c7cc6e2ea49c0f,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-06 21:57:38,2015-11-06 21:57:38,26,4081,52,6156,47,"TensorFlow: Upstream changes to git.
+
+Changes:
+
+- Update a lot of documentation, installation instructions,
+  requirements, etc.
+
+- Add RNN models directory for recurrent neural network
+  examples to go along with the tutorials.
+
+Base CL: 107290480
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+3,7de9099a739c9dc62b1ca55c1eeef90acbfa7be9,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-07 10:49:41,2015-11-07 10:49:41,17,49,29,56,21,"TensorFlow: Upstream latest commits to git.
+
+Changes:
+- Updates to Documentation, README.md, installation
+  instructions, anchor links, etc.
+
+- Adds Readme for embedding directory.
+
+Base CL: 107308461
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+4,fddaed524622417900d745fe8f115562c55ac49a,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-07 13:58:24,2015-11-07 13:58:24,0,25,0,15,68,"TensorFlow: Upstream commits to git.
+
+Changes:
+- More documentation edits, fixes to anchors,
+  fixes to mathjax, new images, etc.
+- Add rnn models to pip install package.
+
+Base CL: 107312343
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+5,ec490db88a1b624157f24a61dee0bd7d3c2630de,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-07 14:33:26,2015-11-07 14:33:26,0,0,0,0,2,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Update whitepaper
+- Fix some names in docs.
+
+Base CL: 107313143
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+6,e28c1dbab3506d536ded7f1b1f0a527d4cad1b14,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-08 11:37:26,2015-11-08 11:37:26,101,302,130,270,63,"TensorFlow: Upstream latest changes to git.
+
+Changes:
+- Documentation changes: adding some examples
+  for adding_an_op, fixes to some of the markdown,
+  updates to docstrings, etc.
+
+- Remove Dockerfile for now -- still undergoing
+  changes.
+
+Base CL: 107341050
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+7,71842dabdb169e46c46e1b139334bd04ed388e5a,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 13:56:56,2015-11-08 13:56:56,9,11,6,9,14,"TensorFlow: Upstream latest changes to git.
+
+Changes:
+- Documentation updates.
+- Specify numpy version in required packages.
+
+Base CL: 107344010
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+8,1d3874fe2f261c22eb88d150f03ae37eadeb2544,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 15:14:37,2015-11-08 15:14:37,2,5,4,10,22,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Docuementation changes.
+- Update URL for protobuf submodule.
+
+Base CL: 107345722
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+9,b2dc60eaa9c00421293b87824a2047fdcf6fa331,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 17:41:48,2015-11-08 17:41:48,146,194,158,217,34,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Documentation updates.
+- Relax numpy requirement to 1.9.2
+
+Base CL: 107349632
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+10,d769a3fd306ad5be8e4a118b39394606e360101d,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 19:23:41,2015-11-08 19:23:41,0,0,0,0,8,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Updates to installation instructions.
+
+Base CL: 107352130
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+11,a2257d08a9b6cb9807644e19589bdd802a0856e8,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 19:28:55,2015-11-08 19:28:55,0,0,0,0,1,"TensorFlow: Upstreaming changes to git.
+
+Changes:
+Fix anchor for github.
+
+Base CL: 107352236
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+12,c943bcaa511e38a2ab873b510a48dabdeab8401d,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 21:04:29,2015-11-08 21:04:29,0,6,0,1,3,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Correct number of CPUs reported on mac.
+- Doc updates.
+
+Base CL: 107355041
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+13,c9e59c5fd9d79ab002e0e67dbc8fd11b9f03702d,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 21:27:30,2015-11-08 21:27:30,0,0,0,0,1,"TensorFlow: Upstreaming changes to git.
+
+Changes:
+- Update to OS X install instructions.
+
+Base CL: 107355822
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+14,3b8b69f71a77d22cbfa0f94be5d4d0fd40ef596a,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 21:41:37,2015-11-08 21:41:37,0,0,0,0,3,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Doc type fixes.
+
+Base CL: 107356208
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+15,f7f007284434377d7bb7cff48b5df5737651d3dc,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-08 22:08:04,2015-11-08 22:08:04,1,1,3,3,18,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Lot of updates to docs.
+
+Base CL: 107357203
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+16,9f64983a8458700ba1aec613a755e8264b1608e0,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-09 06:38:54,2015-11-09 06:38:54,1,1,2,2,20,"TensorFlow: Update documentation to address quirks, add whitepaper link,
+and add tentative Dockerfile for GPU.  Change install instructions
+to also suggest upgrading six for Mac.
+
+Base CL: 107379398
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+17,61d3a958d6d83cb6037490d933b47621cc4009cc,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-09 10:11:07,2015-11-09 10:11:07,1114,1162,2487,1806,66,"TensorFlow: Initial steps towards python3 support, some documentation
+bug fixes -- reindents to 2 for some of the files to match our internal
+requirements.
+
+Thanks to Martin Andrews for the basic_usage.md suggested fix via
+Gerrit.
+
+Base CL: 107394029
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+18,9274f5aa478879386870bb0cb889e432d4aee330,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-09 18:42:53,2015-11-09 18:42:53,163,397,228,546,74,"TensorFlow: Upstream a batch of changes to git.
+
+Changes:
+
+- Some changes to make our ability to handle external contributions
+  simpler (e.g., adding some markers, adding empty __init__.py files).
+
+- Fixing documentation of SummaryWriter.add_summary().
+
+- Some input validation changes for queues/barriers.
+
+- Fixing the ptb tutorial (thanks to @kentonl for reporting),
+  fixes, github issue 52.
+
+- Some documentation suggestions for dealing with a few install
+  problems.
+
+- Speed improvements to conv2d gradient kernels on CPU.
+
+- More documentation fixes for the website.  Thanks to @makky3939 and
+  @keonkim for reports.
+
+- Changes / fixes to the Docker files.
+
+- Changes build_pip_package to not create an sdist.
+
+- Adds tensorboard example script.
+
+Base CL: 107445267
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+19,c61c39614a4780464037226d9d3c28101f7e8e46,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-10 15:23:01,2015-11-10 15:23:01,133,158,187,215,25,"TensorFlow: upstream changes to git (doc fixes).
+
+Changes:
+
+- Fix typos across several files contributed by Erik Erwitt,
+  and Michael R. Berstein
+
+- Fix bug in translate example (fr->en typo) by schuster
+
+- Updates to some documentation (mcoram,shlens,vrv,joshl)
+
+- Fix to Android camera demo app window size detection (andrewharp)
+
+- Fix to support lookup table of high rank tensors (yleon)
+
+- Fix invalid op names for parse_example (dga)
+
+Base CL: 107531031
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+20,4810e724828d1d423976608877a97f9b6a2b1c09,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-10 17:41:19,2015-11-10 17:41:19,0,0,0,0,1,"Update description of various issue/discussion forums (by vanhoucke)
+
+Base CL: 107543097
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+21,9a00a61aa4ae59339b14d29650a591732901c264,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-10 18:30:48,2015-11-10 18:30:48,0,0,0,0,0,"Add colah@'s fixed version of scalar equation to docs.
+
+Base CL: 107547091
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+22,3961abed9560cd852fff4add393b451483bbc3af,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-11 11:52:11,2015-11-11 11:52:11,2,462,1,572,9,"Upstream a number of changes to git.
+
+Changes:
+- Updates to README / os_setup for common installation issues
+  by ebrevdo, vrv, wicke, anelia, dga
+
+- Add a test for backwards compatibility checks by Josh
+
+- Simplifications to tiling/padding of scalars by bsteiner
+
+- Improve listing of devices when no devices are known by Matthieu
+
+Base CL: 107607137
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+23,f2102f4e2c1c87f1d1bf9ab856a2849c54478760,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-11 18:45:21,2015-11-11 18:45:21,578,2149,1029,1719,322,"TensorFlow: upstream changes from the afternoon.
+
+Changes:
+
+- futurize --stage2 changes for Python 3 compatibility by @girving.
+
+- Small updates to documentation by @vrv, schuster and others
+
+- Account for failure of std::thread::hardware_concurrency by @ebrevdo.
+
+- More changes for backwards-compatibility tests by Josh
+
+- Updates to python op doc generation by Josh
+
+- Added support for using the best-fit allocator via ConfigProto by @vrv.
+
+- Rename LocalSession to DirectSession, since local was a bad name for
+  it.
+
+- Enable tf.nn.moments() to work with tensors of unknown shape by @mrry.
+  GITHUB_ISSUE: 139
+
+- Changes for Android build by Andrew.
+
+Base CL: 107645181
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+24,4dffee7f62d81ec9173aba1b0ef6b96e47f8037c,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-12 11:27:00,2015-11-12 11:27:00,667,700,1078,954,48,"TensorFlow: Minor updates to docs, BUILD, GPU config / perf, etc.
+
+Changes:
+- Updates to op documentation and index by Josh
+
+- More changes to BUILD files for python 3 support by @girving
+
+- Fix to Eigen to use DenseIndex everywhere by @jiayq
+
+- Enable configuration for cuda compute capability by @zheng-xq,
+  including updates to docs.
+
+- Route aggregation method through optimizer by schuster
+
+- Updates to install instructions for bazel 0.1.1.
+
+Base CL: 107702099
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+25,d50565b35e886e7c3a201ea2f088790ed4b28de4,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-12 16:47:36,2015-11-12 16:47:36,549,320,730,498,43,"TensorFlow: Upstream changes from afternoon.
+
+Changes:
+- Ptrdiff -> DenseIndex change by @jiayq
+
+- Fix to scoping the logging in logging.py by @dga
+
+- Improvement to Conv2DBackpropFilter on CPU by Andy
+
+- Remove lookup table wrappers for the time being (wasn't in our
+  public API yet) by Yukata
+
+- Add a check similar to numpy to make sure the user isn't in the
+  tensorflow src directory by @vrv
+
+- More changes for  python 3 compat by @girving
+
+- Make dropout preserve shape info from input (@mrry)
+
+- Significant speed improvements by @zheng-xq to BFC allocator to bring
+  on par (CPU overhead-wise) to the region allocator.  Make BFC
+  allocator the default now that it's working well for a variety
+  of models.
+
+- Fix a bunch of typos reported by users (@vrv)
+
+- Enable concat for bfloat16 on GPU by Ashish.
+
+Base CL: 107733123
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+26,011e9baccd343eb943d25014c4e8aec53eac396b,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-12 18:34:45,2015-11-12 18:34:45,66,240,116,381,22,"TensorFlow: a few small updates.
+
+Changes:
+- Fix softmax formula in word2vec to remove an extra exp()
+  by @gouwsmeister
+
+- Python3 fixes to remove basestring / support for unicode by @mrry
+
+- Remove some comments by Josh
+
+- Specify exact versions of bower dependencies for TensorBoard by
+  @danmane.
+
+Base CL: 107742361
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+27,cb9fa5fc9de9f3fc97c15bbcce252d7d7fdcb73b,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-16 09:15:41,2015-11-16 09:15:41,38,386,57,631,35,"TensorFlow: Upstream changes from since last Thursday.
+
+Changes:
+- Bug fix to input.py by @dave-andersen with tests.
+
+- Some fixes to names in the whitepaper
+
+- Include cfloat for FLT_MAX by @benoitsteiner
+
+- Fix broken link in mnist tutorials by @mrry
+
+- Typos and fixes to documentation by @Sohl-Dickstein, @ebrevdo, @vrv,
+  Yaroslav, @martinwicke
+
+- Fixed unnecessary check around a delete by @girving
+
+- More compatibility tests by @josh11b
+
+- Misc other typos and fixes by Googlers.
+
+Base CL: 107944070
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+28,56313def004795f75ef8281a0294c958d28f1e06,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-16 11:11:36,2015-11-16 11:11:36,754,718,1050,1072,291,"TensorFlow: Doc and linter fixes, some additional tests and
+error handling, updates to website.
+
+Changes:
+- Removes redundant reshape from image models by @mrry
+- Default TensorBoard to localhost by @danmane
+- Reformatting of tensorflow/core by @josh11b
+- Make tutorials backwards compatible to 0.5.0 by @girving
+- Improve print documentation (md files not updated).
+- Add proper scrolling to sitemap by @martinwicke
+
+Base CL: 107956254
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+29,4213ac97be449d0e40631a314d2b7bd3901d4967,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-16 23:42:32,2015-11-16 23:42:32,477,1870,763,2766,59,"TensorFlow: conv improvements, label_image example, and
+a few other changes.
+
+Changes:
+- Some improvements to convolution by using 32-bit indices by
+  @benoitsteiner. Not all calls converted yet.  Also some
+  improvements to pooling as well by @benoitsteiner.
+
+- Improvements to sparse matmul CPU implementation by Ashish
+
+- Some fixes to warnings by @vrv
+
+- Doc fixes to padding by @Yangqing
+
+- Some improvements to Tensor wrappers by Eider
+
+- Speed up of matrix inverse on CPU by Rasmus
+
+- Add an example of doing image inference from a pre-trained model
+  by @petewarden.
+
+- fixed formula in mnist example by nodir
+
+- Updates to event accumulator by Cassandra
+
+- Slight changes to tensor c api by @mrry
+
+- Handling of strings in listdiff by Phil
+
+- Fix negative fraction-of-queue-full stats by Frank
+
+- Type-checking improvement to importer by Yaroslav
+
+- logdir recursive search for Tensorboard by @danmane
+
+- Session.run() checks for empty graph by Manoj
+
+Base CL: 108013706
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+30,9eb88d56ab6a9a361662d73a258593d8fbf10b62,-186,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-17 00:43:54,2015-11-17 00:47:00,0,0,0,0,0,"TensorFlow: remove googlenet modelfile from repo.
+It is 50MiB, which doesn't belong in git.
+
+It turns out there is a second copy of this graph in the android assets
+already too.  That explains why the repo is so large.
+
+(Since we have not accepted external commits yet, we may
+ consider rewriting the history to purge these files if
+ the size of the repo is a concern).
+
+Base CL: 108016510
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+31,ab34d55ce7618e52069a2e1c9e51aac5a1ea81c3,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-18 10:47:35,2015-11-18 10:47:35,232,1027,354,1549,111,"TensorFlow: more features, performance improvements, and doc fixes.
+
+Changes:
+- Add Split/Concat() methods to TensorUtil (meant for convenience, not
+  speed) by Chris.
+
+- Changes to linear algebra ops interface by Rasmus
+
+- Tests for tensorboard by Daniel
+
+- Fix bug in histogram calculation by Cassandra
+
+- Added tool for backwards compatibility of OpDefs.  Tool
+  Checks in history of opdefs and their changes, checks for
+  backwards-incompatible changes.  All done by @josh11b
+
+- Fix some protobuf example proto docs by Oliver
+
+- Add derivative of MatrixDeterminant by @yaroslavvb
+
+- Add a priority queue queue by @ebrevdo
+
+- Doc and typo fixes by Aurelien and @dave-andersen
+
+- Speed improvements to ConvBackwardFilter by @andydavis
+
+- Improve speed of Alexnet on TitanX by @zheng-xq
+
+- Add some host memory annotations to some GPU kernels by Yuan.
+
+- Add support for doubles in histogram summary by @jmchen-g
+
+Base CL: 108158338
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+32,f7918e1dcd5b0c1f8114f488fc35a63a81e94535,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-11-18 16:41:37,2015-11-18 16:41:37,11,103,26,176,22,"TensorFlow: Removal of large assets and small other fixes.
+
+Changes:
+
+- Remove all large assets from the repoistory, incuding the other 50MiB
+  model protobuf and a lot of images in our g3doc directory. We will
+  maintain these assets externally for now.  g3doc images may be
+  broken for a little bit, but the website will be fine, which
+  is the important resource. By @vrv and @petewarden.  Updates
+  READMES to reflect the external model resources.
+
+- Fix to saver's latest_checkpoint function by Zhifeng
+
+- Made protos visibility public by @vrv
+
+- Updates to docs by @mrry, Andy
+
+- Embed tensorboard resource for summary icon by Daniel
+
+- More updates to backwars compat by @josh11b
+
+Base CL: 108194981
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+33,9c3043ff3bf31a6a81810b4ce9e87ef936f1f529,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-20 10:30:41,2015-11-20 10:30:41,806,18065,1459,1568,1271,"TensorFlow: Improve performance of Alexnet
+
+Changes:
+
+* error message that refers to removed `DefaultSession` method.
+* -Wnull-conversion warnings
+* the ""_start_time"" attr for recvs when the flag ""--brain_enable_scheduling_for_recvs"" is set.
+* typo in tutorial data download progress message.
+* a typo (""however their installing""=>""however installing"").
+* typo, rename ""TensorFlow Mechanics"" to ""How To"" to be consistent with the website.
+* a typo (""subtact""=>""subtract"").
+* protobuf examples in comments in tensorflow::Example.proto.
+* formula formatting in MNIST beginner tutorial
+* negative fraction-of-queue-full stats
+* protobuf inclusion path so that Android demo will build under Blaze.
+* small typo (moderatly > moderately)
+* Session.run() to check that tensor arguments come from the session's graph.
+* another six import
+* seq2seq typo in bazel command
+
+Base CL: 108349164
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+34,854f49bd43588c062b046384f239f64a3d819702,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-25 08:48:47,2015-11-25 08:48:47,1873,3179,3256,4883,308,"TensorFlow: Upstream changes to git
+
+Changes:
+- Updates to docs
+- Several changes for Python 3 compatibility
+- Added license headers
+
+Base CL: 108710566
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+35,5fdf9a66e84c96cad51485b19de1a35bb9a1a173,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-25 11:57:31,2015-11-25 11:57:31,50,29,59,58,11,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Make compat accessible as tf.compat
+
+Base CL: 108727647
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+36,3972c791b9f4d9a61b9ad6399b481df396f359ff,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-11-25 12:13:27,2015-11-25 12:13:27,0,0,0,0,1,"TensorFlow: Upstream changes to git.
+
+Changes:
+- Fix README example to not include implicit print
+
+Base CL: 108729071
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+37,795f35da2d458cbae477ac2fe2bff80c1427a771,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-01 13:26:53,2015-12-01 13:26:53,2855,4217,5016,8811,174,"TensorFlow: upstream changes to git
+
+Change:
+	Clean up documentation for ReverseSequence
+Change:
+	Updated several tensorflow operations to use 32bit indices on GPU.
+Change:
+	Add attribute batch_dim to ReverseSequenceOp.
+Change:
+	Fix error in convert_to_records.py.  As reported in
+	https://github.com/tensorflow/tensorflow/issues/370
+	by AlexUnderMicrocontRoll.
+Change:
+	Update TensorBoard README.
+Change:
+	Fixes to boolean flags reported in
+	https://github.com/tensorflow/tensorflow/issues/379.  Supports:
+
+	--bool_flag=True  --> True
+	--bool_flag=False  --> False
+	--bool_flag=gibberish  --> False
+	--bool_flag --> True
+	--nobool_flag --> False
+
+	Fixes #379
+Change:
+	Update generated Op docs.
+Change:
+	Enable local development of TensorBoard using gulp
+	Also make tf-tensorboard a regular component rather than special case
+
+	This is mostly effected by creating tfserve.js, which is a small server
+	with clever routing to load from bower_components/ and components/ using
+	the paths that work within google3.
+
+	Workflow: `gulp serve`
+Change:
+	Add a full working code example to the tensorboard and summaries tutorial
+Change:
+	Fix seq2seq_test when running on GPU.
+
+	The ""proj_w"" and ""proj_b"" variables were being created before the
+	`test_session()`'s device function took effect, which pushed the
+	placement algorithm into making an incorrect decision.
+Change:
+	Add a sentence in TensorBoard README on how to serialize summary data to logs and provide link to the how-to tutorial on the TensorFlow website.
+Change:
+	Add error-catching code if string_input_producer is supplied a null input.
+	Before this change, it would die with an opaque shape error from inside
+	the queue.  This change catches (most) python null lists being
+	passed directly in, and at runtime detects null tensors.
+
+	Adds two tests for this to input_test.py
+Change:
+	Speed up for models that use the same variable multiple times in the case
+	where variables must be copied across devices:
+	- Have Variables wrap the Variable op in an Identity op when converted to Tensor.
+	  This avoids multiple copies across devices if a variable is used multiple time
+	  in a computation.
+	- Add Variable.mutable() to return the non-wrapped Variable op for used when
+	  assigning new values.
+	- Add an as_ref parameter to convert_to_tensor() to allow code to specify
+	  if they plan to assign a new value to the result of the conversion.  Make Variable
+	  return the result of Variable.mutable() when as_ref is True.
+	- Make all ops that assign values to variables pass as_ref=True when converting
+	  their arguments.
+Change:
+	Change to reduce critical section times in gpu_event_mgr.h:
+	(1) Call stream->ThenRecordEvent outside the EventMgr critical section
+	(2) Do memory deallocation outside the critical section
+
+	Speeds up one configuration of ptb_word_lm from 2924 words per
+	second (wps) to 3278 wps on my desktop machine with a Titan X.
+Change:
+	Remove some colons that break the open source build
+
+	::tensorflow::StringPiece breaks for @raingo, see
+	https://github.com/tensorflow/tensorflow/issues/358.
+	tensorflow::StringPiece (without the leading colons)
+	seems to fix the problem.
+Change:
+	Added check that inputs to Operation is a list and make a defensive copy of the input. This is for cases where the input list is changed such as in _add_input.
+Change:
+	Use standard names for TensorFlow dtypes in the tutorial.
+Change:
+	Add tests for tensor inputs.
+Change:
+	Fix build after declaring more types for ops
+Change:
+	Switch to 32 bit indexing to speedup convolutions and concatenations.
+Change:
+	Add convert_image op to convert between types for images (similar to OpenCV's cvtScale).
+Change:
+	Make cast work between numeric types (bool, uint8, int16, int32, int64, float, double).
+Change:
+
+	Padding input data for odd number of paddings, so we can use cudnn anyway.
+	+ Fix total padding computation when padding==VALID.
+	+ This CL makes the Googlenet benchmark run 5x faster.
+
+Change:
+	Support IndexedSlices in ConcatGrad
+Change:
+	* sampled softmax op uses one embedding lookup for positive and negative samples
+	* float64 support for sampled softmax
+Change:
+	Move RNN code out of models.rnn (without breaking existing code).  The API may still undergo minor changes, until full documentation as added.
+Change:
+	Changed to use per-step stacks for the accumulators used in while-loop gradient computation. This addresses the problem caused by using concat without sufficient static shape information. It should also improve performance as we avoided those expensive concats.
+Change:
+	Update generated Op docs.
+Change:
+	Improve error messages when the optimizer finds no variables to minimize or
+	when none of the variables has gradients.
+Change:
+	Say that -1 isn't just for flattening in reshape docs
+
+	Also add scalar reshape (reshape(t, [])) as an example.
+
+	This fixes https://github.com/tensorflow/tensorflow/issues/281.
+Change:
+	This is a test.
+
+Base CL: 109118714
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+38,f586a5ee94465f8f482964c6bbcc1206f160af35,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-01 13:50:51,2015-12-01 13:50:51,0,0,0,0,0,"TensorFlow: update google/protobuf version to
+956a770adc772184e5911f964b866028465d1727 for bazel 0.1.2
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+39,fa095c5db0ac9cfe2328a19b32ae208e58e3746a,-423,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-12-02 09:12:45,2015-12-02 09:19:48,233,578,416,901,27,"TensorFlow: upstream changes to git
+
+Change 109195845
+	Fix TensorFlow for build against Bazel 0.1.2rc2
+
+	Two things are currently broken with TensorFlow and Bazel 0.1.2:
+	  - Bazel now use sandboxing by default on Linux and have fixed it for cc_* rules.
+	    Undeclared headers are not mounted in the sandbox which make several cc_* rules
+	    fails.
+	  - Bazel now enforce strict header checking and some target were missing
+	    headers even though the headers were mounted in the sandbox. This change
+	    adds a ""strict_headers"" target that globs every headers of the core
+	    library and add it to the `tf_cc_tests` targets.
+Change 109162708
+	Fix various website issues
+	- Fix headline in os_setup.md
+	- Fix #anchor links
+Change 109162129
+	Fix numbers in mnist tutorial, fixes #362
+Change 109158967
+	Fix typo in word2vec tutorial, fixes #347
+Change 109151855
+	Fix tile and its gradient for scalars on GPUs
+
+	Eigen doesn't handle scalars on GPUs in all cases.  Fortunately, both
+	tile and its gradient are the identity for scalars, so we can just copy
+	the input to the output.
+
+	Fixes https://github.com/tensorflow/tensorflow/issues/391.
+Change 109140763
+	Support int32 and int64 in tf.random_uniform
+
+	This requires a new RandomUniformInt op on the C++ side since the op needs
+	to know minval and maxval.
+
+	Fixes https://github.com/tensorflow/tensorflow/issues/364.
+Change 109140738
+	Fix spacing in docs.
+Change 109140030
+	Fix content nav to not hide the bottom 100 or so px.
+Change 109139967
+	Add license files to TensorBoard files, fix mnist_with_summaries test
+Change 109138333
+	Fix typos in docstring
+Change 109138098
+	Fix some missing resources in the website.
+
+	Fixes #366.
+Change 109123771
+	Make sparse_to_dense's default_value default to 0
+
+	Nearly all uses of sparse_to_dense use 0 as the default.  The
+	same goes for sparse_tensor_to_dense.
+
+Base CL: 109198336
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur
+40,bf6b536bde7d8060c489b51fedb58968b8cbfd7c,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-02 15:04:40,2015-12-02 15:04:40,252,792,384,1300,57,"TensorFlow: Upstream changes to git.
+
+Change 109240606
+	Fix typo
+Change 109240358
+	Fix bug in Concat's shape inference due to legacy scalar handling.
+
+	The shape function was inadvertently converting outputs of unknown
+	shape (rank=None) to vectors of unknown length (rank=1), due to
+	inability to distinguish between legacy scalars and vectors, because
+	`max(1, None)` is 1.
+Change 109237152
+	Remove numarray requirement in python_config.
+Change 109234003
+	Fix typo in elu documentation.
+Change 109232946
+	Python must now be configured via ./configure script
+Change 109232134
+	Backported fixes to the tensor comparison operators from the public Eigen repository
+Change 109231761
+	Test invalid inputs to softmax_cross_entropy_with_logits.
+Change 109230218
+	Backported fixes to the tensor comparison operators from the public Eigen repository
+Change 109229915
+	Correct comments in seq2seq to show the right input types for embedding models.
+	(Thanks to hugman@github for bringing this up.)
+Change 109229118
+	Fix resize_images example in documentation and allow resize_images to run on a single image with partially-known shape.
+Change 109228940
+	Fix demo and node add/remove button spacing
+Change 109227909
+	Include Elu in the NN docs.
+Change 109227059
+	Adds variable_op_scope and makes variable_scope always add a name_scope.
+
+	This creates an op scope for variables that makes it easy to create independent
+	operations with a default name by making that name unique for the current scope
+	and it allows explicit names that are not made unique.
+
+Change 109224492
+	Streamline yuv -> rgb conversion to be done in one pass in native code.
+
+	The entire process now takes ~2ms (including the ByteBuffer.get() calls), down from 10+ ms when the arrays were being interleaved in Java prior to conversion.
+
+	Also abstracting common yuv->rgb color conversion into helper method.
+Change 109224389
+	Add ability to move nodes in and out of auxiliary nodes in graph.
+Change 109217177
+	Update generated Op docs.
+Change 109215030
+	Implementation of the ELU activation function: http://arxiv.org/abs/1511.07289
+Change 109209848
+	When GPUBFCAllocator runs out of memory, also log a summary
+	of chunks in use by size.
+Change 109206569
+	Switched to the public version of the Eigen::sign method since it supports complex numbers.
+Change 109199813
+	Modify tensorflow.SequenceExample to support multiple-length sequences.
+
+Base CL: 109241553
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+41,bb7a7a8858dc18ba733ed64e0733e27a4224ece8,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-02 15:05:37,2015-12-02 15:05:37,0,0,0,0,8,"TensorFlow: upstream changes from eigen to fix build from
+changes in last commit.
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+42,a4806a3fba7c00bea3e7022477339b2d09539751,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-03 10:26:25,2015-12-03 10:26:25,149,624,210,437,65,"TensorFlow: upstream changes to git.
+
+Change 109321497
+	Move all images to images directory to make docs versioning easier
+	- adjust all paths in the docs to point to the new locations
+	- remove some now redundant section-order tags added for the old website
+Change 109317807
+	Added a kernel op to compute the eigendecomposition of a self-adjoint matrix.
+
+	Added a new kernel op called self_adjoint_eig (and a batch_self_adjoint_eig) that
+	computes the eigendecomposition of a self-adjoint matrix. The return value is
+	the concatenation of the eigenvalues as a row vector, and the eigenvectors.
+Change 109310773
+	Change `_read32()` in the MNIST input example to return an int.
+
+	Currently we return a 1-D numpy array with 1 element. Numpy has
+	recently deprecated the ability to treat this as a scalar, and as a
+	result this tutorial fails. The fix returns the 0th element of the
+	array instead.
+Change 109301269
+	Re-arrange TensorBoard demo files.
+Change 109273589
+	add ci_build for ci.tensorflow.org
+Change 109260293
+	Speed up NodeDef -> OpKernel process by not spending time generating
+	an error message for missing ""_kernel"" attr that will be thrown away.
+Change 109257179
+	TensorFlow:make event_file_loader_test hermetic by using tempfile
+	instead of fixed filenames.  Without this change, running
+	event_file_loader_test twice in the same client (locally)
+	causes it to fail, because it writes into the same file and appends
+	another event, instead of starting from scratch.
+Change 109256464
+	Minor cleanup in TensorBoard server code
+Change 109255382
+	Change to reduce critical section times in gpu_event_mgr.h:
+	(1) Call stream->ThenRecordEvent outside the EventMgr critical section
+	(2) Do memory deallocation outside the critical section
+
+	Speeds up one configuration of ptb_word_lm from 2924 words per
+	second (wps) to 3278 wps on my desktop machine with a Titan X.
+Change 109254843
+	Fix use of uninitialized memory in test.
+Change 109250995
+	python_config.sh needs a license header
+
+	Otherwise the license test fails.
+Change 109249914
+	add ci_build for ci.tensorflow.org
+Change 109249397
+	Fixes reduce_sum (complex) on GPU segfaults.
+
+	Fixes #357
+
+Change 109245652
+	add ci_build for ci.tensorflow.org
+
+Base CL: 109321563
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+43,e31f6887689c0b2f8d1f6a5d24b285bd2c920877,-353,-1,False,-1,Boris Daskalov,b****@hyperscience.com,Boris Daskalov,b****@hyperscience.com,2015-11-23 19:15:23,2015-11-23 19:21:16,2,2,4,4,1,"ADAM: Mark beta*_power variables as non-trainable.
+
+beta[12]_power variables in the ADAM implemenation are not marked
+as non-trainable which can lead to very confusing results
+when calling tf.trainable_variables().
+
+Change-Id: Ibf4832615144d2aca7d10f8adcf70ac583fedd7e
+",1,b****@hyperscience.com,Boris Daskalov,b****@hyperscience.com,Boris Daskalov
+44,3f87accf81942e510cab21c4e08aa73d088ae389,0,-1,True,-1,Manjunath Kudlur,ke*****@google.com,Gerrit Code Review,noreply-****************@google.com,2015-12-03 21:40:49,2015-12-03 21:40:49,5045,9052,8710,15759,507,"Merge ""ADAM: Mark beta*_power variables as non-trainable.""",2,ke*****@gmail.com,Manjunath Kudlur,,
+45,eb5e56e479a41ad3696ea351e5804d17464d521a,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-03 14:39:42,2015-12-03 14:39:42,141,330,263,586,31,"TensorFlow: Upstream changes to git.
+
+Change 109344341
+	Teach ./configure about Python 3 (and other minor Python 3 issues)
+
+	./configure now writes bazel.rc based on a bazel.rc.template, which gives us a
+	place to tell bazel which version of Python we were using.
+
+	Also fix a few tests whose Python 3 support had degraded.
+
+	The only thing left before we have Python 3 support is
+
+	  https://github.com/google/protobuf/pull/1023
+Change 109343002
+	Update ops.pbtxt to reflect 109321497.
+Change 109342838
+	Do memory deallocation outside the critical section in gpu_event_mgr.cc.
+Change 109334210
+	PTB LSTM example: use slicing instead of splitting the inputs.
+Change 109332238
+	Cleanup TensorBoard local development environment
+Change 109331051
+	Use __all__ in __init__.py to restrict exported modules
+
+	Specifically, __all__ is now anything that (1) doesn't begin with an underscore
+	and (2) isn't a non-whitelisted module.
+
+	This fixes one tiny piece of b/25561952.  Specifically, the following no longer
+	exist: tf.np, tf.math_ops, and tf.variables.  tf.ops and tf.tensor_util still
+	exist but shouldn't; that will have to wait for a later CL.
+Change 109327154
+	tf.tuple allow Tensors to be passed in as control_inputs like tf.control_dependencies.
+Change 109324239
+	Make tf.control_dependencies(None) clear the control dependencies.
+	Use that to prevent ops created for Variables to inherit the current
+	control dependencies.
+
+	This fixes issues when using ExponentialMovingAverages with control
+	dependencies.
+Change 109323719
+	Added support for boolean tf.scatter_update.
+
+Base CL: 109348398
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+46,aaafbc0be0540b4c3117e64864b7e4a3f1b50a2c,0,-1,True,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-03 14:52:17,2015-12-03 14:52:17,141,330,263,586,31,"Merge sso://tensorflow/staging
+",2,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+47,54a644f33f34a32fa2cb5e7a489c64540b16e166,0,-1,False,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-03 17:56:16,2015-12-03 17:56:16,51,602,72,714,33,"TensorFlow: upstream changes to git
+
+Change 109366961
+	TensorFlow BUILD: now that we have an ops library,
+	set linkstatic to 1. This fixes a breakage in the would-be
+	opensource build, and it *might* mean we can get rid of
+	all of the RequireDefaultOps() calls in our code.
+
+	The ops library is much smaller than the kernels library that was
+	previously linked together.  We set linkstatic=0 presumably since we
+	didn't want to package a static copy of the kernels (very large)
+	everywhere.  But the op definitions are small, so this seems like a
+	safe change to make.  Time to build the various tests was not
+	any longer after this change, and inspecting the example_trainer
+	binary showed no large increase.
+Change 109363613
+	TensorFlow: new graph_def_builder_test needs to RequireDefaultOps.
+Change 109362569
+	Split "":ops"" out of "":kernels"" target in tensorflow/core.
+Change 109360666
+	Catch dtype and some shape errors sooner in `QueueBase`.
+
+	Some avoidable errors were not being caught (e.g. the dtypes of the
+	enqueue components were not checked against the queue's dtypes in
+	Python), leading to cryptic messages at runtime. After this CL, they
+	will be caught earlier.
+Change 109359569
+	TensorFlow: Expect g_ != nullptr in test
+Change 109350735
+	Add a version number to GraphDef
+
+	We would like to be able to deprecate behavior in newly generated graphs
+	without invalidating tensorflow's ability to read and evaluate old graphs.
+	For this purpose, GraphDef now has a version field which can be checked inside
+	op kernels to determine how backwards compatible to be.  version.h defines
+	TF_GRAPHDEF_VERSION_MIN and TF_GRAPHDEF_VERSION_MAX specifying the range of
+	supported GraphDef versions in the current version of tensorflow.
+
+	Also expose tf.__version__ and tf.__graph_def_version{,_min,_max}__ for Python
+	interrogation purposes.
+
+	Whenever we want to deprecate or change some GraphDef semantics, we will
+	proceed as follows:
+
+	1. Bump TF_GRAPHDEF_VERSION_MAX, leaving TF_GRAPHDEF_VERSION_MIN unchanged.
+	   Describe the change in graph.proto, include the date introduced.
+
+	2. In each relevant kernel, implement the new behavior if the GraphDef version
+	   is new, but preserve the old behavior for previous GraphDef versions.
+
+	3. Wait six months or so (we need to formalize this somewhere).
+
+	4. Bump TF_GRAPHDEF_VERSION_MIN and remove the backwards compatibility.
+
+	The GraphDef version is distinct from the open source version, but at least
+	(4) and possibly (1) correspond to major version number bumps.
+
+	The first GraphDef version bump is the upcoming scalar strictness change,
+	which affects Google users only since open source is already scalar strict.
+
+	This commit does not yet plumb the version number into OpKernelConstruction
+	so that ops can access it.  That will follow.
+Change 109350260
+	Made TensorShapeProto implicitly convertible to TensorShape.
+
+Base CL: 109366982
+",1,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+48,e4556746cea3fc8123ce44c4db0ebff76053ae52,0,-1,True,-1,Vijay Vasudevan,v**@google.com,Vijay Vasudevan,v**@google.com,2015-12-03 18:04:04,2015-12-03 18:04:04,51,602,72,714,33,"Merge: TensorFlow: upstream change to git.
+",2,v**@google.com,Vijay Vasudevan,v**@google.com,Vijay Vasudevan
+49,3dfd14421d71c1d6a79f72217cd7b6510cbcb38f,0,-1,False,-1,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,2015-12-04 09:54:09,2015-12-04 09:54:09,95,184,123,211,7,"TensorFlow: upstream changes to git.
+
+Change 109418220
+	Update WORKSPACE to use gmock.BUILD from google/protobuf instead of a duplicate.
+	Update google/protobuf's commit hash to include damieng@'s commit.
+Change 109417314
+	TensorFlow: add .gitignore to ignore some in-tree modified files.
+Change 109400051
+	Optionally build full TensorFlow for Android.
+	1. --define ANDROID_TYPES=__ANDROID_TYPES_FULL__ to register ops
+	   for all types, not just float. Today this increases codesize
+	   by ~700K when compiled for ARM, though only for clients who
+	   request full type support.
+	2. Add more ops to android_extended_ops, sufficient to train on
+	   the linear regression baseball codelab.
+Change 109388118
+	Fix the option changed in templatize. Oops.
+Change 109382553
+	Allows setting a function name in an op's attr in the py frontend.
+Change 109380896
+	Remove assert_same_graph in favor of op_scope. Change the latter to handle tensor-like objects such as SparseTensor, IndexedSlices, and Variable.
+
+Base CL: 109418322
+",1,ke*****@gmail.com,Manjunath Kudlur,ke*****@gmail.com,Manjunath Kudlur

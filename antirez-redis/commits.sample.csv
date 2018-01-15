@@ -1,0 +1,291 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,ed9b544e10b84cd43348ddfab7068b610a5df1f7,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 10:30:00,2009-03-22 10:30:00,0,10832,0,13695,110,"first commit
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+1,70003d28b8d7430f9e0104575e7160be2f264602,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 14:54:14,2009-03-22 14:54:14,1,28,1,52,2,"INFO fixed, MGET implemented, redis-cli implements INFO/MGET
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+2,a74f2af61cb83e104cc9cc5ebd9292f14b6802fa,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 14:59:05,2009-03-22 14:59:05,1,1,2,2,1,"redis-cli now checks the arity of vararg commnads
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+3,029524dbff9b076a5d1b7b97428981519e34886b,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 15:08:06,2009-03-22 15:08:06,0,0,0,0,3,"added doc for MGET
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+4,e255235c20d1fae95dee3b93584b3cc277c0c79c,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 15:15:51,2009-03-22 15:15:51,0,0,0,0,2,"doc changes
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+5,5b19bd7238d6036c2e920f26ba29704d83773057,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-22 15:27:09,2009-03-22 15:27:09,2,25,2,27,1,"MGET tests added
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+6,11cb1537835786275c57afa5461dbd71b5a710b2,0,-1,False,-1,Ludovico Magnocavallo,l***@ankh.qix.it,Ludovico Magnocavallo,l***@ankh.qix.it,2009-03-24 14:30:04,2009-03-24 14:30:04,92,98,203,216,1,"sync python client to the new protocol
+",1,l***@ankh.qix.it,Ludovico Magnocavallo,l***@ankh.qix.it,Ludovico Magnocavallo
+7,092dac2a64f912fe67be2e924c58979b200aa64b,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-23 14:50:09,2009-03-23 14:50:09,3,3,1,1,4,"another missing free->zfree replacement fixed. Thanks to Ludo
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+8,db52edaa0d6bcb455e46703ed082f80157723178,0,-1,False,-1,Luc Heinrich,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,2009-03-23 12:28:28,2009-03-23 12:28:28,0,0,0,0,1,"Added gitignore file.
+",1,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,Luc Heinrich
+9,ed329fcf25bb1c41949678eec125034326f86af2,0,-1,False,-1,Luc Heinrich,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,2009-03-23 12:31:33,2009-03-23 12:31:33,1,8,1,15,2,"Allow to specify the pid file from the config file.
+",1,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,Luc Heinrich
+10,46713f83d46babbc9ad48d11c52cd954a8553846,0,-1,False,-1,Luc Heinrich,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,2009-03-23 12:42:10,2009-03-23 12:42:10,1,1,1,1,1,"Display the port on server startup.
+",1,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,Luc Heinrich
+11,b91f03a4d14c166bb8ead41e5b556b1080ccd559,0,-1,False,-1,Luc Heinrich,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,2009-03-23 12:43:16,2009-03-23 12:43:16,2,4,4,8,1,"Fixed redis-cli readLine loop to correctly handle EOF.
+
+When using the shutdown command with redis-cli the server saves the database and, if successful, silently closes the connection. The redis-cli tool did not correcty handle this EOF case in its readLine loop and was therefore infinitely looping - and eating 100% of the CPU - while waiting for some data which would never come.
+",1,l**@honk-honk.com,Luc Heinrich,l**@honk-honk.com,Luc Heinrich
+12,2a200c784da1c7d33f72e3b92425f029214f70a1,0,-1,True,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-23 17:21:33,2009-03-23 17:21:33,7,16,7,25,8,"Merge git://github.com/lucsky/redis
+",2,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+13,5a039e3b95856ac9e59ce4a522f140b4ec014913,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-23 17:22:24,2009-03-23 17:22:24,0,0,0,0,1,"lucsky changes imported. pid file path can now be configured, redis-cli fixes
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+14,87eca72788a18969f7e350fdbd75ced5a8b8e893,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-23 19:43:39,2009-03-23 19:43:39,9,23,10,21,2,"MONITOR command implemented.
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+15,cf3f0c012df3abeee9bc2ec511820c1a859ecfc7,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-23 21:33:15,2009-03-23 21:33:15,0,6,0,4,2,"Now MONITOR/SYNC cannot be issued multiple times
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+16,5a6948fbc02568a26e21c0a69e5e921edef8c1b9,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 00:43:38,2009-03-24 00:43:38,9,36,8,47,4,"random tested mode for test-redis.tcl, minor other stuff, version switched to 0.8
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+17,796d05f855f00e0fda05129dd62c39e8670283e7,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 11:28:34,2009-03-24 11:28:34,0,33,0,67,1,"Python client library updated, thanks to Ludo!
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+18,c937aa89b5835d12a1b5900beaa471908f3a236d,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 13:37:32,2009-03-24 13:37:32,255,252,389,379,3,"Server replies now in the new format, test-redis.tcl and redis-cli modified accordingly
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+19,fab3a740ab3f4eb4e5f1697973150f516b7c8d38,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 13:38:25,2009-03-24 13:38:25,0,0,0,0,2,"protocol doc changed
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+20,9eb00f21f0afd16b311daa0795b1d45ca7da8874,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 14:22:42,2009-03-24 14:22:42,1,1,5,5,1,"protocol fix in SORT reply with null elements
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+21,0c9ca0e11ca290392e2747596b89d18db175af7e,0,-1,True,-1,Ludovico Magnocavallo,l***@ankh.qix.it,Ludovico Magnocavallo,l***@ankh.qix.it,2009-03-24 14:33:43,2009-03-24 14:33:43,374,400,625,633,11,"git mess :)
+",2,l***@ankh.qix.it,Ludovico Magnocavallo,l***@ankh.qix.it,Ludovico Magnocavallo
+22,4c26a79a8d5eb80c8e68442486d3ebb1905221fc,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 15:22:27,2009-03-24 15:22:27,2,2,8,8,1,"redis-benchmark sync with the new protocol
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+23,958694375564578103bb053d3845f3d4a89b8e4e,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 19:22:45,2009-03-24 19:22:45,0,111,0,76,1,"Tcl client library
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+24,43c9dc7bd273f39522119415318ec750e678748a,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 20:00:15,2009-03-24 20:00:15,490,258,644,554,1,"Now the Redis test uses the proper Tcl client library
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+25,4e4055779fc46370b2b1b99a0a2b1ff9cfc64013,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-24 21:48:04,2009-03-24 21:48:04,1,1,2,2,2,"two typos fixed
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+26,7b45bfb2a4f9bc0296d9126274010a11d1073e8d,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-25 00:26:47,2009-03-25 00:26:47,5,10,7,9,1,"New protocol fix for LREM
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+27,f78fd11b71988ea91bda72f464df6cb7a1a45620,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-25 16:47:22,2009-03-25 16:47:22,96,1039,250,500,17,"New file dump format, perl client library added
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+28,916686686f54d78950fd06eac92ace5c5527290f,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-25 16:49:27,2009-03-25 16:49:27,140,88,175,191,7,"Erlang client synched with Valentiono's repo
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+29,d9f650b990def521c92fdfe811e423bd5dd4ca4a,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-25 16:49:58,2009-03-25 16:49:58,0,0,0,0,1,"doc update
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+30,10c43610dee70032db40008996790bdeb54632b6,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-25 21:00:48,2009-03-25 21:00:48,31,88,98,164,3,"Nasty bug of the new DB format fixed, objects sharing implemented
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+31,abcb223ec05740c3534b31e3c756ac0d63f8c07e,0,-1,False,-1,Brian Hammond,b****@brianhammond.com,Brian Hammond,b****@brianhammond.com,2009-03-25 23:03:56,2009-03-25 23:03:56,0,30,0,34,3,"Adds AUTH command.
+
+$ make
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  adlist.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  ae.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  anet.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  dict.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  redis.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  sds.c
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  zmalloc.c
+cc -o redis-server -O2 -Wall -W -DSDS_ABORT_ON_OOM -g adlist.o ae.o anet.o dict.o redis.o sds.o zmalloc.o
+
+Hint: To run the test-redis.tcl script is a good idea.
+Launch the redis server with ./redis-server, then in another
+terminal window enter this directory and run 'make test'.
+
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  benchmark.c
+cc -o redis-benchmark -O2 -Wall -W -DSDS_ABORT_ON_OOM -g ae.o anet.o benchmark.o sds.o adlist.o zmalloc.o
+cc -c -O2 -Wall -W -DSDS_ABORT_ON_OOM -g  redis-cli.c
+cc -o redis-cli -O2 -Wall -W -DSDS_ABORT_ON_OOM -g anet.o sds.o adlist.o redis-cli.o zmalloc.o
+
+$ tail -1 redis.conf
+
+$ ./redis-server redis.conf &
+[1] 52494
+$ - Server started, Redis version 0.08
+- DB loaded from disk
+- The server is now ready to accept connections on port 6379
+. 0 clients connected (0 slaves), 1932 bytes in use
+
+$ make test
+tclsh test-redis.tcl
+DEL all keys to start with a clean DB                                  . Accepted 127.0.0.1:54490
+PASSED
+SET and GET an item                                                    PASSED
+DEL against a single item                                              PASSED
+KEYS with pattern                                                      PASSED
+KEYS to get all keys                                                   PASSED
+DBSIZE                                                                 PASSED
+DEL all keys                                                           PASSED
+Very big payload in GET/SET                                            PASSED
+SET 10000 numeric keys and access all them in reverse order            . DB 0: 10001 keys in 16384 slots HT.
+. 1 clients connected (0 slaves), 4885707 bytes in use
+PASSED
+DBSIZE should be 10001 now                                             PASSED
+INCR against non existing key                                          PASSED
+INCR against key created by incr itself                                PASSED
+INCR against key originally set with SET                               PASSED
+SETNX target key missing                                               PASSED
+SETNX target key exists                                                PASSED
+EXISTS                                                                 PASSED
+Zero length value in key. SET/GET/EXISTS                               PASSED
+Commands pipelining                                                    PASSED
+Non existing command                                                   PASSED
+Basic LPUSH, RPUSH, LLENGTH, LINDEX                                    PASSED
+DEL a list                                                             PASSED
+Create a long list and check every single element with LINDEX          PASSED
+Test elements with LINDEX in random access                             PASSED
+LLEN against non-list value error                                      PASSED
+LINDEX against non-list value error                                    PASSED
+LPUSH against non-list value error                                     PASSED
+RPUSH against non-list value error                                     PASSED
+RENAME basic usage                                                     PASSED
+RENAME source key should no longer exist                               PASSED
+RENAME against already existing key                                    PASSED
+RENAMENX basic usage                                                   PASSED
+RENAMENX against already existing key                                  PASSED
+RENAMENX against already existing key (2)                              PASSED
+RENAME against non existing source key                                 PASSED
+RENAME where source and dest key is the same                           PASSED
+DEL all keys again (DB 0)                                              PASSED
+DEL all keys again (DB 1)                                              PASSED
+MOVE basic usage                                                       PASSED
+MOVE against key existing in the target DB                             PASSED
+SET/GET keys in different DBs                                          PASSED
+Basic LPOP/RPOP                                                        PASSED
+LPOP/RPOP against empty list                                           PASSED
+LPOP against non list value                                            PASSED
+Mass LPUSH/LPOP                                                        PASSED
+LRANGE basics                                                          PASSED
+LRANGE inverted indexes                                                PASSED
+LRANGE out of range indexes including the full list                    PASSED
+LRANGE against non existing key                                        PASSED
+LTRIM basics                                                           PASSED
+LSET                                                                   PASSED
+LSET out of range index                                                PASSED
+LSET against non existing key                                          PASSED
+LSET against non list value                                            PASSED
+SADD, SCARD, SISMEMBER, SMEMBERS basics                                PASSED
+SADD adding the same element multiple times                            PASSED
+SADD against non set                                                   PASSED
+SREM basics                                                            PASSED
+Mass SADD and SINTER with two sets                                     PASSED
+SINTERSTORE with two sets                                              PASSED
+SINTER against three sets                                              PASSED
+SINTERSTORE with three sets                                            PASSED
+SAVE - make sure there are all the types as values                     - DB saved on disk
+PASSED
+Create a random list                                                   . DB 0: 6057 keys in 16384 slots HT.
+. DB 1: 3 keys in 16 slots HT.
+. 1 clients connected (0 slaves), 1045147 bytes in use
+PASSED
+SORT with BY against the newly created list                            PASSED
+SORT direct, numeric, against the newly created list                   PASSED
+SORT decreasing sort                                                   PASSED
+SORT speed, sorting 10000 elements list using BY, 100 times
+  Average time to sort: 5.28 milliseconds PASSED
+SORT speed, sorting 10000 elements list directly, 100 times
+  Average time to sort: 1.53 milliseconds PASSED
+SORT speed, pseudo-sorting 10000 elements list, BY <const>, 100 times
+  Average time to sort: 0.47 milliseconds PASSED
+SORT regression for issue #19, sorting floats                          - DB saved on disk
+PASSED
+LREM, remove all the occurrences                                       - DB saved on disk
+PASSED
+LREM, remove the first occurrence                                      PASSED
+LREM, remove non existing element                                      PASSED
+LREM, starting from tail with negative count                           - DB saved on disk
+PASSED
+LREM, starting from tail with negative count (2)                       PASSED
+MGET                                                                   - DB saved on disk
+PASSED
+MGET against non existing key                                          PASSED
+MGET against non-string key                                            PASSED
+FLUSHALL                                                               - DB saved on disk
+PASSED
+
+79 tests, 79 passed, 0 failed
+. Client closed connection
+. 0 clients connected (0 slaves), 1347660 bytes in use
+
+$ kill -15 %1
+[1]+  Terminated              ./redis-server redis.conf
+
+$ vim redis.conf
+
+$ tail -1 redis.conf
+requirepass foobared
+
+$ ./redis-server redis.conf &
+[1] 52518
+$ - Server started, Redis version 0.08
+- DB loaded from disk
+- The server is now ready to accept connections on port 6379
+. 0 clients connected (0 slaves), 1945 bytes in use
+
+$ make test
+tclsh test-redis.tcl
+. Accepted 127.0.0.1:54492
+DEL all keys to start with a clean DB
+
+ERR operation not permitted
+
+    while executing
+""::redis::redis_read_reply $fd""
+    (procedure ""::redis::__dispatch__"" line 13)
+    invoked from within
+""$r keys *""
+    (""uplevel"" body line 2)
+    invoked from within
+""uplevel 1 $code""
+    (procedure ""test"" line 4)
+    invoked from within
+""test {DEL all keys to start with a clean DB} {
+        foreach key [$r keys *] {$r del $key}
+        $r dbsize
+    } {0}""
+    (procedure ""main"" line 13)
+    invoked from within
+""main 127.0.0.1 6379""
+    invoked from within
+""if {[llength $argv] == 0} {
+    main 127.0.0.1 6379
+} elseif {[llength $argv] == 1 && [lindex $argv 0] eq {stress}} {
+    stress
+} else {
+    main [li...""
+    (file ""test-redis.tcl"" line 630)
+. Client closed connection
+make: *** [test] Error 1
+. 0 clients connected (0 slaves), 2041 bytes in use
+. 0 clients connected (0 slaves), 2041 bytes in use
+
+$ kill -15 %1
+[1]+  Terminated              ./redis-server redis.conf
+
+$ vim test-redis.tcl
+
+$ git diff test-redis.tcl
+",1,b****@brianhammond.com,Brian Hammond,b****@brianhammond.com,Brian Hammond
+32,e63943a4502a8173d395ccd273eebf0787090d9c,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-26 11:46:14,2009-03-26 11:46:14,4,7,7,9,2,"AUTH merged from Brian Hammond fork, reworked a bit to fix minor problems
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+33,f2aa84bd638b8d18e80531abfd7191f5d0a58c71,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-26 17:23:51,2009-03-26 17:23:51,0,322,0,426,7,"Lua client added thanks to Daniele Alessandri
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+34,1a4601492cbe55b77fef7c335d6764c278c3595a,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-26 17:24:53,2009-03-26 17:24:53,0,0,0,0,1,"Lua client added thanks to Daniele Alessandri
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+35,29fac6170a308c1ed765d4f7edee94985959225c,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 12:14:35,2009-03-27 12:14:35,798,696,948,757,14,"Ruby client library updated. Important changes in this new version!
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+36,a4d1ba9a73e459d68423c4da623f8cf1663c70ba,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 20:48:32,2009-03-27 20:48:32,22,35,25,32,5,"ANSI-C compatibility changes
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+37,17be1a4a173461772230716ad99d373a512e8f9e,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 21:27:42,2009-03-27 21:27:42,4,7,6,10,1,"IMPORTANT FIX: new dump format implementation was broken. Now it's ok but tests for the 32-bit case values are needed
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+38,53f8c2c71e5962eeaccb80d04d2e0ff575d520fd,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 21:37:57,2009-03-27 21:37:57,2,2,1,1,2,"now Redis is C99-ok
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+39,23d4709dfbdc5d8f669c2e376159ffdfb4d37471,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 22:00:27,2009-03-27 22:00:27,1,9,0,0,4,"feature macros defined to play well with C99
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+40,e9a9afd35ef5a44b89771b41b3e66466c5c42be5,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-27 22:01:04,2009-03-27 22:01:04,0,7,0,0,1,"feature macros defined to play well with C99
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+41,e3566d4b46735c33bc85540c65c94e6a9778c1bf,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-28 10:58:19,2009-03-28 10:58:19,8,105,12,148,3,"Integer encoding implemented in dump file. Doc updated
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+42,8de4907a86e25ac8a50be57f5c2a80f872017e77,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-28 11:50:27,2009-03-28 11:50:27,0,32,0,26,1,"redis-sha1 utility added
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+43,378fd42197242327111995481c92c0890ac4e715,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-30 12:13:43,2009-03-30 12:13:43,0,3,0,1,2,"changelog added
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+44,300827b60dcb7eec8cbcc9d2b59c9dbd765efd40,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-03-30 16:27:35,2009-03-30 16:27:35,0,0,0,0,1,"TODO updated
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+45,3305306f0933bdfbd958cb12bd559636d50e4dc7,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-04-01 13:22:35,2009-04-01 13:22:35,196,251,268,290,5,"Initial implementation of EXPIRE
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+46,98c541c517585171f98b0a4082ff857f97246dc7,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-04-01 14:36:29,2009-04-01 14:36:29,1,1,0,0,1,"fastlz dependence removed
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+47,94754ccc3cb33bc16a9a17b664adfc3f8949f3df,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-04-01 20:40:00,2009-04-01 20:40:00,3,51,5,82,1,"non-lazy expired keys purging implemented
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+48,774e30478070d780f739db047e5551690a090db1,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-04-02 09:54:45,2009-04-02 09:54:45,3,46,2,43,3,"Issue 22 fixed
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo
+49,2e77c2ee72c97d33da568efcde3ec3dc954ccc13,0,-1,False,-1,antirez,an*****@gmail.com,antirez,an*****@gmail.com,2009-04-02 09:57:06,2009-04-02 09:57:06,1,1,1,1,1,"Fixed issue 23 about AUTH
+",1,an*****@gmail.com,Salvatore Sanfilippo,an*****@gmail.com,Salvatore Sanfilippo

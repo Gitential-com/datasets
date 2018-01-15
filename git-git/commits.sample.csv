@@ -1,0 +1,314 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,e83c5163316f89bfbde7d9ab23ca2e25604af290,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-07 15:13:13,2005-04-07 15:13:13,0,1076,0,1014,11,"Initial revision of ""git"", the information manager from hell
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+1,8bc9a0c769ac1df7820f2dbf8f7b7d64835e3c68,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-07 15:16:10,2005-04-07 15:16:10,0,40,0,32,8,"Add copyright notices.
+
+The tool interface sucks (especially ""committing"" information, which is just
+me doing everything by hand from the command line), but I think this is in
+theory actually a viable way of describing the world. So copyright it.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+2,e497ea2a9b6c378f01d092c210af20cbee762475,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-07 21:03:28,2005-04-07 21:03:28,1,41,2,58,1,"Make read-tree actually unpack the whole tree.
+
+I needed this to make a ""sparse"" archive conversion from my old
+BitKeeper tree data. The scripts to do the conversion are just
+incredibly ugly, but they seem to validate the notion that you
+can actually use this silly 'git' thing to save your history in.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+3,bf0c6e839c692142784caf07b523cd69442e57a5,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 09:16:38,2005-04-08 09:16:38,10,35,13,68,2,"Make ""cat-file"" output the file contents to stdout.
+
+New syntax: ""cat-file -t <sha1>"" shows the tag, while ""cat-file <tag> <sha1>""
+outputs the file contents after checking that the supplied tag matches.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+4,19b2860cba5742ab31fd682b80fefefac19be141,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 09:59:28,2005-04-08 09:59:28,9,9,11,10,8,"Use ""-Wall -O2"" for the compiler to get more warnings.
+
+And fix up the warnings that it pointed out. Let's keep the tree
+clean from early on.
+
+Not that the code is very beautiful anyway ;)
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+5,24778e335a6450e34257a311d0bf4a12bdb3006c,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 14:42:29,2005-04-08 14:42:29,9,33,9,24,2,"Factor out ""read_sha1_file"" into mapping/inflating/unmapping.
+
+This allows us to also actually check the sha1 hash using these
+routines. Needed for the ""fsck"" thing.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+6,2ade9340262cb87163b5c5c270268175ff3b3c15,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 15:01:15,2005-04-08 15:01:15,0,12,0,6,2,"Add ""check_sha1_signature()"" helper function
+
+And fix up header declarations.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+7,20222118ae4cbd0a7ba91a7012574cd2f91101ec,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 15:02:42,2005-04-08 15:02:42,0,106,0,130,1,"Add first cut at ""fsck-cache"" that validates the SHA1 object store.
+
+It doesn't complain about mine. But it also doesn't yet check for
+inter-object reachability etc.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+8,7660a188dfd0c5e52884790bebf5637d24f990d4,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 15:04:51,2005-04-08 15:04:51,1,4,0,1,1,"Add new fsck-cache to Makefile.
+
+This is what happens when there are no nice tools to tell you to do things
+properly.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+9,94261677654d493f6a6219c78aae986a146f92d4,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 15:31:19,2005-04-08 15:31:19,1,1,0,0,1,"Add ""-lz"" to link line to get in zlib.
+
+Not all Linux distributions seem to need it (notably not YDL on ppc64), but
+enough ones obviously do.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+10,1ea34e365b1ea233be332245bc34a8df415a7d61,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-08 17:11:14,2005-04-08 17:11:14,11,42,10,56,1,"Make fsck-cache start parsing the object types, and checking their
+internal format.
+
+This doesn't yet check the reachability information, but we're getting
+there.. Slowly.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+11,59c1e249808c6ba38194733fa00efddb9e0eb488,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 00:25:22,2005-04-09 00:25:22,3,4,5,5,3,"Fix missing return values and some error tests for empty index files
+
+Patches from Dave Jones and Ingo Molnar, but since I don't have any
+infrastructure in place to use the old patch applicator scripts I
+am trying to build up, I ended up fixing the thing by hand instead.
+
+Credit where credit is due, though. Nice to see that people are
+taking a look at the project even in this early stage.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+12,eb38c22f535c7c973f27b62845c5136c4be0ae49,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 09:26:55,2005-04-09 09:26:55,36,37,42,42,3,"Make ""cache_name_pos()"" available to others.
+
+It finds the cache entry position for a given name, and is
+generally useful. Sure, everybody can just scan the active
+cache array, but since it's sorted, you actually want to
+search it with a binary search, so let's not duplicate that
+logic all over the place.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+13,734aab758cc2b9f5e2ed43375dbfec1b5bfde43b,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 09:48:20,2005-04-09 09:48:20,32,33,30,30,3,"Make the cache stat information comparator public.
+
+Like the cache filename finder, it's a generically useful function,
+rather than something specific to the current ""show-diff"" thing.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+14,33db5f4d9027a10e477ccf054b2c1ab94f74c85a,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 09:53:05,2005-04-09 09:53:05,1,145,0,194,2,"Add a ""checkout-cache"" command which does what the name suggests.
+
+I'll also eventually change ""read-tree"" to only update the cache
+information, instead of doing a checkout of the tree. Much nicer.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+15,f7391ce3bd306c5731bc8206f8a0fa0947ca9474,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 09:59:44,2005-04-09 09:59:44,10,8,27,20,1,"Fix up ""checkout-cache"" a bit
+
+Make the warnings have newlines, and don't stop ""checkout-cache -a""
+just because a file already exists.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+16,8d3af1d53255ac36494492720ebb83e932b0c0bc,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 11:24:41,2005-04-09 11:24:41,2,3,2,3,1,"Fix ""checkout-cache.c"" mis-use of read_sha1_file() interface.
+
+It's supposed to test the returned file type, not think that read_sha1_file()
+tests it. Confusion from ""cat-file"" command line usage.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+17,197ee8c97076ee784db9f4b5a9294e86f42d068c,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 12:09:27,2005-04-09 12:09:27,73,75,68,68,3,"Make ""write_cache()"" and friends available as generic routines.
+
+This is needed for the change to make ""read-tree"" just read into the
+cache (and then you do a ""checkout-cache"" to update your current dir
+contents).
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+18,83adac3c57ad8cd2c8d44b525414b949950e316d,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 12:11:25,2005-04-09 12:11:25,50,82,80,123,2,"Make ""read-tree"" read the tree into the current directory cache.
+
+It will no longer update the actual working directory, just the
+cache. To update the working directory, you need to use ""checkout-cache"".
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+19,79517a067a293ddf19867e363f0d9237c7ef8e22,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 12:59:11,2005-04-09 12:59:11,1,2,0,0,2,"Export ""cache_name_compare()"" helper function.
+
+The ""diff-tree"" program needs it.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+20,9174026cfe69d73ef80b27890615f8b2ef5c265a,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 13:00:54,2005-04-09 13:00:54,1,113,1,123,2,"Add ""diff-tree"" program to show which files have changed between two trees.
+
+Very useful for creating diffs efficiently, and in general to see what has
+changed in the namespace.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+21,16d4d1ba6c1de7a414a6826eb6f363d4b20345bf,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 13:02:30,2005-04-09 13:02:30,0,5,0,7,1,"Make ""fsck-cache"" print out all the root commits it finds.
+
+Once I do the reference tracking, I'll also make it print out all the
+HEAD commits it finds, which is even more interesting.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+22,f768846e34997fb847c9b875615867d4716d632f,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 15:36:41,2005-04-09 15:36:41,9,24,11,52,2,"Teach ""fsck"" and ""read-tree"" about recursive tree-nodes.
+
+This is totally untested, since we can't actually _write_ things that
+way yet, but I'll get to that next, I hope. That should fix the
+huge wasted space for kernel-sized tree objects.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+23,4e6616ab77ed6a53f857d4b1082c4dc4140f34f5,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 15:47:03,2005-04-09 15:47:03,0,9,0,13,1,"Make fsck-cache warn about old-style tree objects that have full
+pathnames in them. We're migrating away from that.
+
+This will cause tons of warnings for the current ""sparse"" archive,
+but hell, better now than later.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+24,d6d3f9d0125a7215f3cdc2600b2307ca55b69536,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-09 17:09:34,2005-04-09 17:09:34,22,70,27,104,4,"This implements the new ""recursive tree"" write-tree.
+
+It's got some debugging printouts etc still in it, but testing on the
+kernel seems to show that it does indeed fix the issue with huge tree
+files for each commit.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+25,121481abf8d752ef871821d4ab9a3747595d86ae,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 11:32:54,2005-04-10 11:32:54,11,70,15,112,5,"Make ""update-cache"" a bit friendlier to use (and harder to mis-use).
+
+It now requires the ""--add"" flag before you add any new files, and
+a ""--remove"" file if you want to mark files for removal. And giving
+it the ""--refresh"" flag makes it just update all the files that it
+already knows about.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+26,73134b6d3f700bb9e6c66aa2f099de644c6b8d09,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 14:03:58,2005-04-10 14:03:58,29,67,23,73,3,"Add ""-R"" flag to ""diff-tree"", so that it will recursively traverse a tree of trees
+as it diffs them.
+
+This makes diff-tree usable again in the new world order.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+27,eeb7991695b0944e4e8d6474b8f7cd2da8830b20,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 15:08:02,2005-04-10 15:08:02,24,23,38,35,1,"Simplify ""diff-tree"" output, and only keep track of one single name-base.
+
+During original development I had different name-bases for source and
+destination, so that I could make the output show how it got removed 
+from ""tree a"" and added to ""tree b"", but we don't want that. We only
+do recursive diffs on anything where the bases are exactly the same,
+so we might as well just work with a single base.
+
+Also, make the output for ""changed"" be a single line, since people
+hated the separate '<' / '>' format. They were right. It sucked.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+28,262e82b4a7ec708d8c9e641421509b16b8ec69f1,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 21:49:26,2005-04-10 21:49:26,6,53,11,57,1,"Fix diff-tree recursion.
+
+And, perhaps more importantly, fix the fact that if a filename changed from a
+directory to a file (or vice versa), we must consider it a delete and an add,
+not a ""filechange"".
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+29,76e7f4ec485f24b167b76db046dc2ca4562debd4,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 22:06:50,2005-04-10 22:06:50,7,7,13,12,1,"Fix off-by-one error in removal of cache entry.
+
+Also make the return value of ""cache_name_pos()"" be sane: positive
+or zero if we found it (it's the index into the cache array), and
+""-pos-1"" to indicate where it should go if we didn't.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+30,8ba0bbb237af3de317f8d009302500e9a7e2b3c3,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 23:13:09,2005-04-10 23:13:09,4,100,3,102,1,"Add connectivity tracking to fsck.
+
+This shows that I've lost track of one commit already. Most likely
+because I forgot to update the .dircache/HEAD file when doing a
+commit, so that the next commit referenced not the top-of-tree, but
+the one older commit.
+
+Having dangling commits is fine (in fact, you should always have
+at least _one_ dangling commit in the top-of-tree). But it's
+good to know about them.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+31,f1257f3a33c49ea4f3fd43c7aed97d8a270190dd,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 23:22:59,2005-04-10 23:22:59,0,1,0,2,1,"Oops, the actual 'printf' for missing objects was missing.
+
+Which made fsck very quiet about objects it hadn't found. So add
+it. 
+
+We'll need to make things like these optional, because it's
+perfectly ok to have partial history if you don't want it,
+and don't want to go backwards. But for development, it's best
+to always complain about missing sha1 object files that are
+referenced from somewhere else.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+32,91af81a98ea5c5594c67a63abc933250e05c13c6,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-10 23:33:52,2005-04-10 23:33:52,1,1,1,1,1,"Oops. Fix bad initialization of the ""seen"" array, causing us to not
+properly clear the reference count at init time. It happened to work
+for me by pure luck.
+
+Until it broke, and my unreferenced commit suddenly looked referenced
+again. Fixed.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+33,bf16c71e2f9fc9ca44273f7f4637dce194a49cce,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 08:37:17,2005-04-11 08:37:17,4,4,5,5,2,"Fix up commit-tree/diff-tree user interface issues.
+
+No, this doesn't make them easy to use, but makes diff-tree use
+the ""-r"" flag for ""recursive"" (not ""-R"") and makes commit-tree
+use AUTHOR_xxx environment flags (not COMMITTER_xxx) to match what
+it actually does.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+34,711cf3a026a539f68ab647e012f145a03e12a5e7,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 09:39:21,2005-04-11 09:39:21,19,99,26,111,1,"Make ""update-cache --refresh"" do what it really should do: just
+refresh the ""stat"" information.
+
+We need this after having done a ""read-tree"", for example, when the
+stat information does not match the checked-out tree, and we want to
+start getting efficient cache matching against the parts of the tree
+that are already up-to-date.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+35,075b845a8572006d8c80f8500a0652166a0fba00,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 10:18:16,2005-04-11 10:18:16,0,0,0,0,1,"Add a COPYING notice, making it explicit that the license is GPLv2.
+
+Let's bite the v3 bullet when it comes, although if people want to,
+they can just state ""or later at discretion of Linus"" in their copyright
+messages.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+36,cfd88e2b7a1a1d2b0f22173a5cc128adce7391e3,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 10:24:41,2005-04-11 10:24:41,4,4,6,6,2,"Make the default directory permissions more lax.
+
+After all, if you want to not allow others to read your
+stuff, set your ""umask"" appropriately or make sure the
+parent directories aren't readable/executable.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+37,32d197f18d0be74a4d82e8c42513d83423091a22,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 11:33:58,2005-04-11 11:33:58,5,6,7,8,1,"Fix ""update-cache"" not fixing up the size field as appropriate.
+
+The size field isn't in the tree information, so we need to
+update it if the sha1 matches.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+38,0dcad32ae239906217065b6a2b0fca41962e5d57,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 13:53:49,2005-04-11 13:53:49,1,3,1,3,1,"Fix ""usage()"" to do the missing line termination.
+
+It got broken when I changed it to use stdarg.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+39,84fe972055398ba0790ac0a8f159c79c83efcef4,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 13:55:10,2005-04-11 13:55:10,1,142,1,162,2,"Add a ""rev-tree"" helper, which calculates the revision
+tree graph.
+
+It's quite fast when the commit-objects are cached, but since
+it has to walk every single commit-object, it also allows you
+to cache an old state and just add on top of that.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+40,9614b8dcf8f295b6063d2a85bf8ec53960b072b6,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 15:39:26,2005-04-11 15:39:26,39,47,80,59,2,"Fix stale index.lock file removal using ""atexit()"".
+
+Problem noted by Randy Dunlap.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+41,4bb04f2190d526f8917663f0be62d8026e1ed100,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 15:47:57,2005-04-11 15:47:57,11,11,15,15,6,"Rename "".dircache"" directory to "".git""
+
+I started out calling the tool ""dircache"". That's clearly moronic.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+42,97d9c3cdeafb9f48075987c76373a71e6874c6eb,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 16:42:13,2005-04-11 16:42:13,44,68,61,78,1,"Make ""rev-tree"" more efficient and more useful.
+
+Slight change of output format: it now lists all parents on the same line.
+
+This allows it to work on initial commits too (which have no parents), and
+also makes the output format a lot more intuitive.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+43,28258afe912303f717fcdccaca124c1ae3e8e004,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 17:23:58,2005-04-11 17:23:58,13,99,21,121,1,"Make ""rev-tree"" capable of showing the difference in reachability between two
+or more commit points.
+
+This is important both to know what the difference between two commit
+points is, but also to figure out where to try to merge from.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+44,771364af0ebc34ba968590eeebf0b78ee148f0a5,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 17:40:58,2005-04-11 17:40:58,2,2,5,5,1,"Make the rev-tree output more regular. This is the last
+change. Promise.
+
+It now always outputs all the revisions as <sha1>:<reachability>, where the
+reachability is the bitmask of how that revision was reachable from the
+commits in the argument list.
+
+Trivially, if there is only one commit, the reachability will always be
+(1 << 0) == 1 for all reachable revisions, and there won't be any edges
+(so the ""--edges"" flag only makes sense with multiple commit keys).
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+45,3607c27f5fa144992c7962bb8817b950e033fe94,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 18:02:00,2005-04-11 18:02:00,4,8,4,9,1,"Allow zero-sized files to be checked in.
+
+The kernel may not want it, but others probably do.
+
+Noted (again) by Junio Hamano.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+46,8695c8bfe181677ca112502c1eef67930d84a75d,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-11 18:55:38,2005-04-11 18:55:38,1,168,1,245,2,"Add ""show-files"" command to show the list of managed (or non-managed) files.
+
+You want things like this to check in a patch..
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+47,74b46e32cb3907a4a062a0f11de5773054b7c71a,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-12 00:23:14,2005-04-12 00:23:14,1,52,1,43,2,"Add a ""check-files"" command, which is useful for scripting
+patches.
+
+In particular, it verifies that all the listed files are up-to-date
+in the cache (or don't exist and are ready to be added).
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+48,5e76011c0dd9e3f7f6eb766e8c28dd8fcd4adcf9,0,-1,False,-1,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-12 02:01:12,2005-04-12 02:01:12,3,1,7,2,1,"Remove the annoying ""ok"" printout from show-diff.
+
+It used to be useful before I wrote ""show-files"", so that
+show-diff would also tell what the cached files were. Now
+it's just annoying.
+",1,to******@ppc970.osdl.org,Linus Torvalds,to******@ppc970.osdl.org,Linus Torvalds
+49,c0fb976aa779c508314305f309f240fa6bfc3128,0,-1,False,-1,Christopher Li,g**@chrisli.org,Linus Torvalds,to******@ppc970.osdl.org,2005-04-12 02:04:44,2005-04-12 02:04:44,4,45,4,85,1,"[PATCH] show-diff show deleted files as diff as well.
+
+The ideas is that using the show-diff to generate the
+patch including deleted and new file (in the next patch).
+So we don't have to do the temp new file diff dance on the
+script.
+
+The cache index now contain enough information to generate
+the whole patch. So the GIT SCM don't need separate command
+for check out file to edit or delete. Just do the edit and
+remove and GIT will generate the correct patch.
+
+It still require tell GIT to add new files.
+
+",1,g**@drmicha.warpmail.net,iso-8859-1?Q?David_K=E5gedal,to******@ppc970.osdl.org,Linus Torvalds

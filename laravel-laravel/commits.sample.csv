@@ -1,0 +1,85 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,a188d62105532fcf2a2839309fb71b862d904612,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-08 23:45:08,2011-06-08 23:45:08,0,6677,0,10901,70,"initial commit of laravel!
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+1,8ae6b95dcfec34e7cb91ff0559420f8832118ed3,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-08 23:48:46,2011-06-08 23:48:46,0,0,0,0,1,"added readme
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+2,49f714572951ece32b3c36bb4d69445e97d7f75d,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-09 12:31:35,2011-06-09 12:31:35,2,8,4,6,3,"added log to aliases. fixed flash data bug.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+3,b66be283d404f6f06a722927d683bd79814945fb,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-09 12:33:06,2011-06-09 12:33:06,1,1,2,2,1,"fixed comment in session class.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+4,f7bb0c551068a615158571490ac372938fd6e2b0,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 12:43:09,2011-06-10 12:43:09,722,177,1542,329,43,"trimmed comment bloat. returning boolean on eloquent save.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+5,c07c0ee3debeb9a91ba147fcf7b828de2f192c75,0,-1,False,-1,Nathan,na****@Mew.local,Nathan,na****@Mew.local,2011-06-10 11:37:22,2011-06-10 11:37:22,0,5,0,0,1,"Preload error handler class
+",1,jo******@garbee.me,Jonathan Reinink,jo******@garbee.me,Jonathan Reinink
+6,c17e357fb6e2fa7c23a04665aa3a08dc5c08ac74,0,-1,True,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 11:48:03,2011-06-10 11:48:03,0,5,0,0,1,"Merge pull request #1 from hinathan/master
+
+Preload the System\Error class",2,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+7,b91930c592cd05131e0d4789efda568b76ea6466,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 12:19:19,2011-06-10 12:19:19,1,1,1,1,1,Fixed bug in Config::set method.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+8,328b9fcb286ea3939d2bced0c9984faa301bb219,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 13:18:52,2011-06-10 13:18:52,1,1,1,1,1,Made the response headers public.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+9,3f04484b832af804ed2c2a51a81567bd3c0d4822,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 14:15:44,2011-06-10 14:15:44,0,0,0,0,1,Modified default .htaccess to be more consistent with other popular frameworks.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+10,e85e8f957aef57ce3cffa6882c8170726ba13f4a,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 14:44:46,2011-06-10 14:44:46,6,2,0,0,1,Moved error class load up in front controller to match config and str loads.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+11,6f1f5eed0dde057b84da4b3230666e68f3beab04,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 22:30:41,2011-06-10 22:30:41,11,22,24,58,1,"allow literal path in sqlite database config.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+12,da9fcd6964c510c640eec4e1838211ca0375f976,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 22:45:39,2011-06-10 22:45:39,146,0,262,0,4,"removed test class
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+13,c92bdea09178b60e26ffb60a7c4ac4658d52063c,0,-1,True,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-10 22:46:39,2011-06-10 22:46:39,157,22,286,58,5,"Merge branch 'master' into develop
+",2,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+14,a77b6a9737dac033862802016c597f564dfba189,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-11 20:50:19,2011-06-11 20:50:19,9,1,14,2,1,"changed loading of view to fix bug when binding content view data.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+15,c05ccc5d490812b7ccdc5e6dead204f06b21c13e,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-11 21:30:19,2011-06-11 21:30:19,25,41,52,68,4,"moved entities method to html class and added encoding configuration option.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+16,edbf7f3b0f898a0d3fdfa6f4ccc5341a4a5ce9dd,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-11 23:13:35,2011-06-11 23:13:35,0,12,0,18,1,"added with method to view class.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+17,2bcf7ed327d0b38ad91dcdfcaf53e44d62181f6d,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-11 23:17:37,2011-06-11 23:17:37,12,0,18,0,1,"removed with method from view class.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+18,05b2e287701c293d25cb48f49240f559dc7c4ed2,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-12 22:19:46,2011-06-12 22:19:46,10,15,15,25,2,"added ability to specify foreign key for has_one and has_many relationships.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+19,285cdcc8f2f93233bc3c33f9b551b4bfc04e7f42,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 21:34:53,2011-06-13 21:34:53,2,41,3,64,2,"fixed bug when deleting eloquent models.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+20,d2a74750c9b448676e53a3635eb37b0c89395d1f,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 21:45:22,2011-06-13 21:45:22,1,35,2,95,1,"added support for organizing routes in a routes directory.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+21,ae7114163a66c76c4dbb02e65042c484d77fd141,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 22:01:36,2011-06-13 22:01:36,1,1,2,2,1,"syntax cleanup in eloquent warehouse.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+22,9cee4693711017def1c5141001d407c580fd850e,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 22:09:34,2011-06-13 22:09:34,7,17,12,34,2,"added support for overriding many-to-many table names.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+23,fd42e0ca40ba256026ff2c8171952a752a2006b3,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 23:18:22,2011-06-13 23:18:22,31,48,87,116,1,"moved route loading into separate function.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+24,af24e8db45a024588eb2fadb1be82e586c9b2113,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-13 23:20:13,2011-06-13 23:20:13,0,6,0,12,1,"adding some comments to the router class.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+25,30c83f265da82ee6256c0eda2495eca65536e5f0,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 17:27:11,2011-06-14 17:27:11,550,711,1109,1450,36,"overall code refactoring.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+26,279983b0792075cf37289a2aeadcecf39773718c,0,-1,False,-1,Michael Hasselbring,h****@pamt.com,Michael Hasselbring,h****@pamt.com,2011-06-14 10:27:05,2011-06-14 10:27:05,0,10,0,10,1,"add form method to form
+",1,mik*******@gmail.com,Michael Hasselbring,mik*******@gmail.com,Michael Hasselbring
+27,1b620c5938f6a03c52e7fb5de445e129a36d32ef,0,-1,False,-1,Michael Hasselbring,h****@pamt.com,Michael Hasselbring,h****@pamt.com,2011-06-14 11:46:43,2011-06-14 11:46:43,1,1,2,2,1,"added PHP_EOL in close method
+",1,mik*******@gmail.com,Michael Hasselbring,mik*******@gmail.com,Michael Hasselbring
+28,e87f7dc2f5fcfd211312fccc0fdfddf148a0cda5,0,-1,True,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 10:59:15,2011-06-14 10:59:15,0,10,0,10,1,"Merge pull request #5 from mikelbring/develop
+
+</form> in form class",2,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+29,efb040c507f7c58641555272b4e89e58c4687557,0,-1,False,-1,Pedro Borges,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,2011-06-14 10:20:44,2011-06-14 10:20:44,0,13,0,20,1,"Added support for <label> element
+",1,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,Pedro Borges
+30,b4db6396ccc61f8bf136e907979a5d381c82c49f,0,-1,False,-1,Pedro Borges,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,2011-06-14 11:43:18,2011-06-14 11:43:18,0,14,0,24,1,"Auto detect label and add id to field
+",1,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,Pedro Borges
+31,de16d5cf017b8c10daaacc7d8b57bb136ce6501e,0,-1,False,-1,Pedro Borges,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,2011-06-14 12:09:32,2011-06-14 12:09:32,1,1,2,2,1,"Fixed typo in a comment
+",1,w***@pedroborg.es,Pedro Borges,w***@pedroborg.es,Pedro Borges
+32,80173d4848785a41d1e529c57c0c832c1c38ebc5,0,-1,True,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 11:00:12,2011-06-14 11:00:12,0,37,0,54,2,"Merge pull request #4 from pedroborges/develop
+
+Added <label> element to form class. Input elements will automatically receive the ID of the corresponding label element if one exists.",2,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+33,59fa681de171b762dffed547ea11dcbb70b75144,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 11:13:32,2011-06-14 11:13:32,10,10,10,14,1,Fix tabs on Form close method.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+34,8161e2c736c62adde8c653868a7855bf7564e0bb,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 11:14:15,2011-06-14 11:14:15,10,10,14,14,1,Moved Form::close next to Form::open.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+35,34387fc4e9293c6683be2e1646746c558ec13ce3,0,-1,True,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 17:28:13,2011-06-14 17:28:13,550,748,1109,1508,37,"Merge branch 'develop' of github.com:taylorotwell/laravel into develop
+",2,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+36,d380992aa7ffe97be2bf4c0b01563890477fe8a2,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-14 19:40:47,2011-06-14 19:40:47,1,1,1,1,1,"incremented version.
+",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+37,92939a8a71d4e43aa0ecfe59e7ce450dbae41a7c,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 10:23:38,2011-06-15 10:23:38,15,95,26,143,1,Added ability to create cookies using properties.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+38,f6ea2676f397c3673150246c0b5654404c153d1b,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 12:41:35,2011-06-15 12:41:35,11,58,20,114,1,"Added Input::filled, Input::had, and Input::was_filled.",1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+39,0db0dadef71b2c0155f491cba5723bcb090e4efa,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 06:24:58,2011-06-15 06:24:58,1,6,3,16,1,Improve request URI determination.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+40,3cffaf589d5d1e3408312d5e4b6af26e987d90d6,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 06:25:44,2011-06-15 06:25:44,1,1,5,5,1,Changed (:any) wildcard to more restrictive.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+41,afd00260159c267a0831f5c7c00c1a7d43a62df4,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 10:22:58,2011-06-15 10:22:58,22,24,54,57,1,Edited session class to use new Cookie send method.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+42,5a0a230b3dffb90f8b369c1211b76b3421c71956,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 10:24:30,2011-06-15 10:24:30,15,95,26,143,1,Added ability to create cookies using properties.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+43,aee154c12fcbd13937fd2e2008f2eed16bf8d6b9,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 10:48:57,2011-06-15 10:48:57,4,11,7,24,1,Tweaked Input::has method to accept multiple arguments and to return false if an argument is an empty string.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+44,f00f3d5ea1e1db51a9c81b783ae3b7992828d5b4,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 10:49:33,2011-06-15 10:49:33,3,0,6,0,1,removed extraneous comment from Input class.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+45,f48d76abcaace996a7cf6698e3eb23145e5fadd5,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 11:07:54,2011-06-15 11:07:54,1,1,3,3,1,Fix bug in session garbage collection.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+46,2ef32608f23552e326cb2d45df139a1990d93714,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 11:17:47,2011-06-15 11:17:47,4,12,12,33,1,Allow multiple items to be passed to Session::has.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+47,525f53b54c0b60c19bde9a05d0c5f7f7949b9eaf,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 11:19:52,2011-06-15 11:19:52,6,6,23,23,1,Fix formatting on Session::has method.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+48,55eb2ecb086cf72965f107c46d41b19e00e2aaad,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 11:21:39,2011-06-15 11:21:39,2,1,3,1,1,Fixed parameters on Session::has.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins
+49,65dca2493926b569a3323aeb8b5e4b817dcd46db,0,-1,False,-1,Taylor Otwell,tayl********@gmail.com,Taylor Otwell,tayl********@gmail.com,2011-06-15 11:22:40,2011-06-15 11:22:40,4,11,7,24,1,Added ability to pass multiple parameters to Cookie::has.,1,tayl********@gmail.com,Taylor Collins,tayl********@gmail.com,Taylor Collins

@@ -1,0 +1,201 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,9d0080576446de475d34b0dbb58389b15cd4f529,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-07-31 15:07:16,2009-07-31 15:07:16,0,0,0,0,0,"Initial directory structure.
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@1 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+1,ec1a0a2a2571dc2c1c26612b374d4a66b22f0938,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 02:32:49,2009-08-05 02:32:49,0,0,0,0,0,"adding trunk
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@2 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+2,1eeadf4e401647faa20911f531bc05c1872262ea,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 02:33:13,2009-08-05 02:33:13,0,0,0,0,0,"oops
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@3 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+3,445114e1b20da8d4976c8d9050aa90c5bd508c54,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 03:17:29,2009-08-05 03:17:29,0,0,0,0,0,"added svn:ignore
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@4 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+4,c6b236db73ff81007909be6406f0e484edc4a9eb,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 03:30:16,2009-08-05 03:30:16,0,21628,0,31986,36,"first commit with cleaned up code
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@5 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+5,c8efebf2bfbe6a1efc732679ad3cf2d06d795c3f,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 03:40:05,2009-08-05 03:40:05,3,0,0,0,1,"minor edit
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@6 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+6,21e01d94a0632539f76eb702408540b0d9adcb59,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-08-05 03:54:33,2009-08-05 03:54:33,1,1,5,5,1,"fixed isinf reference
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@7 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+7,0f6d8b435670053a393b65c621d6eab090a36633,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-01 15:10:47,2009-09-01 15:10:47,476,555,1201,709,3,"latest edits, miscellaneous cleanup and bug fixes from development
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@8 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+8,171487fd4ea85aa38b224ee3cd5c41356063e197,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-01 15:13:32,2009-09-01 15:13:32,0,0,0,0,1,"added stats empty directory
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@9 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+9,39c033cbe697b488f6f612c9d154a467aaca76a1,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-01 15:50:21,2009-09-01 15:50:21,18,20,34,39,1,"fixed inconsistency with dateCol parameter
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@10 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+10,a32bf7dd4d60d02dc0c7c306a033089f11e50946,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-02 18:41:36,2009-09-02 18:41:36,59,57,192,139,2,"moved operator factory methods out of class level
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@11 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+11,c2a7af3f6e3c3588468827634a0285bcd1734476,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-02 19:14:16,2009-09-02 19:14:16,3,3,6,5,3,"fixed error in groupby, added yahoo finance example
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@12 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+12,7fb2ab07274eddf652479944a5586e47772ef9e0,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 01:16:28,2009-09-03 01:16:28,0,719,0,1312,1,"added pandas.stats.linmodel
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@13 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+13,4451a8d1c7db67efb3dc7716dcabb911839f589f,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 01:17:22,2009-09-03 01:17:22,1,1,1,1,1,"added pandas.stats.linmodel
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@14 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+14,1452216767142b0f27f50080737a3de2e7921731,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 01:20:16,2009-09-03 01:20:16,0,0,0,0,1,"adding test directory
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@15 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+15,226ec22d75542733d4351d1daa6f84412f5aba46,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 01:31:43,2009-09-03 01:31:43,4,8,18,38,1,"added pandas.stats to package list
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@16 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+16,cce2669b229c691fc505ee860903817f2d70897e,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 23:11:24,2009-09-03 23:11:24,0,0,0,0,1,"added regression examples
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@17 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+17,a1055e0cd1ab8d7ac116692a884e4d1617d97272,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 23:16:15,2009-09-03 23:16:15,180,138,275,206,1,"cleaned up linmodel class and made to work with scikits.statsmodels
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@18 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+18,73c49385ed53dca9b36298dfe06f139734061e3d,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 23:16:32,2009-09-03 23:16:32,0,0,0,0,1,"improved regression example
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@19 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+19,f28f59b41819a85093f2be80cfafbcde4e3495d3,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 23:17:40,2009-09-03 23:17:40,0,0,0,0,1,"improved regression example
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@20 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+20,f6e5e382897cc06b5ac44d8b78cdde55bfe9f798,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-03 23:29:13,2009-09-03 23:29:13,1,1,0,0,1,"removed reference to regress function
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@21 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+21,bb34ff12bbd4369fd8a18e28bab271063c56597d,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-04 00:02:32,2009-09-04 00:02:32,76,80,169,59,2,"couple unfortunate hacks with numpy ascii and unicode string types in groupby
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@22 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+22,197a9af9500f9e51e00346950935bc2033687509,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-09 16:25:02,2009-09-09 16:25:02,3,30,11,62,3,"misc fixes
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@23 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+23,ccc93ebaf5ae9c92e967cfb6bd0366346263ef99,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-11 17:02:41,2009-09-11 17:02:41,22,19,63,36,2,"some Series constructor cleanup, made DataFrame.toDataMatrix better
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@24 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+24,d2736c6454c0eba44f071cc75fa864ef7b54f2ea,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-19 04:02:25,2009-09-19 04:02:25,24,51,63,86,1,"misc cleanup
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@25 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+25,d5e6d6815267e295fbf009c7d8ae86e66f7bd7fa,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-19 18:00:22,2009-09-19 18:00:22,13,28,35,75,1,"revamped DataFrame.reindex to better handle mixed-type data, and also be a lot faster
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@26 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+26,a383271f8e0dc421e6c4274f509f5c5814f68626,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-19 18:02:30,2009-09-19 18:02:30,10,40,22,93,1,"made sum, count, mean functions more robust to mixed-type data
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@27 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+27,fa695abddf200bad593de2b008526cd73e7d8bfe,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-19 18:07:52,2009-09-19 18:07:52,4,4,18,10,1,"got rid of usages of np.unique
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@28 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+28,b787dfb8c38e3c8b6acba8fecede9e1e2b5f6291,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-09-19 18:08:09,2009-09-19 18:08:09,12,21,26,34,1,"made index attribute a property
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@29 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+29,5d296bfed8f908196416682b1be0b776f6241a2e,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-10-10 15:26:17,2009-10-10 15:26:17,0,304,0,478,1,"added prototype WidePanel, LongPanel
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@30 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+30,82de3a3aeeb20a9f5533b41402bc54efaddbb796,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-10-11 03:49:12,2009-10-11 03:49:12,14,57,18,117,1,"added slice function to LongPanel
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@31 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+31,e457d0a0821fad87744f6579eda02613f7bccb9c,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-10-11 21:42:51,2009-10-11 21:42:51,107,277,198,569,1,"fleshing out docstrings, API. added filterItems
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@32 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+32,5759fdfde82c595c0ad007d9e3f65df657d3c482,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-10-11 21:44:06,2009-10-11 21:44:06,3,3,6,6,1,"using ndarray.take
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@33 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+33,5311ffd399333349f96a4ecd76e3a02232d892b3,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-10-22 16:08:06,2009-10-22 16:08:06,36,174,66,262,4,"added sandbox directory and restricted least-squares class
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@34 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+34,6fd65acdab8b029bac6128b7e449492851fe302e,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-20 16:10:50,2009-11-20 16:10:50,691,2214,1401,3466,12,"merging latest developments, in particular LongPanel, WidePanel
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@35 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+35,5a761571becf4cabe11f5df2d4429b20d98197f1,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 16:17:37,2009-11-21 16:17:37,0,1,0,0,1,"diff cruft
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@36 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+36,24c0b6f431784e269176c5007cef86089bf48174,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 17:00:20,2009-11-21 17:00:20,1082,1798,1587,2690,9,"reorganized cython code. rolling moment implementations
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@37 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+37,a8f5cc12047e3495c957b1301f6b6bce35cf2c13,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 17:27:42,2009-11-21 17:27:42,0,3541,0,5870,13,"added OLS and PanelOLS functionality
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@38 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+38,6b1d31f559fc85585c6cb8b412766336b6f4e14e,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 21:26:33,2009-11-21 21:26:33,8409,16975,9903,19386,3,"changes for cython 0.12
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@39 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+39,2acd81c512d5a1ce0718665a5ef045fc03a73146,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 21:45:01,2009-11-21 21:45:01,33,27,32,27,2,"misc fixed to Cython
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@40 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+40,5e1ae3fd43107b2223cdefa93a6103b3a280562a,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 21:45:25,2009-11-21 21:45:25,101,43,203,43,5,"import fixes, removed old unit tests
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@41 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+41,ead26de96d0e6c091d98bc0ef019869bdb1192a1,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 21:45:42,2009-11-21 21:45:42,710,5,1299,25,2,"removed linmodel module
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@42 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+42,3f1963330403a0aa709f278bb710ff89c3d5a4b7,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 22:23:33,2009-11-21 22:23:33,56,82,106,73,7,"set to ignore pyc files
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@43 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+43,945ca679538a666ee1515bdd85dc447a20da1adc,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 22:43:16,2009-11-21 22:43:16,3,23,0,31,2,"made build script for lib
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@44 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+44,78ef6cdd5e7930b0a048f4f5464d38585627f16c,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 22:51:17,2009-11-21 22:51:17,18,0,30,0,1,"minor change
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@45 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+45,e2a6f68f274f000d31f42c8c1785daece1aff544,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 22:54:59,2009-11-21 22:54:59,0,5,0,6,1,"modified build script
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@46 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+46,3e89088ed328ab609294a83154ac96a8bb8dc65f,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-21 22:57:45,2009-11-21 22:57:45,3,3,17,17,1,"modified build script
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@47 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+47,ca1bdf6e1c11b893afb11745a8d30703a0014ff0,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-23 02:39:06,2009-11-23 02:39:06,152,249,275,426,5,"working on min_periods for regular OLS, leaving things in a semi-broken state for now
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@48 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+48,6af5b08d7ce2426dd948a9e63881e80b9fca1cda,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-23 05:15:44,2009-11-23 05:15:44,179,161,338,376,3,"still mid-refactor on min_periods
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@49 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney
+49,5802862c3854c5f2393743014889eced6cc4e2fd,0,-1,False,-1,Wes McKinney,wes******@gmail.com,Wes McKinney,wes******@gmail.com,2009-11-23 21:42:43,2009-11-23 21:42:43,767,556,1639,1122,8,"finished min_periods implementation, cleanup of shared code between MovingOLS and MovingPanelOLS
+
+git-svn-id: http://pandas.googlecode.com/svn/trunk@50 d5231056-7de3-11de-ac95-d976489f1ece
+",1,wes******@gmail.com,Wes McKinney,wes******@gmail.com,Wes McKinney

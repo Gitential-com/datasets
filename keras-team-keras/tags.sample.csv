@@ -1,0 +1,66 @@
+,id,name,message,type,author_time
+0,161d47b4b8b181eb2cb201e6fbcb6ea59b71afd8,refs/tags/0.1.0,"Add tag for pypi release
+",1,2015-06-12 11:07:22
+1,fabfdb868eb5d6b032dcaa9f71844743e57f69ca,refs/tags/0.1.1,"New tag for new pypi release
+",1,2015-06-13 17:51:51
+2,6a4aab453f42bda2368e51bc707c22c40c384b34,refs/tags/0.1.2,"0.1.2 pypi release
+",1,2015-07-16 23:30:29
+3,2c30d503eada5cb5429b6f6d8ced0e996760e40e,refs/tags/0.1.3,"0.1.3 PyPI release
+",1,2015-08-27 15:52:10
+4,d2189fef32470b3dce05b4765a40b501174bd0d4,refs/tags/0.2.0,"New PyPI release.
+",1,2015-10-10 17:51:59
+5,df860fdb94c63cf7898315277fe951d1c0ba16a9,refs/tags/0.3.0,"Introducing modular backends.
+",1,2015-11-29 13:08:45
+6,3f623df0209ef591a3c49626bdd83e5043484e31,refs/tags/0.3.1,"Update pypi release
+",1,2016-01-03 09:38:25
+7,657b9fb48e93b59083d2e0b8a5e4daf237179dbc,refs/tags/0.3.2,"New PyPI release
+",1,2016-02-08 14:01:02
+8,bdd70d06d3590828deeaa6e41c08bba1e6c74abc,refs/tags/0.3.3,"Last Keras 0.3 release. Keras 1.0 coming up next.
+",1,2016-03-31 11:15:44
+9,df42e997b7d0f7c5e417c6a5a452c6ddd51e4c24,refs/tags/1.0.0,"Keras 1.0.0 release
+",1,2016-04-11 09:20:52
+10,7a12fd0f8597760cf8e1238a9b021e247693517b,refs/tags/1.0.1,"1.0.1 release: bug fixes and performance improvements
+",1,2016-04-16 14:11:02
+11,5467107fc910d516c516b2b838624da376c1ba0d,refs/tags/1.0.2,"New PyPI release
+",1,2016-04-29 10:39:52
+12,8c2a573ebfef0fce5061c611bacbcae4dd5adc73,refs/tags/1.0.3,"New PyPI release
+",1,2016-05-15 13:13:19
+13,97e31b6090b809cc1987f7d16a1dc55379edaf42,refs/tags/1.0.4,"Add 1.0.4 tag.
+",1,2016-06-06 10:18:09
+14,4d404d1a5472bde5bef703bf8976022505d04ce9,refs/tags/1.0.5,"New PyPI release.
+",1,2016-06-27 12:01:20
+15,892d9fae846b2e15e73de075e7290a8bfcfeb145,refs/tags/1.0.6,"New PyPI release.
+",1,2016-07-16 12:25:03
+16,447445388ea934f991eaef033beba5c512c5945c,refs/tags/1.0.7,"New PyPI release.
+",1,2016-08-08 11:23:38
+17,d0659327bd2d70e47d8608ea9a48a9b9f4cd4a3d,refs/tags/1.0.8,"New PyPI release.
+",1,2016-08-27 17:04:58
+18,b2e3780e8cf864508d29df554d1cd26aa44824cd,refs/tags/1.1.0,"New PyPI release
+",1,2016-09-19 13:18:22
+19,c6d2ccd453bc71144ba891abc6876772144985c4,refs/tags/1.1.1,"New PyPI release.
+",1,2016-10-31 13:12:59
+20,2ddd2bd557bd20e2f6856621bf22e8da8cb6acc8,refs/tags/1.1.2,"New PyPI release.
+",1,2016-11-25 20:52:27
+21,12d068f67554f49707e34cca62981d1196c76aff,refs/tags/1.2.0,"New PyPI release.
+",1,2016-12-19 15:34:08
+22,262e5751f474f51197ea13e3457bf348c7d6ff13,refs/tags/1.2.1,"Prepare PyPI release
+",1,2017-01-19 15:58:53
+23,4fa7e5d454dd4f3f33f1d756a2a8659f2e789141,refs/tags/1.2.2,"New PyPI release.
+",1,2017-02-10 08:59:58
+24,f78d417f948cdfaaca22fabf90e01a76db126237,refs/tags/2.0.0,"Keras 2 PyPI release.
+",1,2017-03-14 08:33:44
+25,9cf7f816f28a6ac7d7a4264ae015addd72e57321,refs/tags/2.0.1,"New PyPI release.
+",1,2017-03-16 11:40:14
+26,576f8fe8e6a21b7094316d36c315c2f6bdb487cc,refs/tags/2.0.2,"New PyPI release.
+",1,2017-03-21 16:37:37
+27,0fb0c22f3998c7c92f47837b8cd54009a3a19f75,refs/tags/2.0.3,"Tag for new PyPI release.
+",1,2017-04-09 15:26:14
+28,c627fa5bbdb37d9f196486b27b5cec7445ab7704,refs/tags/2.0.4,,1,2017-04-29 16:18:54
+29,d4b618bf23d83b1a7306bc6816bd509c23bba15d,refs/tags/2.0.5,,1,2017-06-12 11:46:21
+30,f120a56009606f4f07711511d1d7df2f85dfbc08,refs/tags/2.0.6,,1,2017-07-07 13:48:29
+31,14a12e94c8edb683ae0c85d7d2db54724e902a6f,refs/tags/2.0.7,,1,2017-08-21 15:13:50
+32,c7dd36a1bab362de478f528078261439b803aaa7,refs/tags/2.0.8,,1,2017-08-25 12:01:46
+33,c25e06f05a245ebf127ed3856eea19a7c73a9ab9,refs/tags/2.0.9,,1,2017-11-01 13:03:25
+34,e3e97c401aa8251e957b73fba8ed4d108c106f12,refs/tags/2.1.0,,1,2017-11-13 11:52:31
+35,018e55be7c77f168abaea898233ccec035bb39d0,refs/tags/2.1.1,,1,2017-11-14 13:40:18
+36,26d5e100148272166868da8f817e1a4fb49e34cc,refs/tags/2.1.2,,1,2017-12-01 10:12:33

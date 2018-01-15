@@ -1,0 +1,186 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,6a3abf2366e2c32ce3460155903262fee01736c8,0,-1,False,-1,Miško Hevery,m****@hevery.com,Miško Hevery,m****@hevery.com,2014-09-18 09:12:01,2014-09-18 09:12:01,0,0,0,0,2,"Initial commit
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+1,afa761646472120edef1f9b01f219f125f20128e,-82970,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-18 14:56:38,2014-09-19 13:59:28,0,187,0,125,15,build - refactor,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+2,5af57922dbf5b3cf76adb5e3831f9aa21dddc17c,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-19 21:55:04,2014-09-19 21:55:04,0,0,0,0,1,"chore: add .c9 to gitignore
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+3,9f1db3f2bcf67f49c9b145e1d1e8f090220372df,-270,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-19 21:55:37,2014-09-19 22:00:07,5,5,0,0,2,"chore: correct postinstall.sh script
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+4,6e4477fc0880e12c9f4c2959e4bf1ae075794bc3,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-19 23:03:36,2014-09-19 23:03:36,0,0,0,0,4,"WIP
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+5,e45ecd6d58986c45955081c14295cd28d984846e,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-19 16:37:56,2014-09-19 16:37:56,4,4,4,4,1,"chare: changed gulp to support test folder
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+6,45f8a5119488d28bf90311b2dd7fc55ee6f7d92a,-101456,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-19 14:29:20,2014-09-20 18:40:16,1,0,2,0,1,"build: prevent infinite loop during install
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+7,88aac42c6d4147117aae46c933ee651a869dc6c2,-96,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-20 18:38:41,2014-09-20 18:40:17,0,0,0,0,0,"chore(build): update to updated version in js2dart
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+8,e5224d2cb38f8eec93d6eb3dd576d5babdbb97b3,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-21 22:02:28,2014-09-21 22:02:28,30,31,25,37,1,chore(build): make watch faster / only build what is needed,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+9,57b3297bf65fb781848b0a72e84dbbadcb4b57ff,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-24 20:20:59,2014-09-24 20:20:59,27,38,25,25,11,refactor: always use js2dart traceur and make examples run again,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+10,47bd68b33db537eebea74d3a5e6f2f182e727008,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 10:44:42,2014-09-25 10:44:42,0,0,0,0,0,update js2dart,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+11,29c20f7a506e1e88658729f31ddbb07f51ecad9c,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 11:14:56,2014-09-25 11:14:56,0,0,0,0,0,update js2dart,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+12,8afa421d75c95562060e35dbe8f576bd1e81c294,-508393,-1,False,-1,Misko Hevery,m****@hevery.com,Tobias Bosch,tbo*******@gmail.com,2014-09-19 16:38:37,2014-09-25 13:51:50,5,432,4,283,41,first chunk of interfaces that are valid via dart analyzer,1,m****@hevery.com,Misko Hevery,tbo*******@gmail.com,Tobias Bosch
+13,61ceed5bf641e3001776332e125a671a06709c9c,-65,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 14:28:46,2014-09-25 14:29:51,0,0,0,0,3,moved submodules into the repo,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+14,97f6ceb27b918bfae99dcc46ebdda5a1d8c55f47,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 14:30:10,2014-09-25 14:30:10,0,1730,0,1445,33,moved submodules into this project,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+15,b42111a608f18e4adaa24327fb72d0509fc15f7e,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-25 16:53:32,2014-09-25 16:53:32,10,139,7,127,10,"design: added record interface
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+16,100d66222ce58dab468e3876e0e3599479f4f9c7,-19,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 17:55:46,2014-09-25 17:56:05,51,152,46,112,7,"build: execute `pub get` and `dart analyzer`
+
+When chaining a `pubspec.yaml` we automatically run `pub get`.
+
+In `gulp build` we also run `dartanalyzer` for all files
+that have the pattern:
+
+`<module>/lib/<module>.dart`
+
+Closes #13
+Closes #5
+Closes #2
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+17,eb8336816a42200321a97be538d5c7be9e52b1ee,-43305,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-25 21:01:52,2014-09-26 09:03:37,0,0,0,0,1,"chore: update .gitignore for web-storm
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+18,87dd88ff0c03a22e7b53fafd11ef46035c83ce46,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-26 09:23:04,2014-09-26 09:23:04,2,5,2,8,1,fix: correct library not to have lib and dart in name.,1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+19,2cc1a4c35420e62829d886f1f84c2731d0f7ef33,-986,-1,False,-1,Victor Berchet,vi****@suumit.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 09:23:11,2014-09-26 09:39:37,7,17,10,18,3,"refactor(js2dart): refactor dart library statement
+
+fixes #12
+closes #16",1,vi****@suumit.com,Victor Berchet,tbo*******@gmail.com,Tobias Bosch
+20,a75a3d0b315ac8da803a60d907838b235c4dc04e,12707,14580,False,-1,Victor Berchet,vi****@suumit.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 13:26:11,2014-09-26 09:54:24,21,23,26,24,2,"refactor(js2dart): use the parent functionalities as mush as possible
+
+Closes #18
+",1,vi****@suumit.com,Victor Berchet,tbo*******@gmail.com,Tobias Bosch
+21,7e3005e705aa97598dfdc5cfa0db83d4993eb648,-66,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 09:53:26,2014-09-26 09:54:32,1,1,2,2,2,"fix(js2dart): make tests work again
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+22,6335fc407c46184998262402316f71ae7bf42b5d,-13967,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-26 11:20:08,2014-09-26 15:12:55,71,195,45,159,10,"design: add changed detection API
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+23,c3b442ea53ad43fd348f80a579a82060aa239c7b,-96548,-1,False,-1,Vojta Jina,voj*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-25 14:04:46,2014-09-26 16:53:54,227,307,210,314,26,"chore: karma with JS, Dart
+
+Note: karma with dart is still not working
+because of how `karma-dart` loads `package:…` dependencies.
+
+Usage:
+```
+karma start karma-js.conf.js
+karma start karma-dart.conf.js
+```
+
+Make sure to set `DARTIUM_BIN` env variable.
+
+Refactors `js2dart`:
+- live outside of the traceur module (`tools/js2dart/index.js`)
+  so it can be reused by gulp and karma
+- automatically build the sources in memory,
+  so that `js2dart` can be used without running `gulp build` first
+- provide a way to specify the moduleName of a compilation run
+  independently of the input filename. This helps error messages
+  and source maps (not yet enabled) to report the correct file name
+
+Changes project setup:
+- add module `test_lib` that contains the primitives for tests
+  (e.g. `describe`, `it`, …)
+- clean up some sources that had errors in them
+- module names in transpiled js and dart files don’t contain
+  `lib`, `test` nor `src` any more (e.g. `di/di`).
+",1,voj*******@gmail.com,Vojta Jina,tbo*******@gmail.com,Tobias Bosch
+24,c8cf03f200277d395ee75aada2d65a9cad716ff8,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 17:36:57,2014-09-26 17:36:57,10,713,13,590,9,"refactor: move rtts-assert into `modules` directory
+
+The rtts assertion lib is only needed for js, 
+but it should be treated like any other module (e.g. facade, …)",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+25,d42fa0786346969d05c7664d57da2e5f615d0bb6,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 17:38:38,2014-09-26 17:38:38,4,8,1,5,5,fix(examples): make todo example run again,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+26,39c03e67e600ec81d312b5809ef425695829006a,-315,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-26 17:39:27,2014-09-26 17:44:42,825,33,656,27,43,refactor: rename `js2dart` to `transpiler`,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+27,9c7c7e8acffda77d0ee46423e802678d8f415627,-62,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-28 16:29:11,2014-09-28 16:30:13,104,149,81,116,16,"design: simplified view interfaces
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+28,817c005845bcd5f8ea185937a4684d7f607eb697,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-28 20:02:32,2014-09-28 20:02:32,27,65,27,57,9,test: added simple View test,1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+29,c79f0c3472a23ee4ba36c90a6fb87caa2957e610,-28537,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-28 13:55:01,2014-09-28 21:50:38,248,277,207,205,47,"refactor: simplify and make tests work in JS and Dart
+
+* remove `wraps` syntax enhancements for imports
+  and support new `import * as module from ...` syntax
+
+  - default imports are the wrong construct for importing
+    everything from a module
+
+* moved tests from transpiler to jasmine and karma
+
+  - transpiler tests are included when running karma in main project folder
+  - transpiler is reloaded after every test run in karma,
+    so no need to restart karma when the transpiler has been changed.
+  - removed own gulp build for transpiler and `postinstall.sh`
+    as they are no more needed.
+  - transpiler tests are now executed in Dart AND JavaScript (used to be executed
+    only in Dart), which allowed to catch some bugs (see the bug with the
+    import specification above).
+
+* made tests work in dart as well by using the following hack:
+
+  - dependencies are loaded from the `build` folder, which makes
+    running `gulp build` necessary before running karma for dart
+  - for this to work,
+    the dependencies are included in main `pubspec.yaml` of project
+  - reason for the hack: `karma-dart` loads all `packages` urls
+    directly from disc (should rather use the karma file list)
+
+* added explicit annotations `FIELD`, `ABSTRACT`, ... to `facade/lang.*`
+
+  - needed for now that we can run tests and don't get errors for undefined
+    annotations.
+
+* added `README.md` with details about the build and tests",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+30,1907c590c806a318b6a459bc871db2930856ba6f,0,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-29 14:21:38,2014-09-29 14:21:38,104,0,92,0,1,refactor: removed stale build file,1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+31,85b5543f6285856b5e6eb875563ec48f70a8b5f9,-8010,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-09-29 14:20:23,2014-09-29 16:33:53,13,197,14,154,10,"feat: travis-ci integration
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+32,92375c0281c091608330b92e8da3adc753918ba6,0,-1,False,-1,Victor Berchet,vi****@suumit.com,Victor Berchet,vi****@suumit.com,2014-09-30 14:21:46,2014-09-30 14:21:46,0,0,0,0,1,"chore(README): update instructions
+",1,vi****@suumit.com,Victor Berchet,vi****@suumit.com,Victor Berchet
+33,64d3cc68f07725292d448b4a79fe37d0792a9aee,-73,-1,False,-1,Victor Berchet,vi****@suumit.com,Victor Berchet,vi****@suumit.com,2014-09-30 16:14:22,2014-09-30 16:15:35,127,215,153,226,7,"refactor(transpiler): split the monolithic dart transformer
+
+fixes #24
+
+The new architecture conforms with the Traceur architecture.
+",1,vi****@suumit.com,Victor Berchet,vi****@suumit.com,Victor Berchet
+34,e3254d4a7dcb16f576d3f96956b3250afc53776d,-405,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-30 15:50:20,2014-09-30 15:57:05,40,44,39,44,2,"design: update change_detection
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+35,934f31a4fae81ee68c423bd6052defc0be7d096a,-123,-1,False,-1,Vojta Jina,voj*******@gmail.com,Vojta Jina,voj*******@gmail.com,2014-09-30 16:55:59,2014-09-30 16:58:02,4,31,8,47,1,"chore: fix karma dart setup
+",1,voj*******@gmail.com,Vojta Jina,voj*******@gmail.com,Vojta Jina
+36,69210e4fde38433b4aa6c66e7c4e0e0093171df3,-1376,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-09-30 16:39:37,2014-09-30 17:02:33,9,51,9,57,2,"design: add test change_detection
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+37,99bad64c3f40590f6bf504b4c4bf4740e8cadd80,0,-1,False,-1,Victor Berchet,vi****@suumit.com,Victor Berchet,vi****@suumit.com,2014-10-01 17:32:59,2014-10-01 17:32:59,0,0,0,0,1,"doc(README): HOWTO debug the transpiler
+",1,vi****@suumit.com,Victor Berchet,vi****@suumit.com,Victor Berchet
+38,cff47d4f8eae7bb2e9df63d6053647878ef83e3f,-439015,-1,False,-1,Victor Berchet,vi****@suumit.com,Vojta Jina,voj*******@gmail.com,2014-09-26 09:25:52,2014-10-01 11:22:47,1,1,2,2,1,"fix(DartWriter): number (js) maps to num (dart)
+",1,vi****@suumit.com,Victor Berchet,voj*******@gmail.com,Vojta Jina
+39,c85ab3a5a44c1596f7934cccab1a82e7fcf0c7ad,-428312,-1,False,-1,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,2014-09-26 13:52:12,2014-10-01 12:50:44,2,658,0,587,7,"feat(lexer): initial (wip) implementation.
+",1,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa
+40,c7feaba1cb095b2f13339f372a64f00c13947957,-573,-1,False,-1,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,2014-10-01 16:56:44,2014-10-01 17:06:17,1,22,0,18,2,"feat(DartWriter): support string interpolation
+",1,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa
+41,3482fb1291207b23f23e5de600c8eeaa611205da,-519,-1,False,-1,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,2014-10-01 16:57:38,2014-10-01 17:06:17,8,13,7,8,2,"feat(facade/lang): support int
+",1,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa
+42,d7d52aaef2b034f5507209640f073fd575ae073a,-445,-1,False,-1,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,2014-10-01 16:58:52,2014-10-01 17:06:17,59,58,51,51,2,"refactor(lexer): rename to scanner, use ints, etc.
+",1,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa
+43,78d758b4bba0722b476aba8fad3db466e0bb6e79,0,-1,False,-1,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,2014-10-01 19:58:22,2014-10-01 19:58:22,61,63,12,20,3,"fixes to get tests green with karma dart
+",1,ch*****@chirayuk.com,Chirayu Krishnappa,ch*****@chirayuk.com,Chirayu Krishnappa
+44,f9923ea7db1b42d9eac7ab0dc40c24d2b4c7dc6d,-688,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-10-01 22:05:46,2014-10-01 22:17:14,5,12,2,5,4,"test: add example test for change_detection
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+45,64fe73e20da5a615a73751c648d78c36a74f836d,-176744,-1,False,-1,vsavkin,vic*******@gmail.com,vsavkin,vic*******@gmail.com,2014-09-30 16:25:20,2014-10-02 17:31:04,4,172,2,155,6,"feat(transpiler): handle named params
+",1,av******@gmail.com,Victor Savkin,av******@gmail.com,Victor Savkin
+46,33af1d0b394293d4765b62285b77864b2a945294,-13387,-1,False,-1,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,2014-10-02 12:27:01,2014-10-02 16:10:08,86,175,78,183,22,"chore(build): execute `pub get` only if a pubspec.yaml changed and run `dart analyzer` on all dart files
+
+`pub get` is now only executed when the `pubspec.yaml` in the `modules`
+folder is different than the `pubspec.yaml` in the `build/dart` folder.
+
+Generates the file `build/dart/_analyzer.dart` that imports all modules
+to run `dart analyzer` against all of them. The build will fail whenever
+there are errors, warnings or hints in `dart analyzer`.
+
+Changes the sources so that `dart analyzer` does not report any
+error, warning or hint.
+
+Closes #40
+",1,tbo*******@gmail.com,Tobias Bosch,tbo*******@gmail.com,Tobias Bosch
+47,fd0c2d8063fcb7bc6cd89b1823a02d6710e2ac31,0,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-10-02 20:39:27,2014-10-02 20:39:27,2,47,0,27,5,"design: added selector interface
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery
+48,089a2f1b622c98f5f57f8177d35604e3fc8d791a,-102782,-1,False,-1,Victor Berchet,vi****@suumit.com,Misko Hevery,m****@hevery.com,2014-10-01 16:29:45,2014-10-02 21:02:47,74,374,79,456,15,"feat(transpiler): constructor and typed field semantics
+
+fixes #11 (constructor and typed field semantics)
+fixes #42 (Should we infer class property types from ctor args ?)
+fixes #17 (number (js) should map to num (dart))
+
+Closes #45
+",1,vi****@suumit.com,Victor Berchet,m****@hevery.com,Misko Hevery
+49,cbd429640f13084f1e4772404d299b3c93eeabf7,-433,-1,False,-1,Misko Hevery,m****@hevery.com,Misko Hevery,m****@hevery.com,2014-10-02 20:55:35,2014-10-02 21:02:48,3,0,4,0,1,"chore: remove hello test
+",1,m****@hevery.com,Misko Hevery,m****@hevery.com,Misko Hevery

@@ -1,0 +1,71 @@
+,id,name,message,type,author_time
+0,48408fc0e26669998cdb7f28604d163b0feb8130,refs/tags/0.12.0-rc0,,1,2016-11-28 14:31:19
+1,68322a636fdcd8cbc6548d103a0cf82667b7c8b1,refs/tags/0.12.0-rc1,,1,2016-12-09 20:59:10
+2,4d924e796368163eff11a8151e8505715345f58d,refs/tags/0.12.1,,1,2016-12-25 08:44:34
+3,b2dc60eaa9c00421293b87824a2047fdcf6fa331,refs/tags/0.5.0,"TensorFlow 0.5.0: initial public release.
+",1,2015-11-08 17:41:48
+4,8242b4dd1b36440e191fef8a07b6f37d8bcee60d,refs/tags/0.6.0,"TensorFlow 0.6.0
+
+Major Features and Improvements
+
+* Python 3.3+ support via changes to python codebase and ability
+  to specify python version via ./configure.
+
+* Some improvements to GPU performance and memory usage:
+  [convnet benchmarks](https://github.com/soumith/convnet-benchmarks/issues/66)
+  roughly equivalent with native cudnn v2 performance.  Improvements mostly due
+  to moving to 32-bit indices, faster shuffling kernels.  More improvements to
+  come in later releases.
+
+Bug fixes
+
+* Lots of fixes to documentation and tutorials, many contributed
+  by the public.
+
+* 271 closed issues on github issues.
+
+Backwards-incompatible changes
+
+* tf.nn.fixed_unigram_candidate_sampler changed its default 'distortion'
+  attribute from 0.0 to 1.0. This was a bug in the original release
+  that is now fixed.
+",1,2015-12-09 17:00:29
+5,c715c3102df1556fc0ce88fc987440a3c80e5380,refs/tags/v0.10.0,,1,2016-09-08 14:49:36
+6,3cb39956e622b322e43547cf2b6e337020643f21,refs/tags/v0.10.0rc0,,1,2016-07-29 14:34:44
+7,282823b877f173e6a33bbc9d4b9ad7dd8413ada6,refs/tags/v0.11.0,,1,2016-11-09 14:07:53
+8,2dea76c0b8eb5b8302454137c055f9e7b7dcea39,refs/tags/v0.11.0rc0,,1,2016-09-30 10:15:46
+9,671f4c6519b4d82d3e97ab96825e0a748fae8e5d,refs/tags/v0.11.0rc1,,1,2016-10-20 17:06:33
+10,b5943bd1bcaa1510ab035a82f20adb6f7b2f7b05,refs/tags/v0.11.0rc2,,1,2016-10-31 10:55:37
+11,c62a66bcd4d6f009e0b416055e2ecb8ef50fd0aa,refs/tags/v0.12.0,,1,2016-12-19 15:18:10
+12,09e2e823bdbcb86542acef851c42754578be3f6c,refs/tags/v0.6.0,,1,2016-02-10 12:27:36
+13,d0db73a0648e3f1e8367606225e4df2f0d34d0c0,refs/tags/v0.7.0,,1,2016-02-16 08:57:59
+14,028d0b46004c921acd48fdd0ec18128d79e18bf4,refs/tags/v0.7.1,,1,2016-02-19 23:42:14
+15,4b7bc3174ed67b4a0eb1803537c9d00f132e9ae7,refs/tags/v0.8.0,,1,2016-04-22 13:51:21
+16,31ea3dbf57d67b32ca1708e7d8cd5fb43e7810b1,refs/tags/v0.8.0rc0,,1,2016-04-13 08:26:19
+17,25023dffcf88f46777b5ddab457ac84a5bed5d2f,refs/tags/v0.9.0,,1,2016-06-21 14:36:21
+18,9425f822d8a5dc657022eed5c5142b4bf7b1087a,refs/tags/v0.9.0rc0,,1,2016-06-05 23:56:44
+19,07bb8ea2379bd459832b23951fb20ec47f3fdbd4,refs/tags/v1.0.0,,1,2017-02-10 22:09:08
+20,9937f8c6459c18529b31e50262726a8b40c12a7a,refs/tags/v1.0.0-alpha,,1,2017-01-09 16:17:51
+21,0174cb2541b540653859399491ff9c2192a3d29d,refs/tags/v1.0.0-rc0,,1,2017-01-26 10:57:25
+22,114a4627cb4b05dacb3228d5815a8dac30ddb07a,refs/tags/v1.0.0-rc1,,1,2017-02-03 15:13:00
+23,1536a84f32f1fe77efd3fee6e5933a1dfe4e10bb,refs/tags/v1.0.0-rc2,,1,2017-02-08 08:34:35
+24,e895d5ca395c2362df4f5c8f08b68501b41f8a98,refs/tags/v1.0.1,,1,2017-03-07 12:49:01
+25,1ec6ed51182adf8f1b03a3188c16cd8a45ca6c85,refs/tags/v1.1.0,,1,2017-04-20 18:01:36
+26,a23f5d7f7757623a4ea8c6e1d743d178a0c561c5,refs/tags/v1.1.0-rc0,,1,2017-03-23 19:51:15
+27,efe5376f3dec8fcc2bf3299a4ff4df6ad3591c88,refs/tags/v1.1.0-rc1,,1,2017-04-04 11:07:14
+28,4019c5837d21aee67e7365ae579bfd04c7ec6f88,refs/tags/v1.1.0-rc2,,1,2017-04-15 05:41:11
+29,12f033df4c8fa3feb88ce936eb1581eaa92b303e,refs/tags/v1.2.0,,1,2017-06-14 12:02:07
+30,c462db435a45ec173c9e0fd946ce8e6d09b7d192,refs/tags/v1.2.0-rc0,,1,2017-05-19 14:49:40
+31,636367bba8ceddc456419b0278e8c7655ea97edd,refs/tags/v1.2.0-rc1,,1,2017-05-26 11:29:48
+32,ce1d6ec49bb0aea2ee2e5bd90e424345e6846fc8,refs/tags/v1.2.0-rc2,,1,2017-06-05 19:34:52
+33,b4957ffc69e73cf8348db7f381438c3b0ccabd14,refs/tags/v1.2.1,,1,2017-06-29 18:34:24
+34,9e76bf324f6bac63137a02bb6e6ec9120703ea9b,refs/tags/v1.3.0,,1,2017-08-16 18:20:32
+35,181971fd1dfc01730ce8b2aa74d90553709ee61d,refs/tags/v1.3.0-rc0,,1,2017-07-19 13:17:35
+36,6f0d70e7c0e63c15020d889e5b63e0438e14d3b3,refs/tags/v1.3.0-rc1,,1,2017-07-26 16:47:36
+37,2784b1c4318add93d9cc9d1877962fed75ef604b,refs/tags/v1.3.0-rc2,,1,2017-08-03 13:32:46
+38,48c54eee17b35ebc15e274e36632eccb76072f7d,refs/tags/v1.3.1,,1,2017-09-26 10:54:56
+39,d752244fbaad5e4268243355046d30990f59418f,refs/tags/v1.4.0,,1,2017-11-01 16:21:13
+40,5a944dc4f46edd464d8e645956d3a4f653f0d14e,refs/tags/v1.4.0-rc0,,1,2017-10-10 16:45:41
+41,358298a3c25e0736a408cac8ae46fb198ec397c3,refs/tags/v1.4.0-rc1,,1,2017-10-20 16:10:16
+42,438604fc885208ee05f9eef2d0f2c630e1360a83,refs/tags/v1.4.1,,1,2017-12-08 12:12:18
+43,622487f55481fd914bbf8f340c44ff2bb1d059de,refs/tags/v1.5.0-rc0,,1,2018-01-02 16:00:43

@@ -1,0 +1,224 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,f1a2d6376c430f65550efa235209b86c1a0967e3,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-18 15:45:10,2001-12-18 15:45:10,0,1337,0,2644,14,"factored out the scipy specific distutils code into a scipy_distutils package.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+1,74a4958b94e07b2e3218741fb52d32e87308d62e,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-25 06:03:41,2001-12-25 06:03:41,0,303,0,475,3,"split scipy_test off into its own module.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+2,a76efe8206df0ec315f67012236577c1e31ad258,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-25 06:05:32,2001-12-25 06:05:32,1,29,2,48,3,"added build_py module
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+3,76cfe839f027edd48a86112bc8e1490d848d20d0,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-25 06:06:40,2001-12-25 06:06:40,37,102,52,152,5,"added misc_util file that has a few routines used extensively in setup_xxx.py files and test files within scipy
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+4,b1263a71669aad6b9ac5db8ce961a18c204e925f,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-31 08:40:02,2001-12-31 08:40:02,1,128,2,242,2,"fixed path issues resulting from using setup_xxx.configuration() methods to grab information about package for use in setup.py.  the configuration() methods use absolute path names to identify files.  This is bad for sdist which uses the relative path of a file to determine which directory it goes into in the source distribution.  To solve the problem, I have sdist search all absolute file paths for the ""greatest common directory"" among them.  This directory is removed from them to determine where the file will go in the distribution directories.  Files without absolute paths are always put in the top directory of the distribution.
+
+This procedure usually ends up with a setup.py module in the top directory of the source distribution and then a number of sub-directories that hold the actual package source code files.
+
+misc_util sprouted another function or two to help with the process of adding package paths to the PYTHONPATH.  There are some assumptions made about where distutils should look for these packages (first in the current directory then in the parent) that may not be generally true, but should work well for scipy.  It also results in setup.py files that work fine from with in scipy or for building stand along packages that may depend on other scipy packages.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+5,806417f9f8b3c3a2414362b0ee69684a7afe58cb,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-31 08:52:45,2001-12-31 08:52:45,0,14,0,17,1,"added package_config method to misc_util that should further simplify the creation of modules that depend on other modules.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+6,8d4cc5e1967f6b20e69158e5a2700aecc50d46e2,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-31 08:54:57,2001-12-31 08:54:57,1,1,0,0,1,"added default setting so users don't need to supply a dependency list for a package in package_config
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+7,d1d33442a918c2ec4b90dc5f777397e021cd10d1,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2001-12-31 09:13:38,2001-12-31 09:13:38,6,0,13,0,1,"removed print statements
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+8,410e5135d72f52969e10d76c3a79813aafb0509f,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-01 09:00:36,2002-01-01 09:00:36,1,1,2,2,1,"changed to using fortran class instead of instance for setting fortran compiler.  This was needed after Pearu's changes.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+9,51e5221297c8b013314242025fc039129931fbbd,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-01 09:08:35,2002-01-01 09:08:35,107,395,217,705,2,"Implemented multiple changes provided by Pearu that increased the number of compilers supported, added some optimization flags, and generally cleaned things up.  I made changes needed to get things rolling for scipy on win32 again.  I've included an email exchange discussing changes below:
+
+I changes are checked into CVS.
+
+1. is_available()
+In is_available(), I'm not sure whether any compilers will return an empty version.  I don't think any of them do right now -- but I'm not sure about Sun.  For now, lets use your implementation and deal with it later if it turns out to be a problem.
+
+2. sun compile switches
+class sun_fortran_compiler(fortran_compiler_base):
+
+    vendor = 'Sun'
+    ver_match =  r'f77: (?P<version>[^\s*,]*)'
+
+    def __init__(self, fc = None, f90c = None):
+        ...
+        self.f90_switches = ' -fixed ' # ??? why fixed?
+
+
+I think the fixed is left over from some compiler specific flags I needed in a project at Duke where all of our code was in fixed format.  It probably shouldn't be here.  However, if it isn't, we need a way of specifying the compiler options.  In distutils.extension, there is a
+
+    self.extra_compile_args = extra_compile_args or []
+
+argument.  We need an extra_fcompile_args or something like that.  I think distutils just appends the extra arguments to the end of the compile command.  This is unlikely to work with some Fortran compilers though.  I know the Absoft compiler isn't very sophisticated about handling command line arguments, and any extra args probably need to be placed before the source file in the command.
+
+3. cpu_info.py
+Something very similar to this already exists in scipy -- its called proc.py.  I'll look through it and see how to merge the stuff you added into the module.  This stuff is very OS specific and only works on Linux (and maybe BSD).  I wish proc worked on more machine types.
+
+*Well, for now I'm gonna keep the two separate modules.  We'll merge this stuff into proc in the future.
+
+4. optimization flags
+I've moved this to a get_opt() function.
+
+Also, we should have a flag to turn *on* machine specific optimization instead of making it the
+default.  If people build a binary distibution, it'll only work on specific architectures which can lead to trouble.  This shouldn't be the default behavior.
+
+For now, get_opt() still calls the arch dependent settings by default for the gnu and intel compilers.
+
+5. get_linker_so()
+This won't work on windows with mingw32.  The linker is a very strange thing there, and the -shared flag doesn't work.  I've had to add a little code back into the gnu_fortran class and
+do a test for win32.  I don't think seeting the libraries and library_dir hurts on linux.  Does it?
+
+6. is_available -> get_version
+This is just a better name for it.  is_available is still available... :)  It just calls get_version now.
+
+7. ***  Some vendors provide different compilers for F77 and F90
+        compilations. Currently, checking the availability of these
+        compilers is based on only checking the availability of the
+        corresponding F77 compiler. If it exists, then F90 is assumed
+        to exist also.
+
+This is a problem.  Worse than having different ones, gnu fortran doesn't even support f90.  We may want to split this stuff into separate classes.  I'd like to get more feedback from users running into problems on this one.
+
+see ya,
+eric
+
+----- Original Message -----
+From: ""Pearu Peterson"" <pearu@cens.ioc.ee>
+To: ""eric"" <eric@enthought.com>
+Sent: Monday, December 31, 2001 11:38 AM
+Subject: build_flib patch
+
+
+>
+> Hi Eric,
+>
+> Please find attached my changes to build_flib:
+>
+> *  Added NAGWare, VAST/f90 compilers support.
+> *  Refined Intel compiler support.
+> *  Added more aggressive optimization for Intel and Gnu compilers.
+> *  Added options --fcompiler-exec and --f90compiler-exec.
+> *  The later required some rewrote for compiler classes handling:
+>      Eg. the list all_compilers holds now compiler classes, not their
+>      instances. As a side effect, the handling is more efficient now.
+>      Etc.
+> *  Introduced a new file cpuinfo.py that defines a class for holding
+>    information about CPU. This is used for finding correct optimization
+>    flags for Intel and Gnu compilers. build_flib.py imports it.
+> *  get_f*_files functions recognize other Fortran file extensions as well.
+> *  Docs about bugs.
+> *  Cleaned up the code a bit.
+>
+> Happy New Year!
+> Pearu
+>
+
+-------
+
+> > One thing I noticed.  I think the intel compilers should come before the gnu
+> > compiler in the list so that they are used by default if both are installed.
+> > What do you think?
+>
+> I think the order should not matter. Users should use --fcompiler flag to
+> specify desired compiler. I have fixed this in my local source of
+> scipy_distutils, I'll send it later with other changes.
+
+If we move it up in the list, the default behavior will grab the ""better"" (or at least the commercial) compiler installed on the platform.  I think this is more desirable.  People can still specifiy the gnu compiler with a flag if they want to.  If they have many compilers installed, the flag is the only way to do it that I see.
+
+>
+> But there is one thing that should be addressed as well. And that is if
+> one wants to specify the path to the desired compiler (eg for
+> testing/using different compilers or different versions of the same
+> compiler). For example, on debian there are two F77 compilers, g77 (that
+> is 2.95.2) and g77-3.0. Both are Gnu, and the same class instance should
+> be used. So, to solve this, I can think of many solutions:
+>
+> 1) Get the compiler path from FC environment variable, so that one can run
+>
+>   FC=g77-3.0 ./setup.py build_flib --fcompiler=Gnu build
+>
+> Could this be useful also in Windows? I guess not.
+>
+> 2) Introduce a new switch for build_flib command:
+>
+>   ./setup.py build_flib --fcompiler=Gnu --fcompiler_exec=g77-3.0 build
+>
+
+Doing 2 is fine with me -- and you've already done it I see. :)
+
+eric
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+10,8d16fd4d21d2d8110523521be1d60f9c9a9cfd7f,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-01 09:21:09,2002-01-01 09:21:09,0,158,0,249,1,"cpuinfo.py is needed to calculate optimzation flags on linux.  It has much of the same functionality as scipy.proc, but I've included it for now.  We'll merge the two later.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+11,9f63f97880bc1a822d2cc21f76ae1b6fce31943f,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-01 09:48:06,2002-01-01 09:48:06,3,6,4,10,1,"get_path changes made by Pearu so that it works in core.run_setup
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+12,77c0f1efc32f1abcb9a0da40ce7afaaeb2673da8,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-02 02:40:07,2002-01-02 02:40:07,0,18,0,21,1,"fftw_info.py holds searches for fftw libraries on a persons machine.  It is made separate from the fftw library because it may be needed by other libraries later on.  Also, it could become useful to other projects trying to find fftw on a mchine.  Its very simple right now.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+13,07a8c78a393604779d3b1c6a572309f870e0eb74,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-02 02:40:56,2002-01-02 02:40:56,0,17,0,13,1,"setup configuration module for scipy_distutils
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+14,dc33f53aacad2c7d6c3552861fb92c3720b17867,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-02 02:41:53,2002-01-02 02:41:53,2,13,1,11,1,"Modified how configuration works
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+15,d58a351e8d758523bbfb6d97715004375912d4c5,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-02 04:56:19,2002-01-02 04:56:19,2,4,2,3,2,"Making this a package made installation easier because distutils doesn't allow both py_modules and packages -- not sure it would have worked even if it did
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+16,7161eb8ef2587dea3e8066bf209d0fe715057d0c,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-02 15:42:07,2002-01-02 15:42:07,26,28,29,52,2,"encapsulated all Numeric specific code within a try/except so that most functionality can be used without Numeric installed
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+17,6e13c0408681ef82fc5f70d002d34993f19cc659,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 19:50:46,2002-01-03 19:50:46,0,82002,0,72236,199,"renaming compiler to weave
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+18,a15e2fa6f0ee81a8eeec84dbab7ae88cdd7ad330,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 20:28:32,2002-01-03 20:28:32,347,3,723,0,4,"compile_code is no longer a part of weave
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+19,4ceef2e6c852d1a805aaf73cd409b1d7246e4121,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 20:32:35,2002-01-03 20:32:35,18,18,16,16,6,"more changes of names from compiler to weave
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+20,3df2f38b39cadae298b76934f28dcea7c9824b78,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 20:52:25,2002-01-03 20:52:25,2,2,2,2,1,"I missed changing the compiler name in __init__
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+21,be827bc27ad9439eaa6c5d0c59c61bfd6f638b40,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 20:54:08,2002-01-03 20:54:08,0,0,0,0,1,"more renaming of compiler to weave
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+22,b72a5a039b8278e198563a2bbab139ade4c3fdb6,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 21:02:37,2002-01-03 21:02:37,10,7,10,7,2,"moved test file creation to the temp directory so that it doesn't try to create files during test in a site-package sub-directory.  This caused failues on Unix for testing of installed package.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+23,e69d0cffe28f259a5e94ed73972e82f89be0c74d,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 21:05:33,2002-01-03 21:05:33,1,1,3,3,1,"removed an import * at function level because 2.2 complains about it
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+24,b4f5c98a78a4ed3ac50bae14c7d06c90b7a88a99,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-03 23:24:31,2002-01-03 23:24:31,3,3,5,5,3,"fixed minor bugs
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+25,dfa34a79638600346b06aab7d157db855d22a1ba,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 00:45:20,2002-01-04 00:45:20,1,1,2,2,1,"fixed catalog test so that it would work if mutliple people were testing at same time or if /tmp/test_catalog could not be written.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+26,06d067a4c9382426c8755cdcc39c3ce2ebf38706,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 03:40:54,2002-01-04 03:40:54,3,4,8,14,1,"changed inline() args so that arg_names defaults to an empty list.  THis allows you to run C code that doesn't need any arguments without supplying any.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+27,424101955d2f074aa32b21ac24bad2d767936094,0,-1,False,-1,Pearu Peterson,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,2002-01-04 08:42:56,2002-01-04 08:42:56,284,190,654,321,7,"fortran extension support
+",1,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,Pearu Peterson
+28,b63f8e5ed4d3276640e73072fd4b074d357d45e5,0,-1,False,-1,Pearu Peterson,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,2002-01-04 10:10:32,2002-01-04 10:10:32,0,1,0,2,1,"fixed get_opt for NAG compiler
+",1,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,Pearu Peterson
+29,a603ba140acaf24a365343c9c9b48904745e4386,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 15:32:32,2002-01-04 15:32:32,10,10,16,16,4,"changed tempdir to gettempdir(). fixed bug introduced in latest testing frenzy
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+30,d33eb99f6e64a721e9b76fbc8fa1969bdbdc5658,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 16:21:11,2002-01-04 16:21:11,0,0,0,0,1,"added a short README to tell where the documentation files are located
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+31,4b8ca90a8260c3718c5b1a7460bc24e22c083b23,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 16:39:45,2002-01-04 16:39:45,2,2,0,0,4,"added legal license information to the file.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+32,85b061626931d6aff7e589299bfae9509c8ec320,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 17:24:17,2002-01-04 17:24:17,0,1,0,0,1,"added MANIFEST.in so that I could specify that all .txt files are included in the distribution
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+33,c6ca53cd5ff3671d088cb1728b40e7ff8c0c5bb6,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 19:19:36,2002-01-04 19:19:36,0,0,0,0,1,"one final pass through before posting to python-dev
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+34,223f42b6e3201935e7e9304fddf798f1115de9eb,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 20:52:02,2002-01-04 20:52:02,0,0,0,0,1,"added benchmarks
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+35,0ebec761d9cd9d48f68d8f5442519c828bcd0a2a,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 20:57:18,2002-01-04 20:57:18,0,0,0,0,1,"added comment about single vs. double precision speed results
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+36,587e00a3ecd762fa58e04f7b46c29c654319f864,0,-1,False,-1,Pearu Peterson,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,2002-01-04 22:27:11,2002-01-04 22:27:11,7,87,13,129,3,"Introduced get_version, started compaq_fortran_compiler
+",1,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,Pearu Peterson
+37,b908030c39e3c5c490540597e93c5dc4bbcd77c7,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 23:24:48,2002-01-04 23:24:48,0,0,0,0,1,"fixed bug in tables that forced display width to certain number of pixels.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+38,2547260e6e69c2fd4f0527ca464e9fe4612623d8,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-04 23:54:32,2002-01-04 23:54:32,1,1,2,2,1,"changed insertion of stdc++ to check for msvc instead of platform == linux
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+39,c1a5d613bb52d1ae45cc8bb90e056c9181cad18b,0,-1,False,-1,Pearu Peterson,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,2002-01-05 12:02:28,2002-01-05 12:02:28,29,102,48,195,3,"refined get_version
+",1,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,Pearu Peterson
+40,fd3855d4fecb6a962a752c8e0f5d51eb34400a5e,0,-1,False,-1,Pearu Peterson,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,2002-01-05 12:03:04,2002-01-05 12:03:04,2,2,0,0,1,"refined get_version
+",1,pear**********@gmail.com,Pearu Peterson,pear**********@gmail.com,Pearu Peterson
+41,f2e5fb8573178cb7a8924d57e70bf9c199034622,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-05 17:07:10,2002-01-05 17:07:10,3,19,0,7,3,"changed import of fastumath as ""optional"" with a try/except clause.  This allows people without SciPy, but with Numeric to use blitz.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+42,9c3800541fde7929f892892af41b89efec29a186,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-05 17:42:47,2002-01-05 17:42:47,3,15,0,6,3,"converted all files (hopefully) from DOS style line endings to UNIX style line endings.  Some of the Unix users were having problems with files with DOS style endings.  Windows doesn't seem to be as picky about this issue.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+43,6d46146f04ab8ef404eefb093b2147b1d64a5d22,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 02:46:54,2002-01-06 02:46:54,221,0,339,0,1,"converted DOS line endings to UNIX
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+44,3f0a7c931f04d6f8866235bec1bdbab16bbc84cd,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 02:49:21,2002-01-06 02:49:21,0,221,0,339,1,"screwed up last check in. Returning to previous version
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+45,b2e1b50ccd32c98a959f4d6c59fd84f714effd47,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 04:07:38,2002-01-06 04:07:38,0,0,0,0,0,"converted DOS line endings to UNIX line endings
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+46,fbeedee8e7a99b9628832898379f8da9e132c43d,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 07:20:55,2002-01-06 07:20:55,2,2,8,8,1,"fixed a bug in declarations for ext modules.  Types were not being cast correctly.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+47,a0515424696067f0b63dd295c5fb6df1bd31e444,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 07:54:16,2002-01-06 07:54:16,0,155,0,188,3,"Added ramp example brought up by Brent Burley on comp.lang.python.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+48,556e691b9b82db9053a73a5ee5158988cd8d65bf,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 17:40:43,2002-01-06 17:40:43,2,8,6,18,1,"Prabhu found an issue in his test run where we try to delete a path_key that isn't available.  THis can occur is a built-in function is added to catalog.  built-ins do not have a path to their module (they are builtin after all).  We now check to make sure that the catalog has the key before deleting it.
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones
+49,0074d56dca0d99f7bed07ea9d7bf61dbde828209,0,-1,False,-1,Eric Jones,e***@enthought.com,Eric Jones,e***@enthought.com,2002-01-06 20:21:31,2002-01-06 20:21:31,1,1,2,2,1,"forgot : at end of if statement
+",1,e***@enthought.com,Eric Jones,e***@enthought.com,Eric Jones

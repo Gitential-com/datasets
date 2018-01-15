@@ -1,0 +1,110 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,33850c0ebd23ae615e6823993d441f46d80b1ff0,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-06 13:12:57,2010-04-06 13:12:57,0,356,0,519,15,"Initial checkin of stuff that exists so far.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+1,b15ad394279fc3b7f998fa56857f334a7c0156f6,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-06 13:23:18,2010-04-06 13:23:18,0,19,0,16,2,"Added setup.py and README
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+2,4ec7d2a0d8eac4f915dc0d38a886cd57045bb0c4,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-06 16:02:14,2010-04-06 16:02:14,8,119,13,226,9,"Started working on documentation.
+
+So far just the stable parts :)
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+3,44b42e0fbd93d86e0f4e929bda8e5fb63e81035d,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-06 16:16:34,2010-04-06 16:16:34,0,0,0,0,1,"Added a README file for MiniTwit.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+4,3b36bef2e6165bb4dad73d17f23ee1879e99f497,0,-1,False,-1,Armin Ronacher,mit******@nausicaa.local,Armin Ronacher,mit******@nausicaa.local,2010-04-08 19:03:15,2010-04-08 19:03:15,23,38,34,58,4,"Improved documentation, added a contextmanager for request binding
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+5,4aa76212d1be9b17a57249549c2a73fb10b6cda8,0,-1,False,-1,Armin Ronacher,mit******@nausicaa.local,Armin Ronacher,mit******@nausicaa.local,2010-04-09 01:32:39,2010-04-09 01:32:39,1,16,6,38,6,"Updated documentation.  Starting to look pretty good
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+6,625eba4bb403296a8bbc1e72cc9cf4a5126f6c02,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-09 12:49:01,2010-04-09 12:49:01,0,0,0,0,1,"Heavily improved quickstart section.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+7,4edec48b74dbb9d571e927b69b24c30ec0624975,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-09 13:13:39,2010-04-09 13:13:39,0,0,0,0,1,"Added installation docs
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+8,727c701686c18c4a27ca523eb0c5862d497be24e,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-09 13:40:05,2010-04-09 13:40:05,0,0,0,0,5,"And finished documentation for most parts.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+9,a9d4ea81da28ee9c894bf9d45adc4cfa9d52fddc,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-09 13:46:12,2010-04-09 13:46:12,0,0,0,0,2,"Flashing -> patterns documentation
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+10,7d6b8e9ab3e738d69e39ad53a7c0f6a552d5284a,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-09 13:56:47,2010-04-09 13:56:47,5,31,16,62,1,"Documented non-decorator uses of registation.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+11,3d719f35f5c1ee4ce3dc01fb2167ef49c0180cf6,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-10 15:49:15,2010-04-10 15:49:15,4,4,8,8,13,"Added docs, fixed some bugs I introduced last commit
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+12,9dfab582d065521e9350327801ed2c5ced1c8fa1,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-10 16:00:13,2010-04-10 16:00:13,0,0,0,0,1,"Updated README
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+13,8e9bd5f009bb8756a2a7d76a4b792323eeee49d6,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-10 16:01:14,2010-04-10 16:01:14,0,0,0,0,1,"Fixed a typo
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+14,4e1b3e1134eb478563bc434d794085d0a412cb84,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-10 17:26:49,2010-04-10 17:26:49,0,0,0,0,1,"set secret key :)
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+15,05f36c7f7e2df36ee28f90d99632162579b1287c,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 02:20:10,2010-04-11 02:20:10,1,72,2,204,10,"Heavily improved documentation
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+16,1fff3e598126a084348ec2c112fdd3bc6b9a1ee0,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 02:42:13,2010-04-11 02:42:13,3,4,5,7,3,"Fixed a doc display bug and setup.py workaround for dev version.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+17,574e81f9c8bbdc41958e1e7a7613633b091101f8,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 02:46:44,2010-04-11 02:46:44,1,1,1,1,2,"Fixed a bug in setup.py
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+18,df929c6c77ea5490a969275e45075c29711a498c,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 02:58:13,2010-04-11 02:58:13,0,0,0,0,1,"further improved documentation
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+19,8171da88a49eba769d313a51591ee8575be59762,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:16:42,2010-04-11 03:16:42,0,0,0,0,1,"Described HTTP methods
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+20,85ca089dde8814c4a42ad4574cddce25d60e5e25,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:18:36,2010-04-11 03:18:36,0,0,0,0,1,"might -> must
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+21,4e7aa9e7f7a86ee0ea4b6801694c13151518cb52,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:22:26,2010-04-11 03:22:26,0,0,0,0,1,"Linked HTTP
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+22,4671429a509094f36e2294055340197091d39979,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:41:01,2010-04-11 03:41:01,0,0,0,0,4,"Added a security section to the foreword and a footnote to the g
+variable
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+23,d78b04a3fca8d8887382606897d4a97e55062fda,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:43:15,2010-04-11 03:43:15,0,0,0,0,1,"Footnotes are 100% in width
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+24,6a3a046f55755f0691568431e68a8bfea8d89df0,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 03:53:38,2010-04-11 03:53:38,0,0,0,0,1,"Another doc improvement
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+25,0b8e01b4450d0ba8cb65751d866568fddc155fa4,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 04:00:17,2010-04-11 04:00:17,0,0,0,0,1,"Linked escape
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+26,03168a5d53457fdb8676a4ac9fca0f76a23c6852,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 17:58:45,2010-04-11 17:58:45,0,0,0,0,7,"Removed the useless apishowcase example
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+27,f2dc38cda61f76c64b97ab9f730accc986a4b188,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 18:45:06,2010-04-11 18:45:06,3,2,4,3,4,"Added tests for minitwit.  Testing with Flask is awesome
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+28,ef524f2cfd65377b3b9ce896e7a710472b13c0f6,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 18:47:32,2010-04-11 18:47:32,0,0,0,0,1,"No need for the closing import
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+29,03148dba6b26a2694da1d466584f50189c52e7b3,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-11 19:18:40,2010-04-11 19:18:40,12,24,13,25,3,"Added testing documentation
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+30,2f5a4f8dbc832b0daebcd66ea8b3969589191fa7,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-12 00:14:59,2010-04-12 00:14:59,0,0,0,0,4,"Doc updates and typo fixes
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+31,51c9829a9cdfa2bf301431f686d7a404cc7c5083,-28946,-1,False,-1,moraes,mo****@moraes.(none),Armin Ronacher,armi**********@active-4.com,2010-04-12 08:15:35,2010-04-12 16:18:01,0,0,0,0,3,"Fixed couple of errors in docs.
+",1,mo****@moraes.(none),moraes,armi**********@active-4.com,Armin Ronacher
+32,36071ca1f42a26ef327e9d14e4909a8c92cd4fae,-3522,-1,False,-1,Justin Quick,jus******@gmail.com,Armin Ronacher,armi**********@active-4.com,2010-04-12 22:55:48,2010-04-12 23:54:30,0,0,0,0,1,"added in example tornado and gevent usage for flask integration
+",1,jus******@gmail.com,Justin Quick,armi**********@active-4.com,Armin Ronacher
+33,a01e8b49ca66608f0bd46134ff02deeb5724c799,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-12 19:52:18,2010-04-12 19:52:18,4,28,8,38,1,"Fixed a documentation error and implemented template context processors.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+34,de03143f6ecf9a36dd32f16f07309c64d4de03b0,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-12 20:19:16,2010-04-12 20:19:16,0,74,0,105,1,"Added some basic tests for flask itself
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+35,4affedec356ad8c9e6a107578f03fc7f5c615064,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-12 20:39:52,2010-04-12 20:39:52,0,8,0,15,1,"Testing URL generation
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+36,959b5df00431c436474c5abca304e631c0de7721,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-13 01:08:52,2010-04-13 01:08:52,3,2,6,4,1,"Flask can depend on Jinja2 and Werkzeug now that they are relased.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+37,a42728568e18bedf588be2357b56021ab85b9fad,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-13 01:42:31,2010-04-13 01:42:31,0,0,0,0,1,"Improved Flask README regarding Jinja2 and Werkzeug
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+38,8009bd986940378bba1399dbfce90d03e441467b,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 02:17:55,2010-04-14 02:17:55,0,0,0,0,1,"Fixed the mod_wsgi docs. Thanks Graham
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+39,08f1f0dc32004fae01cf96d1eed84e6461e698e5,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 02:42:12,2010-04-14 02:42:12,0,108,0,203,4,"Added more Flask tests
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+40,ca520fb7e4c29afccc637e61c11429a0f3e8d5ad,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 14:11:00,2010-04-14 14:11:00,5,14,14,32,3,"Static files are active in the WSGI app now, not just the server.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+41,2d9bb692728fd76b19e467499caa4f5fcb07aede,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 15:16:38,2010-04-14 15:16:38,3,24,4,38,1,"Flask now runs without the presence of pkg_resources as well.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+42,c33675f0251071ea47ce166b81ce8c637842f091,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 16:44:29,2010-04-14 16:44:29,0,0,0,0,7,"Added mini blogging application as Flask example.
+
+This should become the tutorial.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+43,fc94599285aa1aec50b3c9426697249e55edda0a,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 16:47:53,2010-04-14 16:47:53,0,0,0,0,2,"Removed useless imports and added README
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+44,1d8432ebfd1637eacab79a15e9b7963bf061371c,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 17:08:38,2010-04-14 17:08:38,0,1,0,0,1,"Can't believe I forgot that future import.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+45,c4f5c2fb9afc1679c085500830bd53fab93ad885,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-14 17:09:34,2010-04-14 17:09:34,0,0,0,0,1,"Fixed a typo
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+46,1246f4088a4fdc00a79f8029ff5d77bfe4fc9b14,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-15 02:21:46,2010-04-15 02:21:46,0,0,0,0,9,"First part of the tutorial.  Many explanations missing but it's a start.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+47,6dd92ae4b32c336564231e10db12458a8b9261ca,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-16 02:03:45,2010-04-16 02:03:45,0,0,0,0,7,"Beefed up the tutorial
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+48,40e0024d7b87150ed694829a5335bd2435962225,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-16 02:14:54,2010-04-16 02:14:54,2,9,5,9,3,"Added screenshot of the debugger to Flask docs.  Flask now runs from the
+shell again.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher
+49,7b5015010bc8c2a2d56c7c50b37e5b9facdad102,0,-1,False,-1,Armin Ronacher,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,2010-04-16 02:27:37,2010-04-16 02:27:37,7,11,13,17,1,"Preserve the request context in debug mode.
+
+This makes it possible to access request information in the interactive
+debugger.  Closes #8.
+",1,armi**********@active-4.com,Armin Ronacher,armi**********@active-4.com,Armin Ronacher

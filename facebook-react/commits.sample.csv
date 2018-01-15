@@ -1,0 +1,122 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,75897c2dcd1dd3a6ca46284dd37e13d22b4b16b4,-471,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 12:46:11,2013-05-29 12:54:02,0,21236,0,22710,317,"Initial public release
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+1,0ea0d2f76bd13a5fc6feb5e7e2e0564b1fa65bb8,0,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 13:04:54,2013-05-29 13:04:54,1,1,0,0,1,"Update release task to keep correct filename case
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+2,6fc478516b489ac5c41939777fa6f13e305dcb6e,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-29 13:11:15,2013-05-29 13:11:15,0,0,0,0,2,"Fix some URLs
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+3,e20747ef9bd206df6d03cc4c2ccb074eadf4a8df,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-29 13:24:51,2013-05-29 13:24:51,0,0,0,0,2,"Fix live editor on mobile devices
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+4,c5b4fe9e88a9a3b43cfd9b7e5383096bd9e213ef,0,-1,False,-1,Paul Shen,p***@mnml0.com,Paul Shen,p***@mnml0.com,2013-05-29 13:30:50,2013-05-29 13:30:50,0,0,0,0,1,"[docs] Fix button links on bottom of home
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+5,5ec4542dfbaacacaa672dd31b153ef3fedc0ddd8,0,-1,True,-1,Timothy Yung,yun******@gmail.com,Timothy Yung,yun******@gmail.com,2013-05-29 13:32:22,2013-05-29 13:32:22,0,0,0,0,1,"Merge pull request #2 from paulshen/homebuttons
+
+[docs] Fix button links on bottom of home",2,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+6,ef6754bce52fd12759f9a8c3c09a9003a4e5f49a,0,-1,False,-1,Paul Shen,p***@mnml0.com,Paul Shen,p***@mnml0.com,2013-05-29 13:37:07,2013-05-29 13:37:07,0,0,0,0,2,"[docs] Fix couple minor typos/spelling
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+7,0487cc8dea6db416ddee296184e1b0b7b59a7c70,0,-1,True,-1,Ben Newman,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,2013-05-29 13:39:34,2013-05-29 13:39:34,0,0,0,0,2,"Merge pull request #3 from paulshen/spellings
+
+[docs] Fix couple minor typos/spelling",2,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,Ben Newman
+8,99088b38d3554105d6ea8694c38c2e172227e804,0,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-29 13:48:12,2013-05-29 13:48:12,0,0,0,0,1,"[docs] Improve ""Event Handling"" documentation.
+
+Added some additional examples to explain common usage patterns for custom events.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+9,745e8dd7115999d2b146add101d1604bd45938d2,0,-1,True,-1,Paul Shen,p***@mnml0.com,Paul Shen,p***@mnml0.com,2013-05-29 13:50:12,2013-05-29 13:50:12,0,0,0,0,1,"Merge pull request #4 from yungsters/master
+
+[docs] Improve ""Event Handling"" documentation.",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+10,2087fde8ee2c0923f33bcfcded34bc7daeaff753,0,-1,False,-1,petehunt,pet******@fb.com,petehunt,pet******@fb.com,2013-05-29 14:52:42,2013-05-29 14:52:42,0,0,0,0,1,Update CONTRIBUTING.md,1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+11,a341f778ae277bf4636c75ceaadf83f203388b26,0,-1,False,-1,Jeffrey Lin,jef*******@fb.com,Jeffrey Lin,jef*******@fb.com,2013-05-29 13:51:49,2013-05-29 13:51:49,0,0,0,0,1,"Fix links in root README.md
+",1,jef********@blueapron.com,Jeffrey Lin,jef********@blueapron.com,Jeffrey Lin
+12,ece5b927a7555303143d3ef602bd15f5760a8d96,0,-1,True,-1,petehunt,pet******@fb.com,petehunt,pet******@fb.com,2013-05-29 13:53:08,2013-05-29 13:53:08,0,0,0,0,3,"Merge pull request #5 from jeffreylin/master
+
+Fix links in root README.md",2,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+13,b416760df05dcbf10f0283268e23e5279232de88,0,-1,False,-1,Paul Shen,p***@mnml0.com,Paul Shen,p***@mnml0.com,2013-05-29 13:53:08,2013-05-29 13:53:08,0,0,0,0,1,"[docs] Clean up formatting on /api.html
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+14,575bdb2932a260912f2e320f288144a42529b582,0,-1,True,-1,Timothy Yung,yun******@gmail.com,Timothy Yung,yun******@gmail.com,2013-05-29 13:54:13,2013-05-29 13:54:13,0,0,0,0,6,"Merge pull request #6 from paulshen/apidocs
+
+[docs] Clean up formatting on /api.html",2,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+15,8b345655990f1e889a13614e7acc20cf533adeb1,0,-1,False,-1,Jeffrey Lin,jef*******@fb.com,Jeffrey Lin,jef*******@fb.com,2013-05-29 13:54:16,2013-05-29 13:54:16,0,0,0,0,1,"Missed a link in README.md
+",1,jef********@blueapron.com,Jeffrey Lin,jef********@blueapron.com,Jeffrey Lin
+16,27eb172a2fe7d5e74a3c749be441fa81c2cc0e4d,0,-1,True,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 14:01:22,2013-05-29 14:01:22,0,0,0,0,4,"Merge pull request #7 from jeffreylin/master
+
+Missed a link in README.md",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+17,eaae75991bafc172ce10627fbbb5661274d7ee29,-19,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-29 14:01:23,2013-05-29 14:01:42,0,0,0,0,1,"[website] Add Google Analytics.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+18,2c6620d85ff2655f3e1bec65a4c8e45fc6055aad,0,-1,True,-1,Paul Shen,p***@mnml0.com,Paul Shen,p***@mnml0.com,2013-05-29 14:06:43,2013-05-29 14:06:43,0,0,0,0,1,"Merge pull request #8 from yungsters/master
+
+[website] Add Google Analytics.",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+19,7534bfe2d9b77a88bd93196a3090cfc553e4aa11,0,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 15:34:52,2013-05-29 15:34:52,0,0,0,0,1,"Enable Travis-CI
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+20,12e1bb1daa256fc27eeb957b841a43751be828ab,0,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 16:17:49,2013-05-29 16:17:49,0,0,0,0,1,"Add `grunt-cli` to devDependencies to make sure it's installed for travisci
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+21,a8866ab824ae9697a5c67c6173d6cb889c50a1a3,0,-1,False,-1,Christian Roman,chr******@gmail.com,Christian Roman,chr******@gmail.com,2013-05-29 18:16:52,2013-05-29 18:16:52,0,0,0,0,1,"Fix minor typo error
+",1,chr******@gmail.com,Christian Roman,chr******@gmail.com,Christian Roman
+22,fd321cf07d1acb6b5c6d29078ffc745d574a577a,0,-1,True,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 16:40:07,2013-05-29 16:40:07,0,0,0,0,3,"Merge pull request #9 from chroman/master
+
+Fix minor typo error",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+23,56dbec46db99d5ba764714a585fe9ce17ec8dcd8,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 03:35:45,2013-05-30 03:35:45,0,0,0,0,1,"Fix backbone todomvc example
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+24,b4c0661dce3717e244c25244249c3b2bbe026364,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 03:38:42,2013-05-30 03:38:42,0,0,0,0,1,"Make more idiomatic
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+25,036e11c9ee6f70040208d1b139a48ebe9188906b,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 04:11:07,2013-05-30 04:11:07,0,0,0,0,5,"more backbone fixes
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+26,875782cc0a662ccbee485ba08df3fb8c0ace8592,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 04:18:40,2013-05-30 04:18:40,0,0,0,0,1,"sync more with backbone
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+27,c7d2760521066f07afb36d9e1053bb44e9da8a71,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 04:35:42,2013-05-30 04:35:42,0,0,0,0,1,"Move backbone integration into its own mixin
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+28,9415d839a5e37e45c084560ba640c104d6a2b5da,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-29 22:41:28,2013-05-29 22:41:28,0,0,0,0,1,"add a link to my tutorial repo
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+29,84a7c2e67c580e51c5849ba45bdace52b295a4bc,0,-1,True,-1,petehunt,pet******@fb.com,petehunt,pet******@fb.com,2013-05-30 04:39:42,2013-05-30 04:39:42,0,0,0,0,6,"Merge pull request #13 from petehunt/update-docs
+
+add a link to my tutorial repo",2,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+30,cfe3b75cb010653ea5dfcea74bc8a36911587504,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 01:16:15,2013-05-30 01:16:15,0,0,0,0,4,"Docs updates per community response
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+31,2ce4530d243f02c521d5cc637e766d93e035f124,0,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 04:42:11,2013-05-30 04:42:11,0,0,0,0,1,"make it a little less cynical
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+32,36b61d2b11976b98f1b59ff310da2c3664feb7b8,0,-1,True,-1,petehunt,pet******@fb.com,petehunt,pet******@fb.com,2013-05-30 04:42:48,2013-05-30 04:42:48,0,0,0,0,10,"Merge pull request #14 from petehunt/marketing
+
+Docs updates per community response",2,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+33,4f7380c4d7e773068898a6254d6703440a7c06f7,0,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-29 21:20:04,2013-05-29 21:20:04,1,1,0,0,2,"Fix react-tools module
+
+I messed this up pretty badly and didn't include react *at all*.
+
+Test Plan: npm pack && npm install <packed.tgz>, then require('react-tools')`
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+34,a203bc5da90bc72010cff5029a34854ecb19636b,0,-1,True,-1,Ben Newman,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,2013-05-30 05:14:15,2013-05-30 05:14:15,1,1,0,0,12,"Merge pull request #11 from zpao/fix-node-module
+
+Fix react-tools module",2,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,Ben Newman
+35,507ad5bac54ff928acea4cf8f3767bbf7b7a30f1,0,-1,False,-1,Ben Newman,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,2013-05-30 12:57:51,2013-05-30 12:57:51,0,0,0,0,1,Prominently display Travis build status.,1,**@cs.stanford.edu,Ben Newman,**@cs.stanford.edu,Ben Newman
+36,39c4414d5aec8476404432c58958f0424be3396e,0,-1,False,-1,Paul Seiffert,paul*********@gmail.com,Paul Seiffert,paul*********@gmail.com,2013-05-30 16:22:11,2013-05-30 16:22:11,0,0,0,0,1,"Highlighting the correct line
+",1,paul*********@gmail.com,Paul Seiffert,paul*********@gmail.com,Paul Seiffert
+37,7dd4576ee4adde7a4b93bff74e3a35fc60e524e5,0,-1,True,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-30 10:32:42,2013-05-30 10:32:42,0,0,0,0,2,"Merge pull request #17 from seiffert/master
+
+Docs/Tutorial: Highlighting the correct line",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+38,5fc2aad36433f289b06551333daa2c54f4671b6f,-1744,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-30 09:36:49,2013-05-30 10:05:53,0,0,0,0,4,"[docs] Revise marketing copy around JSX.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+39,9894e7e1fe60b49926ebca9f140b388effd00bba,0,-1,True,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-30 11:09:47,2013-05-30 11:09:47,0,0,0,0,5,"Merge pull request #22 from yungsters/docs
+
+[docs] Revise marketing copy around JSX.",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+40,cd665be43e97bab3e51eb71090c332da4fb05c53,0,-1,False,-1,Paul Seiffert,paul*********@gmail.com,Paul Seiffert,paul*********@gmail.com,2013-05-30 16:54:30,2013-05-30 16:54:30,0,0,0,0,1,"Introducing a submit button in the tutorial's comment form
+",1,paul*********@gmail.com,Paul Seiffert,paul*********@gmail.com,Paul Seiffert
+41,c5612b34c95a571f7550861f3b05ebe1f2f9bc18,0,-1,True,-1,petehunt,pet******@fb.com,petehunt,pet******@fb.com,2013-05-30 11:15:40,2013-05-30 11:15:40,0,0,0,0,6,"Merge pull request #19 from seiffert/submit_button
+
+Docs/Tutorial: Introducing a submit button in the comment form",2,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+42,955b472f8bd56c947f146b8b3d20b905fbc8b413,-7989,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-30 09:13:27,2013-05-30 11:26:36,0,0,0,0,7,"Add a JSX Compiler tool.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+43,855c82e224e6057ee569d2f38424a8690260000d,-339,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-30 11:25:42,2013-05-30 11:31:21,0,0,0,0,1,"Revise 'live_editor.js' using JSX.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+44,5d812949a1729cf4ff38e13dd3890aad45112021,-51,-1,False,-1,yungsters,yun******@fb.com,yungsters,yun******@fb.com,2013-05-30 11:37:05,2013-05-30 11:37:56,0,0,0,0,2,"Ignore ""docs/js/jsx-compiler.js"" from Git.
+",1,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+45,ce2d7991c98f0fe98abb86ea0ab46ca6c5c4b95e,0,-1,True,-1,Timothy Yung,yun******@gmail.com,Timothy Yung,yun******@gmail.com,2013-05-30 11:41:24,2013-05-30 11:41:24,0,0,0,0,7,"Merge pull request #23 from yungsters/jsx-compiler
+
+Add a JSX Compiler tool.",2,yun******@gmail.com,Timothy Yung,yun******@gmail.com,Timothy Yung
+46,86eeef1ccd16936aeb56f53926dd600dbb736c5c,0,-1,False,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-30 11:49:57,2013-05-30 11:49:57,0,0,0,0,2,"Update bower install command
+
+Fixes #21
+",1,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
+47,4297b1ad55c12ee54b838f729939317cb7716d91,-733,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 11:41:10,2013-05-30 11:53:23,0,0,0,0,1,"remove unused const
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+48,a52512863e07a70363768a2d5d8da79b869a7fd6,-23,-1,False,-1,petehunt,flo********@gmail.com,petehunt,flo********@gmail.com,2013-05-30 11:53:00,2013-05-30 11:53:23,0,0,0,0,3,"Clean up todomvc examples: autoBind(), onSubmit
+",1,flo********@gmail.com,Pete Hunt,flo********@gmail.com,Pete Hunt
+49,6ed829ff9500437f4015e19c8f62950c8a2cc8ea,0,-1,True,-1,Paul O’Shannessy,p***@oshannessy.com,Paul O’Shannessy,p***@oshannessy.com,2013-05-30 11:54:14,2013-05-30 11:54:14,0,0,0,0,5,"Merge branch 'master' of github.com:facebook/react
+",2,p***@oshannessy.com,Paul O'Shannessy,p***@oshannessy.com,Paul O'Shannessy
