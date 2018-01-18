@@ -1,0 +1,122 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,df29d0ea4c8b7137fdd1844219c7d489e3b0d9c9,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-03-29 16:17:55,2010-03-29 16:17:55,0,4407,0,5294,315,"Initial commit
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+1,1c90a32621b0df6e2962b6f6754cb765addad0cc,0,-1,False,-1,root,r***@domU-12-31-38-01-58-A1.compute-1.internal,root,r***@domU-12-31-38-01-58-A1.compute-1.internal,2010-04-30 22:41:21,2010-04-30 22:41:21,2,2,1,1,1,"Fix native build to use build directory
+",1,wa******@huawei.com,Matei Zaharia,wa******@huawei.com,Matei Zaharia
+2,c177a546a5ba912df61222418b42e8cd72b8416c,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-10 18:08:59,2010-06-10 18:08:59,0,0,0,0,1,"Ignore .DS_Store
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+3,92246c843bb63fb9f1da4978bfffe0b7f9192afd,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-10 21:50:55,2010-06-10 21:50:55,137,84,143,87,27,"Initial work on 2.8 port
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+4,359e84c585101b02264455bd84a01bf00c8623d7,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-10 22:09:13,2010-06-10 22:09:13,5,6,9,9,1,"Use new Nexus API
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+5,1473987fb77c69a3765599d9be386fc286eff8c8,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-10 22:36:45,2010-06-10 22:36:45,0,0,0,0,1,"Fixed classpath for tests
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+6,4eb39e0c8a4d4b636b6539a5ad52d8923393471d,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-10 22:41:23,2010-06-10 22:41:23,0,0,0,0,1,"New nexus.jar
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+7,396f48e5a45fd17b156b396c835acb1cccf5a021,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-11 01:10:03,2010-06-11 01:10:03,837,2199,1365,2681,11,"New interpreter port for Scala 2.8 interpreter
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+8,e58fba279d21d0c7ebf8140458fd643570a6f805,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-11 01:18:43,2010-06-11 01:18:43,1,1,1,1,1,"Fix junk stripper
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+9,0d9c51d4738406ece615d535225f05fc3efc782f,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-11 10:03:01,2010-06-11 10:03:01,16,17,21,22,2,"Added back REPL tests
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+10,77103eab2a2a2a9aa4dcabaa5d2176f7fc238b96,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-11 14:55:23,2010-06-11 14:55:23,0,0,0,0,1,"Fixed README
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+11,cd247b7d86a1ccdc9ea09840668e60742832fd81,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-17 12:49:42,2010-06-17 12:49:42,285,250,236,199,5,"Created common RDD superclass for distributed files and parallel arrays.
+This also means that parallel arrays now get all the functionality files
+used to have (filter, map, reduce, cache, etc).
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+12,b54198819edf975c4875b1ccaed389e67b8d1b59,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-17 13:19:02,2010-06-17 13:19:02,4,24,2,17,1,"Added appropriate hashCode, equals and toString to ParallelArraySplit.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+13,323571a177f2136fa1474c23df8557b383bea67f,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-18 12:54:33,2010-06-18 12:54:33,0,37,0,17,1,"Initial work on union operation.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+14,6aacaa68706aa6956585d1d2f46a5d2905541a39,0,-1,False,-1,root,r***@domU-12-31-39-13-D9-11.compute-1.internal,root,r***@domU-12-31-39-13-D9-11.compute-1.internal,2010-06-18 23:24:18,2010-06-18 23:24:18,4,5,6,13,2,"Made Spark shell class directory configurable.
+",1,wa******@huawei.com,Matei Zaharia,wa******@huawei.com,Matei Zaharia
+15,06aac8a88902f10182830259197d83adbafea516,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-04-03 23:44:55,2010-04-03 23:44:55,292,1038,554,1751,11,"Imported changes from old repository (mostly Mosharaf's work,
+plus some fault tolerance code).
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+16,7d0eae17e3edbdf3713856c95c48d1f0e76eb87a,0,-1,True,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-06-27 15:21:54,2010-06-27 15:21:54,1545,3629,2299,4763,55,"Merge branch 'dev'
+
+Conflicts:
+	src/scala/spark/HdfsFile.scala
+	src/scala/spark/NexusScheduler.scala
+	src/test/spark/repl/ReplSuite.scala
+",2,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+17,edad598684236d6271ce7853a8312081d15a28a6,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-07-19 15:03:49,2010-07-19 15:03:49,4,4,7,7,3,"Updated Spark to run with latest Mesos build and Scala-2.8.0.final.
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+18,0435de9e8710ffd2d24a65ef4371529e79d3bf3c,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-07-19 18:00:30,2010-07-19 18:00:30,0,0,0,0,2,"Made it possible to set various Spark options and environment variables
+in general through a conf/spark-env.sh script.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+19,e240e38ee9c0447ad0c94b77f2cb2b3aa6be5814,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-07-25 21:10:03,2010-07-25 21:10:03,3,3,0,0,14,"Updated a bunch of libraries, and increased the default memory in run so
+that unit tests can run successfully.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+20,4239f76997df82242cbe69192d9525014b7da5f9,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-07-25 23:46:44,2010-07-25 23:46:44,248,0,258,0,6,"Removed Matei's old start on broadcast code
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+21,b56ed67553a946b2f4e94dab33382b8de9957a5b,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-07-25 23:53:46,2010-07-25 23:53:46,21,21,16,16,11,"Updated code to work with Nexus->Mesos name change
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+22,0e6e577fdfebbc619276608fc10c18d273c1399f,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-07-25 23:54:56,2010-07-25 23:54:56,0,0,0,0,1,"Add Mesos native library to .gitignore
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+23,f415b071af7f407cdf8c1796ca64394f3ec25e8e,-8,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-06 12:07:18,2010-08-06 12:07:26,1,1,1,1,1,"Change shell framework's name to ""Spark shell""
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+24,4488b3bc8a4483eeeb703d96842ea3e9695300c3,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-09 16:46:14,2010-08-09 16:46:14,12,20,13,34,1,"Fixed a bug where we would incorrectly decide we've finished a parallel operation if Mesos tells us a task is finished twice
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+25,a9481c3514b33389de7a7db5e5c0ac8291c11f1c,0,-1,False,-1,root,r***@ip-10-202-143-64.ec2.internal,root,r***@ip-10-202-143-64.ec2.internal,2010-08-13 07:39:36,2010-08-13 07:39:36,9,9,22,22,3,"Update to work with latest Mesos API changes
+",1,wa******@huawei.com,Matei Zaharia,wa******@huawei.com,Matei Zaharia
+26,3d8d7fd557776019670fe954fd2e89d526dc9a9c,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-13 11:29:19,2010-08-13 11:29:19,1,1,1,1,1,"Bug fix from Justin
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+27,0b195927b6de951634fce8d5ab6ae8f72d76046a,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-13 18:54:32,2010-08-13 18:54:32,0,13,0,0,4,"Improved README and added blank templates for config files.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+28,1600c31554d82c89823255aa5b5889a24c1cfdb1,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-13 19:03:46,2010-08-13 19:03:46,0,0,0,0,1,"Added latest mesos.jar
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+29,1cbffaae6f8a8511a4e239bcdbd1785cda1ac6cc,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-15 18:33:27,2010-08-15 18:33:27,1,3,2,6,1,"Modified Scala interpreter to have it avoid computing string versions of
+all results when :silent is enabled, so that it is easier to work with
+large arrays in Spark. (The string version of an array of numbers might
+not fit in memory even though the array itself does.)
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+30,75b2ca10c3d5a4e97536c133ad0ef8e22b95ceba,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-08-16 23:16:35,2010-08-16 23:16:35,0,0,0,0,70,"Removed HOD from included Hadoop because it was making the project count
+as Python on GitHub :|.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+31,156bccbe230d36af93fe46f8942c3ac1d18635ae,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-08-18 15:25:57,2010-08-18 15:25:57,2,35,5,37,3,"HdfsFile.scala: added a try/catch block to exit gracefully for correupted gzip files
+MesosScheduler.scala: formatted the slaveOffer() output to include the serialized task size
+RDD.scala: added support for aggregating RDDs on a per-split basis
+(aggregateSplit()) as well as for sampling without replacement (sample())
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+32,ea8c2785ddd0439cb0433dde08d2a7caecfc06cb,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-08-18 15:59:35,2010-08-18 15:59:35,3,17,3,21,1,"now we have sampling with replacement (at least on a per-split basis)
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+33,7a9ff1cc9ae0440ada96c24c63239bdb15daf754,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-08-31 12:08:09,2010-08-31 12:08:09,59,104,33,59,7,"- Got rid of 'Split' type parameter in RDD
+- Added SampledRDD, SplitRDD and CartesianRDD
+- Made Split a class rather than a type parameter
+- Added numCores() to Scheduler to help set default level of parallelism
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+34,e9ffe6caabc0bb763f0ac758149fb8c0336731bb,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-01 13:31:06,2010-09-01 13:31:06,0,3,0,0,1,"now adding the Split object.
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+35,6f0d2c1cbcd04fb72334e77eb3809b472e657985,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-07 14:03:59,2010-09-07 14:03:59,13,25,28,67,3,"round robin scheduling of tasks has been added
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+36,0896fd62197686a8406558d9c1ea32466ec1d7a6,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-12 09:01:44,2010-09-12 09:01:44,49,91,127,168,2,"Added fork()/join() operations for SparkContext, as well as corresponding changes to MesosScheduler to support multiple ParallelOperations.
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+37,366c09c47b03ea957fb18f32171fe40349bbed48,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-13 15:30:22,2010-09-13 15:30:22,38,24,73,69,2,"Let's use future instead of actors
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+38,b7ce592bece278571ca612fd025cc34f41c3448a,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-25 14:37:25,2010-09-25 14:37:25,8,11,7,11,4,"changes to accumulator to add objects in-place.
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+39,b749f0e20961ae0517d3aa4f54c4f6391a5737a9,0,-1,False,-1,Justin Ma,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,2010-09-28 17:28:54,2010-09-28 17:28:54,1,1,3,3,1,"fixed typo in printing which task is already finished
+",1,j***@eecs.berkeley.edu,Justin Ma,j***@eecs.berkeley.edu,Justin Ma
+40,7ef3a20a0cc20f49907693bd212d2de75a1b8859,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 17:55:11,2010-09-28 17:55:11,0,74,0,67,3,"Modified the interpreter to serve classes to the executors using a Jetty
+HTTP server instead of a shared (NFS) file system.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+41,e068f21e0108b89dc9ecf84d98f2ba619d6435e2,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 22:32:38,2010-09-28 22:32:38,24,59,34,73,5,"More work on HTTP class loading
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+42,e5e9edeeb3612663b885643cccbc4aaeae8c00be,0,-1,True,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 22:43:04,2010-09-28 22:43:04,120,364,160,418,16,"Merge branch 'http-repl-class-serving'
+",2,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+43,f50b23b825dfbaa7ad65a8c27db2cc7eb0b2ebfa,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-29 10:04:00,2010-09-29 10:04:00,1,1,1,1,1,"Increase default locality wait to 3s. Fixes #20.
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+44,c7d233b9115b8eed799425a18a3ff09afa7dbad8,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:08:01,2010-09-28 23:08:01,0,3,0,0,5,"Added log4j jars and paths
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+45,db623defbeedc0d3f5581b64adee49aacc048170,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:12:23,2010-09-28 23:12:23,0,44,0,28,1,"Added Logging trait
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+46,332c8b8c2285687bb47023a9b45a4d5aca183221,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:16:28,2010-09-28 23:16:28,0,0,0,0,2,"Removed Hadoop's SLF4J jars
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+47,516248aa66752e55f83d37c8fd3382975e05f700,-136,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:20:23,2010-09-28 23:22:39,0,0,0,0,3,"Added log4j.properties
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+48,7090dea44bf9cc671bceb4b3dbee4ac3670c26b2,-1942,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:22:07,2010-09-28 23:54:29,93,109,166,168,11,"Changed printlns to log statements and fixed a bug in run that was causing it to fail on a Mesos cluster
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia
+49,0fa70a6770fdb319d8800abc8c0838217bb31883,0,-1,False,-1,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,2010-09-28 23:58:19,2010-09-28 23:58:19,0,0,0,0,1,"Updated log4j.properties to ignore jetty messages below WARN level
+",1,m****@eecs.berkeley.edu,Matei Zaharia,m****@eecs.berkeley.edu,Matei Zaharia

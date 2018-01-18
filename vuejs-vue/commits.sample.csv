@@ -1,0 +1,101 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,5f19affa66b5e79f4aeaf657092a78be2a65cb3a,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-08 12:17:13,2014-07-08 12:17:13,0,0,0,0,1,"init
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+1,b41cf2272088372958d1eeeb5bfb754a37a59fb7,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-08 13:45:53,2014-07-08 13:45:53,0,44,0,90,5,"setup unit testing
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+2,ecb125d33a013efb3f41855387293690891eac12,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-08 15:57:47,2014-07-08 15:57:47,7,106,4,33,29,"scaffolding
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+3,63b7397be2c1695988de9e0abb32863e9372a450,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-08 18:14:04,2014-07-08 18:14:04,44,88,94,127,10,"setup build
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+4,c225f8c3b83a2734bcaa1f7085f9bb1b2e73ce9d,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-08 18:35:39,2014-07-08 18:35:39,0,28,0,16,12,"more files
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+5,b5bfc59a704f6d8e01b93352319b356b710ad850,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-09 01:35:20,2014-07-09 01:35:20,3,249,1,164,9,"working on new observer
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+6,55bfa2f2e78537621e66654ef44b6fd705f03e3f,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-09 10:58:53,2014-07-09 10:58:53,0,17,0,12,1,"_.define
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+7,0ad7f54602b41d2dfa82e2368fef1ee2639fecd4,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-09 19:08:01,2014-07-09 19:08:01,45,297,43,253,10,"working on observer
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+8,30f67ab14090900a28c18db01cf631c037d36e81,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-09 22:33:39,2014-07-09 22:33:39,29,127,33,123,2,"observer object
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+9,d48906d537f1196909d95f82950e3645304e3731,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-09 23:42:30,2014-07-09 23:42:30,34,51,25,37,4,"use \\b as delimiter
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+10,f097ca23103c0b764ad0a83826ae44a5cf02c00a,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-09 23:58:03,2014-07-09 23:58:03,2,4,2,4,1,"comments
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+11,42e08352c22a52a627ef29f1bb241f7c6a074310,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-10 17:24:35,2014-07-10 17:24:35,2,27,2,18,4,"save
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+12,3acc354f6473c93e827ccb953e4417d78a40ff3a,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-10 20:57:34,2014-07-10 20:57:34,137,151,110,147,5,"more observer work
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+13,d1a4f852160a00be468318d6451831462fa94efc,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-10 22:26:16,2014-07-10 22:26:16,11,11,11,14,1,"comments
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+14,8bcc3834a94c2b556442b0e82d7b73aa1a206c36,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-11 01:59:28,2014-07-11 01:59:28,20,85,25,99,2,"observer array index tracking
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+15,b9f2c1ac39b6ef5df3897c70dbce1756a07b86df,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-11 01:59:40,2014-07-11 01:59:40,16,366,12,276,2,"observer benchmarks and tests
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+16,b6fe815777ddcbd441ab7c1a9963126ece133f93,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-11 02:12:34,2014-07-11 02:12:34,4,41,4,29,1,"polyfill benchmark for old Vue
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+17,cf067ee05fdd062b757583c966dc21fea205d3a4,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-11 02:48:04,2014-07-11 02:48:04,15,23,16,28,5,"bench task
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+18,320b36c63e9652ea2d2bb62e7f1046364c8d2b89,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-11 12:49:19,2014-07-11 12:49:19,16,222,16,203,5,"more observer tests & bench
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+19,ff1329b83813b8374a6cf1008561a2348742236a,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-11 14:00:53,2014-07-11 14:00:53,12,26,21,46,5,"bench tasks
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+20,bb773eba2b069024f3d76430b0f51b01dab7847e,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-11 14:06:40,2014-07-11 14:06:40,12,12,12,12,1,"bench readability
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+21,dde0bc8d419b5fd947224c810254de07985af8da,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-12 18:38:08,2014-07-12 18:38:08,0,3,0,3,1,"$remove
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+22,d8315de3f96e92b53d84bd6c447872c55a7f25ae,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-12 18:38:35,2014-07-12 18:38:35,0,0,0,0,2,"record planned changes
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+23,e5d12fa101a315f2946dfa022231b1ff3e4bce1e,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-12 18:48:10,2014-07-12 18:48:10,0,0,0,0,1,"ideas
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+24,2c63abe4364ccb7b4759b5d02af0c2a360475a0e,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-12 18:54:00,2014-07-12 18:54:00,0,0,0,0,1,"more ideas
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+25,0b70e524b79a17e6a10859657decbcaa5b367b45,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-13 01:36:41,2014-07-13 01:36:41,22,166,22,148,6,"exploring scope inehritance
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+26,c4611022479c128f2d12c3ca43c0d443a34164b4,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-13 03:11:21,2014-07-13 03:11:21,28,73,31,70,3,"more hacks... kinda works?
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+27,49ad4ca7d1572a9ea9c8111ee5c9d7b3302550d1,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-13 11:21:31,2014-07-13 11:21:31,30,50,26,40,1,"fix inheritance test
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+28,706c67d1d013577fdbfab258bca78557419cba7c,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-14 10:43:48,2014-07-14 10:43:48,24,197,9,151,24,"restructure
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+29,e9ecdfe1c0f695396ce790f9637787239d180804,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-14 17:42:55,2014-07-14 17:42:55,218,384,240,361,10,"work on instantiation with scope inheritance
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+30,d6ce9a03daf0f2ad89907a8136c4d84f8d4af6bf,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-14 18:10:54,2014-07-14 18:10:54,13,29,11,22,2,"should only fall through properties on $scope.
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+31,ca253824fd5f28dd105a0e9a17fcd69c936e200e,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-14 21:08:13,2014-07-14 21:08:13,150,127,125,103,7,"more restructuring
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+32,db3a657a672770d09de12ae19356603b6e273952,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-14 21:30:56,2014-07-14 21:30:56,1,25,1,13,2,"work on bindings
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+33,4ca4b2c77e869c091c0cb0306682a55763cf6cd1,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-14 23:02:08,2014-07-14 23:02:08,2,2,2,2,1,"fix typo
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+34,f89290cb0dd82e48e5a410156170f49b6544abbd,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-14 23:23:59,2014-07-14 23:23:59,17,24,15,23,4,"comments
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+35,67cec80173128ee9820b43ada628e6f431fddf94,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-15 10:26:53,2014-07-15 10:26:53,30,112,32,91,9,"work on bindings
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+36,de089aa176b5ae10a2b27687e77ffff5d9504f2a,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-16 04:18:43,2014-07-16 04:18:43,0,0,0,0,1,"add doctype to bench runner so it works in IE9
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+37,bbc38d64a1952f43b648055b58530a322878d42a,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-16 12:43:03,2014-07-16 12:43:03,4,52,2,31,2,"bindings and directive
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+38,5e9fcb2785771108bae0a4a9574f77174c34df11,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-16 12:59:38,2014-07-16 12:59:38,2,11,2,7,1,"uid
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+39,aa24b3e4ad19bf11fb57f5b4871ab057fc5b655b,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-16 18:46:39,2014-07-16 18:46:39,45,182,34,152,8,"working on global api
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+40,96adbae6223028ce45a16c9339bd08bc3558ea73,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-17 13:36:45,2014-07-17 13:36:45,19,15,15,14,3,"fix observer tests
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+41,be19525402e7007031b4b9a0fcdeb13523e402ab,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-20 00:41:11,2014-07-20 00:41:11,4,228,4,191,2,"path
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+42,007e23fc2ee9b61cd1d78dcc21681fedc5f3cab4,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-20 00:41:24,2014-07-20 00:41:24,0,0,0,0,1,"thoughts
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+43,5bff199db9d729b85c10093d763d5bddda2c1b4e,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-20 16:42:14,2014-07-20 16:42:14,27,221,21,190,9,"path and cache
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+44,14d97d4d3582825efa112ba13fedaafec49d82f7,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-21 00:28:44,2014-07-21 00:28:44,29,42,18,38,3,"binding
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+45,611e2b3db463de25b0717af676b867d59a0023e5,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-21 11:49:31,2014-07-21 11:49:31,15,15,14,14,2,"fix binding
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+46,b624a87845b06de46fc6f80e7271a933bae5573c,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-21 11:58:35,2014-07-21 11:58:35,9,29,11,19,2,"binding
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+47,c5ca84011170adba866a6d4386e1129692cf2ec2,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-21 12:19:03,2014-07-21 12:19:03,4,2,4,2,1,"callback context
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+48,ed1a9d6c3e1f3bb5498de24b3fa1da1f9d98bd80,0,-1,False,-1,Evan You,y***@google.com,Evan You,y***@google.com,2014-07-21 12:56:27,2014-07-21 12:56:27,7,27,6,26,1,"getBindingAt
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You
+49,5bb8607771765385252372c039b10ed1476a3851,0,-1,False,-1,Evan You,yyx******@gmail.com,Evan You,yyx******@gmail.com,2014-07-22 01:24:36,2014-07-22 01:24:36,8,123,5,97,6,"working on compile
+",1,yyx******@gmail.com,Evan You,yyx******@gmail.com,Evan You

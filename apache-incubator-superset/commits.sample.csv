@@ -1,0 +1,107 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,68c5a48c1ffcc65029c479212e9063074b54eb47,24819,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-02 22:16:59,2015-07-02 15:23:20,0,132,0,195,12,"Initial commit
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+1,447eefc79bff4c3fb06b37a2d5d0add380362d65,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-02 22:16:59,2015-07-02 22:16:59,0,132,0,195,11,"Initial commit
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+2,9f1204605f8a22ce87d797cb4d1f6ad580835a2d,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-03 15:48:14,2015-07-03 15:48:14,10,391,17,106,8,"Working checkpoint before classifying Viz
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+3,059c02aed05093a8ba7973611a0429443db2256b,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-06 15:56:41,2015-07-06 15:56:41,138,392,221,755,3,"Checkpoint
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+4,66dca37c9c98eae6acf0c8b1698987ffe33a85eb,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-06 22:18:51,2015-07-06 22:18:51,257,106,463,125,32,"Refactoring
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+5,3bce90445478f6f8d4ad930259a25bfb3429068c,-14,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-14 20:26:35,2015-07-14 20:26:49,98,322,175,497,17,"Integrated the admin
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+6,4cb380d9ba10bf098a0a9a330c91f469d867da95,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-14 22:15:42,2015-07-14 22:15:42,55,75,115,139,3,"Starting over with flask app-builder
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+7,8431800bd60955a2b932eb407d98cc4a87926626,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-15 17:12:32,2015-07-15 17:12:32,293,439,404,445,56,"Starting over
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+8,29b0bdd00acb7bb5d103d9d37eb1a5fdaa914bb9,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-16 00:38:03,2015-07-16 00:38:03,39,143,43,335,8,"Stable
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+9,dd867da115f785ab078e5cfa3fd8db07a2fffc3c,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-16 00:40:28,2015-07-16 00:40:28,0,0,0,0,58,"Cleaning up
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+10,c441c5e211351866d1b706a84cba89525ea5f43c,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-15 17:47:03,2015-07-15 17:47:03,0,1242,0,1354,46,"Merge branch 'objects'
+",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+11,9ad7d5480b683fd114eeec694abbe786827177cd,-126,-1,False,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-15 18:01:25,2015-07-15 18:03:31,0,0,0,0,4,"A better README
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+12,16f7bf9054b2ab2875a90aaa5861ef805954002e,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-17 00:55:36,2015-07-17 00:55:36,146,41,208,36,11,"Cosmetics
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+13,8b175638cdb5d3f4105d82e7fae43cbf4d05e61c,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-17 06:46:00,2015-07-17 06:46:00,20,47,33,71,7,"Humanized time boundaries and granularity
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+14,d268b6b231373c6d7a245a8990d203e289b7d262,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-17 07:09:47,2015-07-17 07:09:47,18,15,52,38,4,"Now supporting multi-metric selection
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+15,4334373a33264906ddf6ea3d70a3979cc4d697fc,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-20 23:29:16,2015-07-20 23:29:16,18,42,55,133,11,"Numerous improvements
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+16,bd1d8eb2424a330b6cbbb84c1514260c1cf82c04,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-20 23:36:03,2015-07-20 23:36:03,0,414,0,3,4,"Better and better
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+17,c6dca0f27d6abcbeb392b33b6e9bc2952f247ccd,-1773,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-21 18:56:05,2015-07-21 19:25:38,83,99,131,170,14,"Improvements
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+18,4d6e358fb623b21f7b1dd88cd94a22f0a3d56608,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-21 19:36:06,2015-07-21 19:36:06,0,0,0,0,2,"A screenshot in the README
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+19,0b6d808d7abeeed2ae9b15bb3b7b133728c68c77,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-21 20:19:38,2015-07-21 20:19:38,0,0,0,0,1,"A slightly better README
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+20,34fd11364fcfc3e2ca28341522fa5ca75012b448,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-21 20:54:31,2015-07-21 20:54:31,0,0,0,0,2,"LICENSE
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+21,60317727ab69f6c209352fad5b3580213d9025e5,0,-1,False,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-22 08:53:38,2015-07-22 08:53:38,0,0,0,0,1,"Adding installation infromation in README.md
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+22,6b30eec5b217146b79f84a70c9ef9dc0b7d44db3,-47,-1,False,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-22 09:45:32,2015-07-22 09:46:19,0,0,0,0,1,"Adding missing req
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+23,67de93d9f1c1864891cc732bb44c995ab5ee9ab4,0,-1,False,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-22 09:46:51,2015-07-22 09:46:51,0,0,0,0,1,"Minor change in README
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+24,4bb313cc4492ada5102cc0f6afabc237c9abaeb9,0,-1,False,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-22 10:29:48,2015-07-22 10:29:48,0,0,0,0,1,"Improving the installation instructions
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+25,056be737af50967ca7ccc291f2218ec9c9b995b8,-83,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-22 23:21:46,2015-07-22 23:23:09,1,9,4,34,3,"Fixing filter for timeseries
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+26,9ce4f684734c9c3000aa9fa30f5e953971410f6a,-25,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-23 05:20:10,2015-07-23 05:20:35,16,172,21,371,5,"New Charts
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+27,d438520660cf16dd4376c20a6660c8e47b2331fc,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-23 06:11:51,2015-07-23 06:11:51,19,24,40,51,3,"Implementing my own highcharts wrapper
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+28,b038d5a7e5c63e7e92f1b077d8fc880c0f20394b,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-22 23:12:44,2015-07-22 23:12:44,23,184,36,397,6,"Merge pull request #3 from mistercrunch/charts
+
+Implementing my own highcharts wrapper",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+29,74a2e7df54820f2609cedb2a0fc49ca2468b16f9,-167,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-23 06:17:51,2015-07-23 06:20:38,1,5,0,4,3,"Managing perms for new views
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+30,c29444e1a74c104846309a1ffccdf0fb0b196410,-128,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-24 06:28:53,2015-07-24 06:31:01,3,6,0,0,2,"Better PORT defaults
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+31,1c6177ce4be712e507b69f26ba733736f445a454,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-27 05:25:32,2015-07-27 05:25:32,19,65,42,180,6,"All sorts of improvements
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+32,bc1db2db21843464975a413e68dabd4d7f979ca8,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-27 17:23:39,2015-07-27 17:23:39,0,0,0,0,2,"Simplify install
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+33,c379430a4174bed8dd95a8db8db408322e8bdc83,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-27 17:24:39,2015-07-27 17:24:39,4,0,8,0,1,"Removing debug print statement
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+34,0d92bccbb0bddf2976658cac77a9f90c9adb9de7,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-27 21:16:18,2015-07-27 21:16:18,1,11,0,2,1,"Adding health and ping endpoints
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+35,fb365cd17823a1e49e17161262f485b857f145ab,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-27 22:51:36,2015-07-27 22:51:36,1,7,0,3,2,"Making DEBUG a configuration
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+36,6be22246e967f6095e0de4fd1c011ce1e3091605,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-28 23:06:06,2015-07-28 23:06:06,1,30,2,34,2,"Preventing bad json from creating problems
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+37,fe22f4ad84506115660ca9fc2e9a13eaede97b30,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-28 16:07:12,2015-07-28 16:07:12,1,30,2,34,2,"Merge pull request #8 from mistercrunch/bad_json
+
+Preventing bad json from creating problems",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+38,f07ea2b83e0f18263c306fc8b771a24ca7e3688e,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-29 21:44:46,2015-07-29 21:44:46,0,0,0,0,1,"TODO
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+39,e8f480fc48dccef2d1e61b7316dedbfe0aa51cf9,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-29 21:48:57,2015-07-29 21:48:57,1,9,0,8,1,"Multi delete action on datasources
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+40,00e6cc45675f52ea61e90277e0203a0f16783abb,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-29 15:27:48,2015-07-29 15:27:48,1,9,0,8,1,"Merge pull request #9 from mistercrunch/actions
+
+Multi delete action on datasources",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+41,6032daf5f01266fc4414973ac84afed5041ada82,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-30 00:33:37,2015-07-30 00:33:37,1,18,0,14,1,"Multi clusters
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+42,374802e437720ebe4a230115e3b4d7c61f2fff2c,-53839,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-30 06:39:30,2015-07-30 21:36:49,58,88,97,151,6,"Now enabling multi-cluster, connection info managed in UI
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+43,5e8fcabf10eed37b585d83230345400630252098,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-30 21:44:26,2015-07-30 21:44:26,1,1,4,4,4,"Removing compare feature
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+44,e40dc870802e1994272632ea823bf633061d166f,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-30 14:44:49,2015-07-30 14:44:49,58,105,101,169,9,"Merge pull request #10 from mistercrunch/cluster
+
+Now enabling multi-cluster, connection info managed in UI",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+45,f851d20a02feefb65a41279de7a286ac3817361b,-21,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-07-31 00:07:12,2015-07-31 00:07:33,5,8,15,23,1,"Fixing the ways metrics are autogenerated
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+46,95a0fb49e618993ee7a3cdbe81120a37f0356341,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-07-30 17:08:34,2015-07-30 17:08:34,5,8,15,23,1,"Merge pull request #11 from mistercrunch/cluster
+
+Fixing the ways metrics are autogenerated",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+47,b1d009ffb8070882744731249a1235cead89ef26,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-08-02 00:08:00,2015-08-02 00:08:00,1,2,2,5,1,"Bug fixes
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+48,b734aceff3ca99c81c7b904cd1cb8b5250c829ed,0,-1,False,-1,Maxime,maxim************@airbnb.com,Maxime,maxim************@airbnb.com,2015-08-02 00:16:39,2015-08-02 00:16:39,5,6,5,6,1,"Cosmetics
+",1,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com
+49,736e102caec20b5289f78584ccfd2cb8c740ca42,0,-1,True,-1,Maxime Beauchemin,maxim***********@gmail.com,Maxime Beauchemin,maxim***********@gmail.com,2015-08-01 17:17:42,2015-08-01 17:17:42,6,8,7,11,2,"Merge pull request #12 from mistercrunch/cluster
+
+Cosmetricks",2,maxim***********@gmail.com,maxime.beauchemin@airbnb.com,maxim***********@gmail.com,maxime.beauchemin@airbnb.com

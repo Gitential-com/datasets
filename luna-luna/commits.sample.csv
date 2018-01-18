@@ -1,0 +1,109 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,cc922f6454ed1ff8e6a8f3371e146b43a7bfc708,0,-1,False,-1,Wojciech Daniło,wojci**********@gmail.com,Wojciech Daniło,wojci**********@gmail.com,2016-02-25 03:07:24,2016-02-25 03:07:24,0,0,0,0,2,Initial commit,1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+1,4cd5fc97f44c14f0e54a9aa06fa95e5ae4e45d5d,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 03:26:36,2016-02-25 03:26:36,0,10911,0,7336,121,"Initial commit using new repo and new Luna project structure.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+2,605eca7da36d6a739b25fe00de9b36cf511bcc07,0,-1,False,-1,Wojciech Daniło,wojci**********@gmail.com,Wojciech Daniło,wojci**********@gmail.com,2016-02-25 03:56:30,2016-02-25 03:56:30,0,0,0,0,1,Update README.md,1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+3,5e177e5b8962edef2a353187c98c037a2aa03ad6,0,-1,False,-1,Wojciech Daniło,wojci**********@gmail.com,Wojciech Daniło,wojci**********@gmail.com,2016-02-25 03:58:53,2016-02-25 03:58:53,0,0,0,0,1,Update README.md,1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+4,cd7eeac6a4b4ea8d5c61958f98057bbc2030e072,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 10:44:15,2016-02-25 10:44:15,0,0,0,0,12,"Added build settings.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+5,276760768eaac4b41251e2b824c367fa031a8200,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 11:58:10,2016-02-25 11:58:10,16,1733,0,1059,30,"Refactoring.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+6,f410ef10fbc0c05f472d4ccb2f7640a160364103,0,-1,False,-1,Adam Szlachta,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,2016-02-25 12:44:28,2016-02-25 12:44:28,0,0,0,0,1,"Added link to luna.cabal
+",1,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,Adam Szlachta
+7,0dc9b601a852f523ad8d8db1ae03841cc3a5ed40,-2633,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 14:16:27,2016-02-25 15:00:20,0,0,0,0,1,"Add drone.yml
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+8,24ea8f211ee5bf28b0040badb3736fb633a9bcfc,0,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:02:15,2016-02-25 15:02:15,0,0,0,0,1,"Add drone secrets
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+9,53dde560a44d6abc3d750e9ef9d48eb35c2f328c,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 14:53:36,2016-02-25 14:53:36,993,102,421,43,15,"Updated build dependencies
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+10,9d5cc87a8362f264c396b275b7b9471ef1b65769,0,-1,True,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:05:13,2016-02-25 15:05:13,993,102,421,43,17,"Merge commit '53dde560a44d6abc3d750e9ef9d48eb35c2f328c'
+
+* commit '53dde560a44d6abc3d750e9ef9d48eb35c2f328c':
+  Updated build dependencies
+",2,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+11,6ec79a4f7432077055942a18ef64463cc7037b90,0,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:06:22,2016-02-25 15:06:22,0,0,0,0,1,"Ignore .drone.sec.dec [CI SKIP]
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+12,ddeea404d718a0dea2df20a541b620fe9de85728,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 15:25:35,2016-02-25 15:25:35,0,0,0,0,4,"keep cabal files in repo
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+13,bc1ad9cbe412b6f9564c12258f8da38a3181bd72,-41,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:48:09,2016-02-25 15:48:50,0,0,0,0,3,"Add scritps as a submodule
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+14,d7f29145021815f12c9b8af6d9fd61ae4fd55388,0,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:50:01,2016-02-25 15:50:01,0,0,0,0,1,"Fix drone slack message format
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+15,24c4ba0fb02f9b1accfe4dae5518bcd84d5109cf,0,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:51:27,2016-02-25 15:51:27,0,0,0,0,1,"Use submodules in drone
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+16,0e18fdfa38bb6c8de259a87c125f41f1ce739065,0,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:52:11,2016-02-25 15:52:11,0,0,0,0,1,"Fix drone script
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+17,d4834be24e6ea9ab5028c41b9ef0c27e844b98d0,-11,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:09:21,2016-02-25 16:09:32,0,0,0,0,165,"module renaming
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+18,895eeb0b3745441a89c66b93a5495c026e405cbd,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:21:35,2016-02-25 16:21:35,0,0,0,0,2,"fix luna core tcabal
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+19,df9df7ab381056671869b5bf03b012f579b1ce97,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:23:15,2016-02-25 16:23:15,0,0,0,0,2,"nope, this one fixes the cabal
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+20,132149c6b271914fa74491746dde924b56102e50,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:25:56,2016-02-25 16:25:56,0,0,0,0,2,"k, I give up, this one should do it
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+21,9959b87c26f19b88c2e7eaa0043d4046957a2444,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:27:34,2016-02-25 16:27:34,1,1,0,0,1,"more renaming stuff, cuz I heard u like renaming stuff
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+22,fc77a7210fb56d5a4df2c392a4067748aa6b191f,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:29:08,2016-02-25 16:29:08,0,0,0,0,1,"renaming stuff is harder than one might think
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+23,302020a91281452ebe826b29623f8ed4cee96475,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 16:49:16,2016-02-25 16:49:16,27,25,9,28,6,"reintroduce yesterday's changes
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+24,2b32cf47a368a7c47801d15e960e0f530ebb8553,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 17:27:29,2016-02-25 17:27:29,132,57,348,95,4,"don't use struct inference
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+25,321591a3686395b3420a6e884e22f879c4e538b9,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 18:12:51,2016-02-25 18:12:51,21,80,46,168,5,"type rep is a part of function def now
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+26,39fba93ce8a3d0fa79407ba6f103d220c1ba62c2,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 19:06:11,2016-02-25 19:06:11,0,0,0,0,165,"Renaming once again.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+27,900370a8282731540617718461025298aea63527,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 19:13:40,2016-02-25 19:13:40,0,0,0,0,1,"Added symlink lunac -> compiler.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+28,f03b01bb37666bb060c15b658f0bc850fbda6cce,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 19:15:32,2016-02-25 19:15:32,0,0,0,0,2,"Updated drone cfg.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+29,a9eefe614478bbf2df1995af6735703aaded1c2c,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-25 19:18:18,2016-02-25 19:18:18,0,0,0,0,1,"Fixing build.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+30,eb694b6358a7a104784a840df36feb5a2896e631,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-27 07:02:58,2016-02-27 07:02:58,227,550,1,142,23,"Parser integration WIP. Added Pragma scratch implementation.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+31,0ef430f01058c5acbf9cd792e7eafbe7b9341252,-19,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-25 20:11:08,2016-02-25 20:11:27,58,76,197,196,4,"better structure importing: don't move universes
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+32,9545363a585e2d911093ed60b86d21ae045b2206,-35029,-1,False,-1,Kamil Figiela,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,2016-02-25 15:57:57,2016-02-26 01:41:46,0,0,0,0,1,"Display 7 digits of git-hash in slack [CI SKIP]
+",1,kami*********@gmail.com,Kamil Figiela,kami*********@gmail.com,Kamil Figiela
+33,e7c2b0bce428c5c3e46b3f7e029de68f32070806,-26304,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-26 11:06:30,2016-02-26 18:24:54,123,130,210,210,5,"move merging utilities to a more proper location
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+34,225b43e7c41f60903cabd58caf66b974246eeed6,-10,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-26 18:24:44,2016-02-26 18:24:54,38,108,86,143,10,"function calling pass
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+35,0dec40f3998626b1f3f788e198c687281810f21a,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-26 19:08:29,2016-02-26 19:08:29,8,40,10,96,3,"self inlining
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+36,785e2dfee558483f33a37250bf2908898709a16b,0,-1,False,-1,Adam Szlachta,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,2016-02-26 20:30:07,2016-02-26 20:30:07,46,93,47,354,10,"Basic interpreter scenario
+",1,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,Adam Szlachta
+37,5316708aef297279d489ec0d06aa06c78a189b8b,0,-1,True,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-27 07:03:32,2016-02-27 07:03:32,446,943,452,1042,47,"Merge branch 'master' of bitbucket.org:NewByteOrder/luna
+
+* 'master' of bitbucket.org:NewByteOrder/luna:
+  Basic interpreter scenario
+  self inlining
+  function calling pass
+  move merging utilities to a more proper location
+  Display 7 digits of git-hash in slack [CI SKIP]
+  better structure importing: don't move universes
+",2,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+38,a6ec1823c8aee3c7007e8a407739ba56c67e7ee0,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-27 19:54:06,2016-02-27 19:54:06,304,474,853,926,19,"Changed Literals implementation to reflect both rational as well as integer inputs.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+39,43884e79f37f6be553a068ea71933e69b362a199,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-28 02:52:22,2016-02-28 02:52:22,312,470,0,203,14,"Parser integration WIP. Scratch implementation of literals binding.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+40,f04489e512c851d5900093ea3a27ece570dfa56b,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-28 03:22:20,2016-02-28 03:22:20,61,64,352,352,4,"Fixing the build.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+41,c27ede4bb4cbdd2fdd4ed5407a7fb575b9f61d6a,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-02-29 02:35:44,2016-02-29 02:35:44,185,339,126,270,25,"Parser integration WIP (added simple expr support), refactoring.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+42,3e4018ad5af8425121d22f7c7894be2894c34357,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-29 11:32:32,2016-02-29 11:32:32,59,59,77,54,5,"code-review fixes
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+43,bf03b8373d4700d20b438d7199d18cddf58b08af,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-02-29 12:26:21,2016-02-29 12:26:21,10,15,23,21,3,"fix iterative Loop runner
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+44,cfa11560bdc22e999aa7831cd4a31d7faafd8dec,0,-1,False,-1,Adam Szlachta,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,2016-02-29 16:03:49,2016-02-29 16:03:49,0,0,0,0,5,"Removed .cabal from .gitignore files
+",1,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,Adam Szlachta
+45,f82223992d4e7c080a05acdb15ca3a76601908f2,0,-1,False,-1,Adam Szlachta,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,2016-02-29 17:47:29,2016-02-29 17:47:29,2,73,0,90,1,"New interpreter test
+",1,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,Adam Szlachta
+46,cc9fbfe9b3fc8ab4f4b57d50a172c48b4ec8c9a1,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-03-01 04:54:21,2016-03-01 04:54:21,61,193,28,73,17,"Better name and arg implementation. Scratch function calling implementation.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+47,fd02787d2a98fc4f7202210afad5de7e1348dbff,0,-1,False,-1,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,2016-03-01 21:06:45,2016-03-01 21:06:45,89,88,190,190,16,"Refactoring.
+",1,wojci**********@gmail.com,Wojciech Danilo,wojci**********@gmail.com,Wojciech Danilo
+48,ee90303ccf331ea55b20b280d83de5cde951efae,0,-1,False,-1,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,2016-03-01 14:25:47,2016-03-01 14:25:47,87,94,126,126,17,"HTMapify Meta layer
+",1,marci**********@yahoo.com,Marcin Kostrzewa,marci**********@yahoo.com,Marcin Kostrzewa
+49,290127910e76ba080073bee9955791512d2c46e2,0,-1,False,-1,Adam Szlachta,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,2016-03-01 16:24:33,2016-03-01 16:24:33,3,8,6,15,2,"Wip interpreter test
+",1,adam*********@gmail.com,Adam Szlachta,adam*********@gmail.com,Adam Szlachta
