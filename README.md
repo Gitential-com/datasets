@@ -29,13 +29,13 @@ Please feel free to request datasets for other repositories and/or projects in t
     </tr>
     <tr>
       <th align="right">delay</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Seconds elapsed between the creation and last application of the
   commit (rebases can cause negative values)</td>
     </tr>
     <tr>
       <th align="right">age</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Shortest interval between the commit and it's parents</td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@ Please feel free to request datasets for other repositories and/or projects in t
     </tr>
     <tr>
       <th align="right">squashof</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Whether it is a squash and merge commit (currently parsed from commit message)</td>
     </tr>
     <tr>
@@ -80,27 +80,27 @@ Please feel free to request datasets for other repositories and/or projects in t
     </tr>
     <tr>
       <th align="right">loc_d</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of lines deleted in this commit</td>
     </tr>
     <tr>
       <th align="right">loc_i</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of lines inserted in this commit</td>
     </tr>
     <tr>
       <th align="right">comp_d</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Whitespace complexity deleted in this commit</td>
     </tr>
     <tr>
       <th align="right">comp_i</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Whitespace complexity inserted in this commit</td>
     </tr>
     <tr>
       <th align="right">nfiles</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of files (paches) affected by this commit</td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@ Please feel free to request datasets for other repositories and/or projects in t
     </tr>
     <tr>
       <th align="right">ndiffs</th>
-      <td>integer</td>
+      <td>int64</td>
       <td>Number of diffs and parent commits</td>
     </tr>
     <tr>
@@ -189,12 +189,12 @@ diffing two revisions.
     </tr>
     <tr>
       <th align="right">oldsize</th>
-      <td>int</td>
+      <td>int64</td>
       <td>The file's size in bytes before applying the patch</td>
     </tr>
     <tr>
       <th align="right">newsize</th>
-      <td>int</td>
+      <td>int64</td>
       <td>The file's size in bytes after applying the patch</td>
     </tr>
     <tr>
@@ -219,27 +219,27 @@ diffing two revisions.
     </tr>
     <tr>
       <th align="right">loc_d</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of lines deleted in this patch</td>
     </tr>
     <tr>
       <th align="right">loc_i</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of lines inserted in this patch</td>
     </tr>
     <tr>
       <th align="right">comp_d</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Whitespace complexity deleted in this commit</td>
     </tr>
     <tr>
       <th align="right">comp_i</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Whitespace complexity inserted in this commit</td>
     </tr>
     <tr>
       <th align="right">loc_d_std</th>
-      <td>float</td>
+      <td>float32</td>
       <td>Deleted number of lines deviation in the hunks</td>
     </tr>
     <tr>
@@ -264,12 +264,12 @@ diffing two revisions.
     </tr>
     <tr>
       <th align="right">nblames</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of unique commits this patch has churned lines from</td>
     </tr>
     <tr>
       <th align="right">blame_loc</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of lines this patches has churned (deleted)</td>
     </tr>
   </tbody>
@@ -301,7 +301,7 @@ Contains blame segments for patches, an [example](https://github.com/libgit2/lib
     </tr>
     <tr>
       <th align="right">author_time</th>
-      <td>datetime64</td>
+      <td>datetime</td>
       <td>The author signature's timestamp</td>
     </tr>
     <tr>
@@ -326,7 +326,7 @@ Contains blame segments for patches, an [example](https://github.com/libgit2/lib
     </tr>
     <tr>
       <th align="right">loc_d</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Number of churned lines</td>
     </tr>
     <tr>
@@ -393,7 +393,7 @@ Both lightweight and annotated tags.
     </tr>
     <tr>
       <th align="right">type</th>
-      <td>int</td>
+      <td>int64</td>
       <td>Git object type (mostly commit)</td
     </tr>
     <tr>
