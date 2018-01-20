@@ -1,0 +1,103 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,c01efc669f09508b55eced32d3c88702578a7c3e,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-16 14:30:45,2010-06-16 14:30:45,0,677,0,1100,6,"Initial git commit.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+1,d6b7c96c3eb29b9244ece0c046d3f372ff432d04,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-23 21:03:09,2010-06-23 21:03:09,166,49294,363,83886,248,"Populate tree.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+2,f038f4d533f897a29f9422510d1b3f0caac97388,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-23 21:11:10,2010-06-23 21:11:10,0,0,0,0,1,"Update README to point to github, test email notification.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+3,bc286c7f2ceb5c3d2e06ec72f78d28842f94ef65,0,-1,False,-1,Roy Frostig,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,2010-06-24 08:13:32,2010-06-24 08:13:32,80,223,364,688,9,"Resolve and typecheck patterns in pattern alt.
+",1,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,Roy Frostig
+4,1f3cff91f6762b0f47f41025b5e2c5ac942479ba,0,-1,False,-1,Roy Frostig,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,2010-06-24 08:23:17,2010-06-24 08:23:17,1,0,4,0,1,"Remove bogus FIXME.
+",1,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,Roy Frostig
+5,935442babcf4f8ae52c1a13bb9ce07270a302886,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 08:44:14,2010-06-24 08:44:14,1,1,1,1,1,"Fix hg dependency in testsuite.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+6,0016473117e4bc3c8959bf2fd49368844847d74c,-235,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 08:45:28,2010-06-24 08:49:23,0,0,0,0,1,"Add more ignorable build artifacts.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+7,4a1f86ccd7e823f63d12208baef79b1e74479203,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 08:52:52,2010-06-24 08:52:52,23,17,15,7,1,"Merge timer loop functions, fix win32 build broken by logger change.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+8,25eb1fd3c9d997e460dff3e03d87e398e616c726,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 10:34:47,2010-06-24 10:34:47,142,265,346,533,15,"Add fmt module, move out some common format helpers, add instruction-selection tracing and make selection use queues rather than list refs.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+9,0364a801bb29211d4731f3f910c7629286b51c45,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 11:15:22,2010-06-24 11:15:22,47,50,145,145,3,"Clean up trans_alt_tag to use slots, not assume interior words. Also remove record-based destructuring (hard on eyes). Add execution parts to generic-tag-alt.rs and un-XFAIL it.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+10,69a34503f4d51b639855501f1b6d6ce2da4e16c7,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-24 11:18:02,2010-06-24 11:18:02,1,0,4,0,1,"Remove redundant copy of comment.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+11,af44ec2856603b8a978a1f2582c285c7c0065403,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 13:32:59,2010-06-24 13:32:59,7,69,17,65,3,"Issue 24, drop output slot when not initializing. Un-XFAIL generic-tag.rs. Add test for output slot modes with several broken cases.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+12,d3c0762ff85ff7d29668d1f5d2361df03978bbea,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 16:19:45,2010-06-24 16:19:45,0,0,0,0,1,"A couple more ignorable files.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+13,24d5ff75c3abfe7b327c48468ed9a39f0d8a0427,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 16:19:55,2010-06-24 16:19:55,76,68,184,96,3,"Fix output-slot handling for real. It's been broken for a long time.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+14,261d543920e1c66049c469773ca989aaf9ce480e,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 16:51:48,2010-06-24 16:51:48,0,0,0,0,1,"Ignore TAGS.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+15,bcf29b882acdf477be412fdb401b0fc2a6c819aa,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 16:57:00,2010-06-24 16:57:00,0,14,0,24,3,"A couple new tests for broken parts of the typechecker, XFAILed.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+16,1c60be2f32f70f9181a261ae2c2b4efe353d0f85,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 18:25:10,2010-06-24 18:25:10,18,21,32,36,2,"Fix bad output-slot logic in tag constructors.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+17,c483808e0ff9836bc1cda0ce95d77c8b7d3be91c,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 19:21:15,2010-06-24 19:21:15,42,44,162,92,1,"Factor out some trans bits.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+18,72c6c60d80cdfe63af5046a1a98549f0515734f2,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-24 19:21:40,2010-06-24 19:21:40,2,34,2,34,3,"Add intrinsic calling convention.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+19,0d9565a4c144c07dab052161eb5fa3815dcd7f06,0,-1,False,-1,Graydon Hoare,gr*****@pobox.com,Graydon Hoare,gr*****@pobox.com,2010-06-25 00:00:31,2010-06-25 00:00:31,22,16,70,36,1,"Rearrange pexp-custom stuff a bit.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+20,241305caab232b04666704dc6853c41312cd283a,0,-1,False,-1,Roy Frostig,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,2010-06-25 00:47:23,2010-06-25 00:47:23,81,142,279,379,8,"Resolve and typecheck patterns in pattern alt redux.  This time featuring way more correctness.
+",1,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,Roy Frostig
+21,85a701c8f668fc03e6340682956e7ca7d9cf54bc,0,-1,False,-1,Roy Frostig,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,2010-06-25 01:26:44,2010-06-25 01:26:44,0,20,0,10,3,"Add testcases for item name conflict at the same path level.
+",1,rf******@mozilla.com,Roy Frostig,rf******@mozilla.com,Roy Frostig
+22,287d69ddacba3f5945b70695fb721b2f055d3ee6,-188,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 01:29:51,2010-06-25 01:32:59,12,111,16,134,1,"Sketch out gc glue.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+23,5dfe101e5197d6854aa1d8c9907ac7851468d468,-157,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 01:30:23,2010-06-25 01:33:00,34,2,34,2,3,"Revert ""Add intrinsic calling convention."" Isn't going to work.
+
+This reverts commit 72c6c60d80cdfe63af5046a1a98549f0515734f2.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+24,63b5e18207c7f8a261c1f7f50fd8c7bbf9a21bda,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 09:00:08,2010-06-25 09:00:08,2,3,0,0,1,"Enlarge gc header to doubly-link the gc chain.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+25,e8759934711c70c50b5d616be22104e649abff58,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 11:00:23,2010-06-25 11:00:23,5,23,14,62,1,"Doubly-link gc chain on alloc.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+26,422b8a6be4aab120685f450db0a520fcb5a8aa6b,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 11:48:17,2010-06-25 11:48:17,7,34,24,128,2,"Unlink (doubly) gc chain on free.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+27,c06ea8f9445dbb5eda99ac8730d7fb2177df6816,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 12:15:40,2010-06-25 12:15:40,0,41,0,30,2,"Add test of recursive object types (ha, work by default) and fix effect-walker bug revealed by it.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+28,a9c639ec8af3a4099108788c1db0176c7fea5799,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 15:42:24,2010-06-25 15:42:24,0,1,0,6,1,"Fix forgotten llvm xfail in Makefile.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+29,2e3fa5bd68677762c619d83dfdf1a83ba7f0e749,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 15:43:03,2010-06-25 15:43:03,0,1,0,1,1,"Return at end of GC glue.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+30,67d1f0a9aafaa7dcd63b86032127ab660e630c46,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 15:43:55,2010-06-25 15:43:55,10,26,18,40,7,"Emit gc glue and rearrange crate glue offsets slightly to have a regular order.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+31,eed5c0aa249f3e17bbabeeba1650ab699e3dff5a,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 16:54:03,2010-06-25 16:54:03,0,16,0,9,3,"Add rust_task::gc(size_t args) method that drops us back into the GC glue.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+32,2a2474d497ae19472b4366f6d8d62e9a516787c3,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 16:56:25,2010-06-25 16:56:25,8,2,15,3,1,"Update comment to reflect slightly-improved GC situation.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+33,d601b357ecbb1fa33dc10c177bb557868be07deb,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 16:59:29,2010-06-25 16:59:29,16,33,18,35,1,"Debug GC glue enough that marking passes.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+34,eb7807c4fe7a2c2ad3c074705fb70de5eae5abe3,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 17:31:08,2010-06-25 17:31:08,8,7,7,6,1,"I hear actually loading the next pointer into the right register helps when walking a list.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+35,c56a729ff1d9467d612bf522614519ac7b97f798,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 17:32:35,2010-06-25 17:32:35,1,0,1,0,1,"Remove obsolete comment.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+36,34dc7053ebfd440648f49dc83d2538ab5e7ceda5,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 19:55:40,2010-06-25 19:55:40,7,4,17,6,1,"Fix over-conservatism in alias analysis.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+37,968ec145278d3d6562e4b5ec4006af97dc0da563,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 19:56:29,2010-06-25 19:56:29,5,7,24,27,1,"Fix marking logic.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+38,dd2716f56c7cf55f2904fbbf4dfabaab1afbcd88,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 20:46:11,2010-06-25 20:46:11,5,9,5,11,1,"Fix bad register use in GC sweep pass.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+39,37180552769b316e7239d047008f187127e630e6,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 20:47:16,2010-06-25 20:47:16,2,5,6,8,1,"Align emitted DATA_* elements -- tydescs in particular -- to 16 byte boundaries, so we can get our tag bit freed up.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+40,0cf3c2ad935be699281ed20fb3d2f29554e6229b,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 21:20:32,2010-06-25 21:20:32,9,16,11,16,1,"Pass type parameters to free function called from sweep loop.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+41,37426e42cf78a43779312d780eecb21a64006d99,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 21:57:46,2010-06-25 21:57:46,15,87,13,169,5,"Add sever-glue, for missing first stage of sweep.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+42,49ac5e631224da77568e685571af5d08ab407060,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 23:02:19,2010-06-25 23:02:19,2,2,6,6,1,"Fix copy-paste error in logging function.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+43,90eaaf666b640433d20d5a1320637e8027924297,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 23:03:06,2010-06-25 23:03:06,4,2,21,4,1,"Improve sever_slot logging.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+44,50e96414d29782e6ae9bad2185d9401ea527af2e,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 23:07:34,2010-06-25 23:07:34,57,73,83,90,1,"Fix register-use bugs in sweep pass, factor sweep pass out and call twice for separate sever/free phases.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+45,9236ad28460c78b6dc72dcefb1d5c9fa6d932463,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 23:55:36,2010-06-25 23:55:36,1,3,4,12,1,"Further attempts to convince mem_ctrl to be sane.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+46,7ea416f4c33631d76fd5b12830c0d326803061c1,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-25 23:57:30,2010-06-25 23:57:30,0,10,0,4,3,"Add callable gc method exposed to user code, use it in mlist-cycle.rs test (still not quite working; some memory corruption in the recursive tag constructors, not the GC)
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+47,fb3e2fa4bfe41797b0eb334adf0efc103089f16b,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-27 13:48:25,2010-06-27 13:48:25,17,142,38,386,1,"Encode tag and iso types at dwarf level. Can't decode them yet.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+48,7045526a3eb1d0818aeea94968f153ee349b7935,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-27 13:53:23,2010-06-27 13:53:23,1,5,2,16,2,"Change slot_mem_ctrl to classify vec[state] as GC mem. Breaking / XFAILing mutable-vec-drop.rs test.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare
+49,1316312c0c0f0225922b94fc6bfa2e07e3a85ac4,0,-1,False,-1,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,2010-06-27 20:48:28,2010-06-27 20:48:28,36,269,81,473,7,"Only translate or dwarf-emit items or stubs locally defined or used. Avoids instantiating O(sizeof(standard-library)) worth of imports stubs on each 'use std'. Closes issue 13.
+",1,gr*****@mozilla.com,Graydon Hoare,gr*****@mozilla.com,Graydon Hoare

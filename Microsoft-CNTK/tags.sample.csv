@@ -1,0 +1,63 @@
+,id,name,message,type,author_time
+0,a0a32466a95c7f907ebb66e7f879cc314ec1506f,refs/tags/2015-12-08,,1,2016-01-22 10:15:34
+1,35cb5738e7ef794177a2fff06892a39700722dee,refs/tags/feature/CNTKCustomMKL,,1,2016-06-14 18:29:56
+2,56a2a15f64676ea4c0e0a0a681a57b19a46f64c6,refs/tags/r2016-01-26,"Release CNTK Beta (Windows+Linux) 2016-01-26
+",1,2016-01-25 20:53:43
+3,2f9a48c71dc0a6097498cb7e90ac3b151ab536dd,refs/tags/r2016-02-08,"Release CNTK Beta (Windows+Linux) 2016-02-08
+",1,2016-02-05 11:06:20
+4,29c065ae7c1c370d8852c283d4e9f1a068ba2233,refs/tags/v1.1,"CNTK version 1.1 (Windows+Linux)
+",1,2016-04-22 16:49:07
+5,b7ed8dc9e5cd8ab35f4badae86dd42e93e9f2564,refs/tags/v1.5,"CNTK version 1.5 (Windows+Linux)
+",1,2016-06-06 12:21:55
+6,72bee394bf461e8f6f0feb593a8416c05f481957,refs/tags/v1.6,"CNTK version 1.6 (Windows+Linux)
+",1,2016-07-14 12:12:23
+7,2f9c73cab134c45ab3ddcf1ca6873cc4d18dec34,refs/tags/v1.7,"CNTK version 1.7 (Windows+Linux)
+",1,2016-08-30 15:08:01
+8,2e4a773398b5ee84e1695abe73eb831c3cca1e36,refs/tags/v1.7.1,"CNTK version 1.7.1 (Windows+Linux)
+",1,2016-09-27 13:36:31
+9,d1ad5fcc9b71c9b6122623a2a0c3d126a64cbe94,refs/tags/v1.7.2,"CNTK version 1.7.2 (Windows+Linux)
+",1,2016-10-01 17:07:28
+10,ade8bc05d30e61160da729aee078e22f8bd4fced,refs/tags/v2.0,"CNTK version 2.0 (Windows+Linux)
+",1,2017-05-31 18:58:24
+11,774b92cf0fff2a71d656a3a12d14ae448e164889,refs/tags/v2.0.beta1.0,"CNTK version 2.0 Beta 1 (Windows+Linux)
+",1,2016-10-25 11:50:53
+12,edc0c7e319b9356199b28d9c8c99a26d366cd61c,refs/tags/v2.0.beta10.0,"CNTK version 2.0 Beta 10 (Windows+Linux)
+",1,2017-02-01 10:06:20
+13,bc81f3fb1d50d9799e84263147f7da6b8c9db8f8,refs/tags/v2.0.beta11.0,"CNTK version 2.0 Beta 11 (Windows+Linux)
+",1,2017-02-10 12:00:58
+14,bfd2a348763305e37eca733cf9a659d22514eefd,refs/tags/v2.0.beta12.0,"CNTK version 2.0 Beta 12 (Windows+Linux)
+",1,2017-02-22 14:26:30
+15,5afa98d8fff696cf7bcf041b75efb744a489b47e,refs/tags/v2.0.beta15.0,"CNTK version 2.0 Beta 15 (Windows+Linux)
+",1,2017-03-15 10:52:15
+16,ca352f5eb79a53d63a2b7dd436c9fb40a1f1412c,refs/tags/v2.0.beta2.0,"CNTK version 2.0 Beta 2 (Windows+Linux)
+",1,2016-11-03 17:11:40
+17,d7c90988d36a569b0ef561e868e7c9672e245a60,refs/tags/v2.0.beta3.0,"CNTK version 2.0 Beta 3 (Windows+Linux)
+",1,2016-11-10 10:21:57
+18,185c0cb6962c0cc0b252c65117073f3781d9ef67,refs/tags/v2.0.beta4.0,"CNTK version 2.0 Beta 4 (Windows+Linux)
+",1,2016-11-21 14:58:15
+19,bf2ce5694d3f910d1efa974cd073deb341046074,refs/tags/v2.0.beta5.0,"CNTK version 2.0 Beta 5 (Windows+Linux)
+",1,2016-11-19 09:12:56
+20,e6a8577fa5ecd2f47d9b055b531d3e4b6258ba80,refs/tags/v2.0.beta6.0,"CNTK version 2.0 Beta 6 (Windows+Linux)
+",1,2016-12-12 17:28:20
+21,8e8b5ff92eff4647be5d41a5a515956907567126,refs/tags/v2.0.beta7.0,"CNTK version 2.0 Beta 7 (Windows+Linux)
+",1,2016-12-22 10:29:41
+22,66f4d8d594cab128f5fe160ade2adfd04a164004,refs/tags/v2.0.beta8.0,"CNTK version 2.0 Beta 8 (Windows+Linux)
+",1,2017-01-13 18:28:02
+23,b8544c177606ce9e10fc20a9a1d0d08ff2d6d7ac,refs/tags/v2.0.beta9.0,"CNTK version 2.0 Beta 9 (Windows+Linux)
+",1,2017-01-20 12:24:32
+24,7661e81777360d3222a26dcb969973ce1d4c513f,refs/tags/v2.0.rc1,"CNTK version 2.0 RC 1 (Windows+Linux)
+",1,2017-04-03 06:52:43
+25,f190457aecbfe07c3fe27c89f36108bc2488727b,refs/tags/v2.0.rc2,"CNTK version 2.0 RC 2 (Windows+Linux)
+",1,2017-04-20 07:17:29
+26,ca00e9edad7ce3a6a6812040511d5274a08f5168,refs/tags/v2.0.rc3,"CNTK version 2.0 RC 3 (Windows+Linux)
+",1,2017-05-23 12:19:23
+27,5643a5619097b125f49e629f5bdbbc5a6ceedcf0,refs/tags/v2.1,"CNTK version 2.1 (Windows+Linux)
+",1,2017-07-31 10:45:05
+28,b4fbf0a2bfaf7628dc257d9ade50aedc176eaf89,refs/tags/v2.2,"CNTK version 2.2 (Windows+Linux)
+",1,2017-09-15 18:12:29
+29,feade5b1bc1fbe6a8fc13b214f66aa89dac0db53,refs/tags/v2.3,"CNTK version 2.3 (Windows+Linux)
+",1,2017-11-22 12:59:26
+30,629333bd93b8aa32b7a2d745b180c91597baad06,refs/tags/v2.3.1,"CNTK version 2.3.1 (Windows+Linux)
+",1,2017-12-05 18:35:02
+31,0b0a5af4cbf4d7970f6a540fc68a88479fa43ad7,refs/tags/v2.alpha4,"CNTK V2 Alpha4 release
+",1,2016-10-19 07:06:43

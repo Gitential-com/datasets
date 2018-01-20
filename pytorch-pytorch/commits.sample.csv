@@ -1,0 +1,103 @@
+,id,delay,age,ismerge,squashof,author_name,author_email,committer_name,committer_email,author_time,committer_time,loc_d,loc_i,comp_d,comp_i,nfiles,message,ndiffs,author_email_dedup,author_name_dedup,committer_email_dedup,committer_name_dedup
+0,731041cb6a12b6f46626e16a04ab11523fed1c49,-784,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-02 23:06:53,2016-05-02 23:19:57,0,383,0,210,13,"Initial commit
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+1,9c18e7c9902798436ae999b5a993baa9cd242c32,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-02 23:39:05,2016-05-02 23:39:05,1,1,1,1,1,"Fix argument parsing in Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+2,b0d90e3688840381534dd0f2ae8d74518e48a87f,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-02 23:54:59,2016-05-02 23:54:59,7,34,6,40,4,"Add templated __init__
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+3,690d470c71aeed008843c647d3b11221fe2a1a0e,-100,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 15:11:32,2016-05-03 15:13:12,26,81,34,61,7,"Add Storage.py template
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+4,1fdf9f4555544ca3f584ee677afa0aad12e2473c,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 15:20:12,2016-05-03 15:20:12,3,10,3,12,1,"Fix THPStorage initialization
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+5,9c1f4777d16967add2748d3d2674bb0014d3cca1,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 15:58:51,2016-05-03 15:58:51,16,59,18,54,1,"Add slicing support to Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+6,5de46b2a1c71a5d562420fecb60207be3751c4af,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 17:42:00,2016-05-03 17:42:00,54,125,37,66,1,"Add new methods to Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+7,ac49260792be6a703a665168e8d2cdc6e5d8c314,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 19:52:34,2016-05-03 19:52:34,12,8,10,6,1,"Fix segfaults in Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+8,d9ea7e621105f3a224dde7a3ae613eea246657d0,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 20:24:25,2016-05-03 20:24:25,1,52,0,33,2,"Add copy method for Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+9,f4b3554d9e6bce66ea76c6acf2955f5187cc7274,-19,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 21:20:35,2016-05-03 21:20:54,12,33,5,7,3,"Refactor generic/Tensor.c and add Short objects
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+10,64dde206b681a682d72bbfc558342a08e518b9b0,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-03 22:43:48,2016-05-03 22:43:48,0,22,0,10,1,"Add storage and size to Tensor
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+11,fa994baadaa721c3a074ed5422665d7ca03420a9,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-04 01:01:07,2016-05-04 01:01:07,9,45,8,31,2,"Fix Storage memory management and add Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+12,842e1b635858ed2e11d9726e7af3ef49ff349d8a,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-05 20:58:13,2016-05-05 20:58:13,447,521,263,332,11,"Add exception handling
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+13,4a5b66de9a9e15f845ce540c190fed1fd9337a49,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-05 22:44:43,2016-05-05 22:44:43,82,214,49,140,11,"Add copy and type methods to Tensors
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+14,afefedc0b0101f20dbdecf8de82c7c23bfb45b10,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-05 23:00:49,2016-05-05 23:00:49,23,69,23,49,1,"Add free, retain, dim, numel for Tensor
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+15,c3b3df9f2298aa78cc39d000a5ee3699daef8954,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-06 15:04:57,2016-05-06 15:04:57,143,160,73,82,9,"Add utilities and clenup Tensor wrappers
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+16,8fd390e354fbbe80eab473b0e7325cd573834fbd,-486,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-06 15:32:03,2016-05-06 15:40:09,5,47,24,31,1,"Add mean, std, var
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+17,7567a0bb13dd199e0937f9a7240a14cd9a4fb13f,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-07 15:28:13,2016-05-07 15:28:13,88,329,58,338,6,"Add cwrap
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+18,d2738ca25e3671d16c607a4a90cb3ee4fd40f620,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-07 23:13:55,2016-05-07 23:13:55,7,446,10,359,2,"Add more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+19,449ac4ca2a51388d679243bb55de2efaf0f9132e,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-09 19:14:40,2016-05-09 19:14:40,207,919,180,749,11,"Add torch.* functions
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+20,47247be77c291522d4baaf762889de389c096d0a,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-10 23:50:15,2016-05-10 23:50:15,3,143,2,140,10,"Add printing methods for Tensors
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+21,c3f7aac4f957baf565757f2c6a56c023ec713fa9,-29,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-12 01:22:22,2016-05-12 01:22:51,0,132,0,108,2,"Add logical functions
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+22,56c98f78977280f677b6f0acce6c9e3f6602cefd,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-13 00:01:54,2016-05-13 00:01:54,35,349,38,343,6,"Add more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+23,0b61c3f233e823c1e611a599baa66816df2d55ce,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-05-13 22:38:51,2016-05-13 22:38:51,12,362,16,306,4,"Add more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+24,7c11cb9b687393d92a4b4d9af26bdf26ade88dae,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-07 23:40:37,2016-06-07 23:40:37,11,179,13,348,4,"Add Tensor indexing functions
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+25,6954783d9de55ac10a1f556c6cedf8ec2b7045b8,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-07 23:51:50,2016-06-07 23:51:50,8,10,24,30,1,"Fix indexing
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+26,5ee3358a92d423c67dfeed37bc1398daa15c866c,-2337941,-1,False,-1,Soumith Chintala,so*****@fb.com,Soumith Chintala,so*****@fb.com,2016-05-12 17:49:16,2016-06-08 19:14:57,64,196,110,189,15,"python 2 support
+",1,so*****@fb.com,Soumith Chintala,so*****@fb.com,Soumith Chintala
+27,2bc346ec5bb86335d9dfe1cf01bcea939a4d780d,0,-1,True,-1,Soumith Chintala,so*****@gmail.com,Soumith Chintala,so*****@gmail.com,2016-06-08 19:16:06,2016-06-08 19:16:06,64,196,110,189,15,"Merge pull request #2 from apaszke/py2
+
+python 2.xx support",2,so*****@fb.com,Soumith Chintala,so*****@fb.com,Soumith Chintala
+28,60f9834ac6ccb8721548e779d1d3db922d06e6e6,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-10 00:04:24,2016-06-10 00:04:24,8,131,11,240,6,"Add more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+29,a9282edf792edf4bef8819cf25c6f695345b0fef,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-13 13:26:00,2016-06-13 13:26:00,19,336,9,256,13,"Add THPPointer and more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+30,fdfe9d836ea2eabf329911e4731e5d14718dfbe5,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-13 13:58:09,2016-06-13 13:58:09,0,59,0,41,2,"Add index* Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+31,0eb2b9e756c9135bfc9fb3e728d5ad1ae1bb58e3,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-15 23:03:47,2016-06-15 23:03:47,22,224,30,376,11,"Add more Tensor and Storage methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+32,857c32bc210c649b4656a2b5b03b9e4dc262481a,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-16 23:40:35,2016-06-16 23:40:35,11,184,19,193,4,"Add all mm methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+33,4f66ea42af944f9be36a40f1374ba0d5234678c1,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-18 21:36:10,2016-06-18 21:36:10,1,325,0,257,10,"Add random-related Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+34,486ea76b98386632f08a2cc8fe58f67fdbb4f364,-38,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-19 00:23:40,2016-06-19 00:24:18,7,221,16,224,7,"Add more Tensor methods
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+35,077bfbde0371ba792ae782a409d8ed7a48343680,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-19 23:45:41,2016-06-19 23:45:41,35,151,45,292,4,"Add all constructors for Tensor and Storage
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+36,feba835d186393e7974d29b785750aaa29a362e9,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-20 00:11:21,2016-06-20 00:11:21,1,20,4,43,1,"Add sub and expandAs
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+37,d7016055fbc887c4398b1ff2034b6941c01f7178,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-20 02:16:24,2016-06-20 02:16:24,0,3,0,5,1,"Fix Tensor constructor
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+38,8e79e00f9545b98ecd562905932c1432939a987b,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-20 02:16:33,2016-06-20 02:16:33,0,41,0,65,1,"Add arithmetic operators
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+39,8343eee7c059d706ccf4d5a4f95bf80e12626520,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-21 01:22:38,2016-06-21 01:22:38,12,56,12,124,3,"Add tensor printing
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+40,523a6670f4d74b946628e6573c127a4237791a2a,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-21 01:22:59,2016-06-21 01:22:59,27,107,47,141,5,"Improve cwrap error handling and fix memory leaks on error
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+41,3cec305524e4062d866332f4f36821643672c228,-3768,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-23 21:52:17,2016-06-23 22:55:05,194,234,195,175,11,"Restructure python code
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+42,c3072fd5d21eb1788c7928b640b1e4ae1fb903e3,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-25 22:54:49,2016-06-25 22:54:49,811,786,974,1192,9,"Refactor cwrap
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+43,2b53cce79f26e2bb7a5993226f84147cc9906014,0,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-25 22:55:04,2016-06-25 22:55:04,27,29,17,14,2,"Minor improvements in utils
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+44,cf90bee8aff0c744d4103f315f4c188754b3d4da,-157,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-07-18 23:54:13,2016-07-18 23:56:50,1,21,0,13,1,"Enable parallel builds
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+45,93ed433de3bd65ef47fd26d4738c9ade8e308328,-305,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-07-18 23:54:22,2016-07-18 23:59:27,0,27,0,17,3,"Add rand and randn
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+46,2885527b39442465d62ef248843e10ed9bdb17c0,0,-1,True,-1,Soumith Chintala,so*****@gmail.com,GitHub,no*****@github.com,2016-07-19 08:34:54,2016-07-19 08:34:54,1,48,0,30,4,"Merge pull request #5 from apaszke/various
+
+Make builds parallel + Add rand and randn",2,so*****@fb.com,Soumith Chintala,,
+47,3a44259b32b46f6bbe93d9c0a8a718ea30532090,-1611797,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-06-30 19:02:42,2016-07-19 10:45:59,505,2002,609,1350,35,"Add support for CUDA
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+48,c57429501234389d13be8a16b8abc295be248457,-4829,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-07-19 09:25:30,2016-07-19 10:45:59,27,94,16,53,6,"Various fixes
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
+49,1d763810ba0eb67d924f438f1bbb5c70cdaab6f8,-912,-1,False,-1,Adam Paszke,ada********@gmail.com,Adam Paszke,ada********@gmail.com,2016-07-19 10:37:40,2016-07-19 10:52:52,11,22,32,45,3,"Fix optional argument resolution in cwrap
+",1,ada********@gmail.com,Adam Henryk Paszke,ada********@gmail.com,Adam Henryk Paszke
