@@ -438,11 +438,11 @@ Currently there two formats available: Parquet and JSON
 
 
 ```bash
-wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.parquet
-wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.json.gz
+wget https://s3.amazonaws.com/gitential-com-datasets/libgit2-libgit2/commits.parquet
+wget https://s3.amazonaws.com/gitential-com-datasets/libgit2-libgit2/commits.json.gz
 ```
 
-    --2018-01-15 11:09:00--  https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.parquet
+    --2018-01-15 11:09:00--  https://s3.amazonaws.com/gitential-com-datasets/libgit2-libgit2/commits.parquet
     Resolving s3.amazonaws.com (s3.amazonaws.com)... 52.216.100.149
     Connecting to s3.amazonaws.com (s3.amazonaws.com)|52.216.100.149|:443... connected.
     HTTP request sent, awaiting response... 200 OK
@@ -453,7 +453,7 @@ wget https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.json.gz
 
     2018-01-15 11:09:03 (616 KB/s) - ‘commits.parquet’ saved [1483345/1483345]
 
-    --2018-01-15 11:09:04--  https://s3.amazonaws.com/gitential-datasets/libgit2-libgit2/commits.json.gz
+    --2018-01-15 11:09:04--  https://s3.amazonaws.com/gitential-com-datasets/libgit2-libgit2/commits.json.gz
     Resolving s3.amazonaws.com (s3.amazonaws.com)... 52.216.100.149
     Connecting to s3.amazonaws.com (s3.amazonaws.com)|52.216.100.149|:443... connected.
     HTTP request sent, awaiting response... 200 OK
